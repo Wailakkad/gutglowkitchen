@@ -1,0 +1,6 @@
+{
+  "name": "Gut Glow Kitchen",
+  "description": "Anti-inflammatory meal prep, gut health improvement, blood sugar balance, and intermittent fasting health blog & recipe hub.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
