@@ -15,5 +15,20 @@ export const CATEGORIES: CategoryInfo[] = [
       'Uses low-toxin cooking methods (steam, slow simmer)',
       'Rich in polyphenol-dense herbs and spices'
     ]
+  },
+  {
+    id: 'meal-prep-tools-storage',
+    name: 'Meal Prep Tools & Storage',
+    slug: 'meal-prep-tools-storage',
+    description: 'Buying guides and storage systems for glass meal prep containers — leak-proof, oven-safe, freezer-safe, and made to keep anti-inflammatory meal prep simple.',
+    tagline: 'Store smarter, eat cleaner with the right containers.',
+    iconName: 'Boxes',
+    image: 'https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&q=80&w=800',
+    postsCount: 6,
+    keyBenefits: [
+      'Borosilicate glass food storage without plastic concerns',
+      'Leak-proof, oven-safe and freezer-safe container guidance',
+      'Storage systems that keep prepped meals fresh all week'
+    ]
   }
 ];

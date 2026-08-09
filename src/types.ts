@@ -10,7 +10,7 @@ export type PageType =
   | 'affiliate-disclosure'
   | 'terms';
 
-export type CategorySlug = 'anti-inflammatory-meal-prep';
+export type CategorySlug = 'anti-inflammatory-meal-prep' | 'meal-prep-tools-storage';
 
 export interface Author {
   name: string;
