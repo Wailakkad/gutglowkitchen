@@ -10,11 +10,7 @@ export type PageType =
   | 'affiliate-disclosure'
   | 'terms';
 
-export type CategorySlug =
-  | 'anti-inflammatory-meal-prep'
-  | 'gut-health'
-  | 'blood-sugar-balance'
-  | 'fasting-and-metabolism';
+export type CategorySlug = 'anti-inflammatory-meal-prep';
 
 export interface Author {
   name: string;
