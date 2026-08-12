@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { Sparkles, Calendar, CheckCircle2, Download, Printer, ArrowRight, ShieldCheck, Heart, Coffee, Utensils } from 'lucide-react';
 

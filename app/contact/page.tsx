@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
-import { Mail, MessageSquare, Send, CheckCircle2, ChevronDown, Sparkles } from 'lucide-react';
+'use client';
 
-export const ContactPage: React.FC = () => {
+import React, { useState } from 'react';
+import { Mail, Send, CheckCircle2, ChevronDown, Sparkles } from 'lucide-react';
+
+export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
   const [formData, setFormData] = useState({
@@ -189,4 +191,4 @@ export const ContactPage: React.FC = () => {
       </div>
     </div>
   );
-};
+}

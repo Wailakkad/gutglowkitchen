@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Gut Glow Kitchen
 
-# Run and deploy your AI Studio app
+Anti-inflammatory meal prep, gut health improvement, blood sugar balance, and intermittent fasting health blog & recipe hub — built with **Next.js (App Router)** + **React 19** + **Tailwind CSS v4**.
 
-This contains everything you need to run your app locally.
+## Routes
 
-View your app in AI Studio: https://ai.studio/apps/66ae9110-26ce-41e2-b718-45ab3ccef300
+| URL | Page |
+|---|---|
+| `/` | Home |
+| `/blog` | Blog & recipe index (search via `?q=`) |
+| `/blog/[slug]` | Single article (SSG, JSON-LD schema) |
+| `/category/[slug]` | Category pages |
+| `/products` | Amazon affiliate product hub |
+| `/about`, `/contact` | Info pages |
+| `/privacy`, `/terms`, `/affiliate-disclosure` | Legal pages |
 
-## Run Locally
+## Run locally
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. `npm install`
+2. `npm run dev` → http://localhost:3000
+3. `npm run build` → static pre-render production build
+4. `npm run start` → serve production build

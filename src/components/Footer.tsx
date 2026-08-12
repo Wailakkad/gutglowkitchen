@@ -1,27 +1,12 @@
+'use client';
+
 import React from 'react';
-import { PageType, CategorySlug } from '../types';
+import Link from 'next/link';
 import { CATEGORIES } from '../data/categoryData';
 import { downloadFreeGuide } from '../utils/downloadGuide';
 import { Sparkles, Mail, Heart, ShieldAlert, Lock, CheckCircle2 } from 'lucide-react';
 
-interface Props {
-  setCurrentPage: (page: PageType) => void;
-  setSelectedCategory: (cat: CategorySlug | null) => void;
-}
-
-export const Footer: React.FC<Props> = ({ setCurrentPage, setSelectedCategory }) => {
-  const handleCategoryLink = (slug: CategorySlug) => {
-    setSelectedCategory(slug);
-    setCurrentPage('category');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  const handleNavClick = (page: PageType) => {
-    setCurrentPage(page);
-    if (page !== 'category') setSelectedCategory(null);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
+export const Footer: React.FC = () => {
   return (
     <footer className="bg-[#2C4A35] text-[#F4F7F2]/90 pt-16 pb-12 border-t border-[#4A7C59]/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,8 +15,8 @@ export const Footer: React.FC<Props> = ({ setCurrentPage, setSelectedCategory })
           
           {/* Column 1: Brand & Mission */}
           <div className="space-y-4">
-            <div
-              onClick={() => handleNavClick('home')}
+            <Link
+              href="/"
               className="cursor-pointer flex items-center space-x-2.5 group"
             >
               <div className="w-9 h-9 rounded-full bg-[#4A7C59] flex items-center justify-center text-white border border-[#F4B942]/40">
@@ -40,7 +25,7 @@ export const Footer: React.FC<Props> = ({ setCurrentPage, setSelectedCategory })
               <span className="text-xl font-serif font-bold text-white group-hover:text-[#F4B942] transition-colors">
                 Gut Glow Kitchen
               </span>
-            </div>
+            </Link>
             <p className="text-xs sm:text-sm text-[#F4F7F2]/80 leading-relaxed">
               Gut Glow Kitchen provides evidence-backed anti-inflammatory meal prep routines, microbiome gut repair strategies, low-glycemic blood sugar recipes, and female-friendly fasting plans.
             </p>
@@ -58,21 +43,21 @@ export const Footer: React.FC<Props> = ({ setCurrentPage, setSelectedCategory })
             <ul className="space-y-2.5 text-xs sm:text-sm">
               {CATEGORIES.map((cat) => (
                 <li key={cat.id}>
-                  <button
-                    onClick={() => handleCategoryLink(cat.slug)}
+                  <Link
+                    href={`/category/${cat.slug}`}
                     className="hover:text-[#F4B942] transition-colors text-[#F4F7F2]/90 hover:translate-x-1 inline-block transform duration-150"
                   >
                     {cat.name}
-                  </button>
+                  </Link>
                 </li>
               ))}
               <li>
-                <button
-                  onClick={() => handleNavClick('products')}
+                <Link
+                  href="/products"
                   className="hover:text-[#F4B942] transition-colors text-[#F4B942] font-semibold"
                 >
                   ⭐ Recommended Products (Amazon Hub)
-                </button>
+                </Link>
               </li>
             </ul>
           </div>
@@ -84,29 +69,29 @@ export const Footer: React.FC<Props> = ({ setCurrentPage, setSelectedCategory })
             </h3>
             <ul className="space-y-2.5 text-xs sm:text-sm">
               <li>
-                <button onClick={() => handleNavClick('about')} className="hover:text-white transition-colors">
+                <Link href="/about" className="hover:text-white transition-colors">
                   About Gut Glow Kitchen
-                </button>
+                </Link>
               </li>
               <li>
-                <button onClick={() => handleNavClick('contact')} className="hover:text-white transition-colors">
+                <Link href="/contact" className="hover:text-white transition-colors">
                   Contact & Media Inquiries
-                </button>
+                </Link>
               </li>
               <li>
-                <button onClick={() => handleNavClick('privacy')} className="hover:text-white transition-colors">
+                <Link href="/privacy" className="hover:text-white transition-colors">
                   Privacy Policy
-                </button>
+                </Link>
               </li>
               <li>
-                <button onClick={() => handleNavClick('affiliate-disclosure')} className="hover:text-white transition-colors">
+                <Link href="/affiliate-disclosure" className="hover:text-white transition-colors">
                   Affiliate Disclosure (FTC)
-                </button>
+                </Link>
               </li>
               <li>
-                <button onClick={() => handleNavClick('terms')} className="hover:text-white transition-colors">
+                <Link href="/terms" className="hover:text-white transition-colors">
                   Terms & Conditions
-                </button>
+                </Link>
               </li>
             </ul>
           </div>

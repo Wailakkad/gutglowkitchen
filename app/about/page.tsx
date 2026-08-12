@@ -1,7 +1,13 @@
-import React from 'react';
-import { Sparkles, CheckCircle2, Award, Heart, ShieldCheck, Users } from 'lucide-react';
+import type { Metadata } from 'next';
+import { Sparkles, CheckCircle2, ShieldCheck } from 'lucide-react';
 
-export const AboutPage: React.FC = () => {
+export const metadata: Metadata = {
+  title: 'About Us',
+  description:
+    'The story and clinical mission of Gut Glow Kitchen. Gut healing, anti-inflammatory meal prep and blood sugar balance for busy women.'
+};
+
+export default function AboutPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
       {/* Hero Intro */}
@@ -40,10 +46,10 @@ export const AboutPage: React.FC = () => {
               Certified Nutrition Specialist • MS in Human Clinical Nutrition
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              "After spending over a decade in clinical nutrition research seeing women struggle with unexplained fatigue, severe post-meal bloating, and erratic hormonal blood sugar spikes, I realized that generic 'eat clean' advice was failing them."
+              &quot;After spending over a decade in clinical nutrition research seeing women struggle with unexplained fatigue, severe post-meal bloating, and erratic hormonal blood sugar spikes, I realized that generic &apos;eat clean&apos; advice was failing them.&quot;
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              "Gut Glow Kitchen was born to bridge the gap between complex microbiome science and realistic, delicious Sunday batch-cooking meal plans."
+              &quot;Gut Glow Kitchen was born to bridge the gap between complex microbiome science and realistic, delicious Sunday batch-cooking meal plans.&quot;
             </p>
           </div>
         </div>
@@ -112,4 +118,4 @@ export const AboutPage: React.FC = () => {
       </div>
     </div>
   );
-};
+}

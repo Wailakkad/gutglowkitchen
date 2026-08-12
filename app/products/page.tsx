@@ -1,9 +1,11 @@
+'use client';
+
 import React, { useState } from 'react';
-import { PRODUCTS } from '../data/productData';
-import { AffiliateProductBox } from '../components/AffiliateProductBox';
+import { PRODUCTS } from '@/data/productData';
+import { AffiliateProductBox } from '@/components/AffiliateProductBox';
 import { ShoppingBag, Search, ShieldAlert } from 'lucide-react';
 
-export const ProductsPage: React.FC = () => {
+export default function ProductsPage() {
   const [searchQuery, setSearchQuery] = useState<string>('');
 
   const filteredProducts = PRODUCTS.filter((product) => {
@@ -60,7 +62,7 @@ export const ProductsPage: React.FC = () => {
       {filteredProducts.length === 0 ? (
         <div className="bg-white border border-stone-200 rounded-2xl p-12 text-center space-y-3">
           <h3 className="text-xl font-serif font-bold text-slate-900">
-            No products found matching "{searchQuery}"
+            No products found matching &quot;{searchQuery}&quot;
           </h3>
           <p className="text-xs text-slate-500">
             Try resetting your search query.
@@ -83,4 +85,4 @@ export const ProductsPage: React.FC = () => {
       )}
     </div>
   );
-};
+}

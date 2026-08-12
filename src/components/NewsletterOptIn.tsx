@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { Mail, Sparkles, CheckCircle2, Lock, X, FileText, Download } from 'lucide-react';
 import { downloadFreeGuide } from '../utils/downloadGuide';

@@ -1,57 +1,29 @@
+'use client';
+
 import React from 'react';
-import { BlogPost, PageType, CategorySlug } from '../types';
-import { CATEGORIES } from '../data/categoryData';
-import { PRODUCTS } from '../data/productData';
-import { downloadFreeGuide } from '../utils/downloadGuide';
-import { MealPlanCalculator } from '../components/MealPlanCalculator';
-import { NewsletterOptIn } from '../components/NewsletterOptIn';
-import { AffiliateProductBox } from '../components/AffiliateProductBox';
+import Link from 'next/link';
+import { BLOG_POSTS } from '@/data/blogData';
+import { CATEGORIES } from '@/data/categoryData';
+import { PRODUCTS } from '@/data/productData';
+import { downloadFreeGuide } from '@/utils/downloadGuide';
+import { MealPlanCalculator } from '@/components/MealPlanCalculator';
+import { NewsletterOptIn } from '@/components/NewsletterOptIn';
+import { AffiliateProductBox } from '@/components/AffiliateProductBox';
+import { SavePostButton } from '@/components/SavePostButton';
 import {
   Sparkles,
   ArrowRight,
-  Clock,
-  Bookmark,
   CheckCircle2,
-  TrendingUp,
-  Heart,
-  ShoppingBag,
-  Star,
   Users,
+  ShoppingBag,
   Award
 } from 'lucide-react';
 
-interface Props {
-  posts: BlogPost[];
-  setCurrentPage: (page: PageType) => void;
-  setSelectedCategory: (cat: CategorySlug | null) => void;
-  setSelectedPost: (post: BlogPost) => void;
-  savedPostIds: string[];
-  toggleSavePost: (id: string) => void;
-}
-
-export const HomePage: React.FC<Props> = ({
-  posts,
-  setCurrentPage,
-  setSelectedCategory,
-  setSelectedPost,
-  savedPostIds,
-  toggleSavePost
-}) => {
-  const featuredPosts = posts.filter((p) => p.isFeatured);
-  const latestPosts = posts.slice(0, 4);
-  const kitchenTools = PRODUCTS.filter((p) => p.categorySlug === 'kitchen-tools' || p.categorySlug === 'meal-prep-containers').slice(0, 3);
-
-  const handleCategoryClick = (slug: CategorySlug) => {
-    setSelectedCategory(slug);
-    setCurrentPage('category');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  const handlePostClick = (post: BlogPost) => {
-    setSelectedPost(post);
-    setCurrentPage('post');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+export default function HomePage() {
+  const latestPosts = BLOG_POSTS.slice(0, 4);
+  const kitchenTools = PRODUCTS.filter(
+    (p) => p.categorySlug === 'kitchen-tools' || p.categorySlug === 'meal-prep-containers'
+  ).slice(0, 3);
 
   return (
     <div className="space-y-16 pb-12">
@@ -93,16 +65,13 @@ export const HomePage: React.FC<Props> = ({
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
-              <button
-                onClick={() => {
-                  setCurrentPage('blog');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }}
+              <Link
+                href="/blog"
                 className="w-full sm:w-auto px-8 py-4 bg-[#4A7C59] hover:bg-[#3A6346] text-white font-bold rounded-lg shadow-lg text-sm sm:text-base transition-all flex items-center justify-center space-x-2 group"
               >
                 <span>View Meal Plans</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </Link>
 
               <button
                 onClick={downloadFreeGuide}
@@ -168,9 +137,9 @@ export const HomePage: React.FC<Props> = ({
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {CATEGORIES.map((cat) => (
-              <div
+              <Link
                 key={cat.id}
-                onClick={() => handleCategoryClick(cat.slug)}
+                href={`/category/${cat.slug}`}
                 className="group bg-white border border-stone-200 rounded-2xl overflow-hidden shadow-xs hover:shadow-lg transition-all cursor-pointer flex flex-col justify-between"
               >
                 <div className="relative h-44 overflow-hidden">
@@ -199,7 +168,7 @@ export const HomePage: React.FC<Props> = ({
                     <ArrowRight className="w-3.5 h-3.5 ml-1 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </section>
@@ -222,95 +191,78 @@ export const HomePage: React.FC<Props> = ({
               </h2>
             </div>
 
-            <button
-              onClick={() => {
-                setCurrentPage('blog');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-              }}
+            <Link
+              href="/blog"
               className="text-xs uppercase tracking-widest font-bold text-[#4A7C59] hover:text-[#3A6346] flex items-center space-x-1"
             >
               <span>View All Articles</span>
               <ArrowRight className="w-4 h-4" />
-            </button>
+            </Link>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {posts.map((post) => {
-              const isSaved = savedPostIds.includes(post.id);
+            {latestPosts.map((post) => (
+              <article
+                key={post.id}
+                className="bg-white border border-[#4A7C59]/10 rounded-2xl overflow-hidden shadow-2xs hover:shadow-md transition-all flex flex-col justify-between group"
+              >
+                <div className="relative h-52 overflow-hidden">
+                  <img
+                    src={post.coverImage}
+                    alt={post.title}
+                    className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-300"
+                  />
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="absolute top-3 left-3 bg-[#4A7C59] text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md shadow-2xs"
+                  >
+                    {post.category}
+                  </Link>
 
-              return (
-                <article
-                  key={post.id}
-                  className="bg-white border border-[#4A7C59]/10 rounded-2xl overflow-hidden shadow-2xs hover:shadow-md transition-all flex flex-col justify-between group"
-                >
-                  <div className="relative h-52 overflow-hidden">
-                    <img
-                      src={post.coverImage}
-                      alt={post.title}
-                      className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-300"
-                    />
-                    <div className="absolute top-3 left-3 bg-[#4A7C59] text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md shadow-2xs">
-                      {post.category}
+                  <SavePostButton postId={post.id} />
+                </div>
+
+                <div className="p-6 space-y-3 flex-1 flex flex-col justify-between">
+                  <div className="space-y-2">
+                    <div className="flex items-center space-x-3 text-xs text-[#777777] font-mono">
+                      <span>{post.date}</span>
+                      <span>•</span>
+                      <span>{post.readTime}</span>
                     </div>
 
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        toggleSavePost(post.id);
-                      }}
-                      className={`absolute top-3 right-3 p-2 rounded-full transition-colors ${
-                        isSaved
-                          ? 'bg-[#F4B942] text-[#4A7C59]'
-                          : 'bg-white/80 hover:bg-white text-[#555555]'
-                      }`}
-                      title={isSaved ? 'Saved to Bookmarks' : 'Save Article'}
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      className="text-xl font-serif font-bold text-[#4A7C59] group-hover:text-[#3A6346] transition-colors cursor-pointer leading-snug line-clamp-2 block"
                     >
-                      <Bookmark className="w-4 h-4" />
-                    </button>
+                      {post.title}
+                    </Link>
+
+                    <p className="text-xs text-[#555555] line-clamp-3 leading-relaxed">
+                      {post.excerpt}
+                    </p>
                   </div>
 
-                  <div className="p-6 space-y-3 flex-1 flex flex-col justify-between">
-                    <div className="space-y-2">
-                      <div className="flex items-center space-x-3 text-xs text-[#777777] font-mono">
-                        <span>{post.date}</span>
-                        <span>•</span>
-                        <span>{post.readTime}</span>
-                      </div>
-
-                      <h3
-                        onClick={() => handlePostClick(post)}
-                        className="text-xl font-serif font-bold text-[#4A7C59] group-hover:text-[#3A6346] transition-colors cursor-pointer leading-snug line-clamp-2"
-                      >
-                        {post.title}
-                      </h3>
-
-                      <p className="text-xs text-[#555555] line-clamp-3 leading-relaxed">
-                        {post.excerpt}
-                      </p>
+                  <div className="pt-4 border-t border-[#4A7C59]/10 flex items-center justify-between">
+                    <div className="flex items-center space-x-2">
+                      <img
+                        src={post.author.avatar}
+                        alt={post.author.name}
+                        className="w-7 h-7 rounded-full object-cover border border-[#4A7C59]/20"
+                      />
+                      <span className="text-xs font-semibold text-[#333333]">{post.author.name}</span>
                     </div>
 
-                    <div className="pt-4 border-t border-[#4A7C59]/10 flex items-center justify-between">
-                      <div className="flex items-center space-x-2">
-                        <img
-                          src={post.author.avatar}
-                          alt={post.author.name}
-                          className="w-7 h-7 rounded-full object-cover border border-[#4A7C59]/20"
-                        />
-                        <span className="text-xs font-semibold text-[#333333]">{post.author.name}</span>
-                      </div>
-
-                      <button
-                        onClick={() => handlePostClick(post)}
-                        className="text-xs font-bold text-[#4A7C59] hover:text-[#3A6346] flex items-center space-x-1"
-                      >
-                        <span>Read Article</span>
-                        <ArrowRight className="w-3.5 h-3.5" />
-                      </button>
-                    </div>
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      className="text-xs font-bold text-[#4A7C59] hover:text-[#3A6346] flex items-center space-x-1"
+                    >
+                      <span>Read Article</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </Link>
                   </div>
-                </article>
-              );
-            })}
+                </div>
+              </article>
+            ))}
           </div>
         </section>
 
@@ -330,16 +282,13 @@ export const HomePage: React.FC<Props> = ({
               </p>
             </div>
 
-            <button
-              onClick={() => {
-                setCurrentPage('products');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-              }}
+            <Link
+              href="/products"
               className="text-sm font-bold text-sage hover:text-sage-dark flex items-center space-x-1 shrink-0"
             >
               <span>View All Products</span>
               <ArrowRight className="w-4 h-4" />
-            </button>
+            </Link>
           </div>
 
           <div className="space-y-6">
@@ -357,4 +306,4 @@ export const HomePage: React.FC<Props> = ({
       </div>
     </div>
   );
-};
+}

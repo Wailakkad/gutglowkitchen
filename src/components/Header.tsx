@@ -1,7 +1,12 @@
+'use client';
+
 import React, { useState } from 'react';
-import { PageType, CategorySlug } from '../types';
+import Link from 'next/link';
+import { usePathname, useRouter } from 'next/navigation';
+import { CategorySlug } from '../types';
 import { CATEGORIES } from '../data/categoryData';
 import { downloadFreeGuide } from '../utils/downloadGuide';
+import { useSavedPosts } from '../providers/SavedPostsProvider';
 import {
   Sparkles,
   Search,
@@ -10,51 +15,30 @@ import {
   X,
   ChevronDown,
   ShoppingBag,
-  Heart,
-  BookOpen,
-  Mail,
-  ShieldCheck,
-  Zap,
-  CheckCircle2
+  Mail
 } from 'lucide-react';
 
-interface Props {
-  currentPage: PageType;
-  setCurrentPage: (page: PageType) => void;
-  selectedCategory: CategorySlug | null;
-  setSelectedCategory: (cat: CategorySlug | null) => void;
-  savedPostIds: string[];
-  onSearchQuery: (query: string) => void;
-  searchQuery: string;
-}
-
-export const Header: React.FC<Props> = ({
-  currentPage,
-  setCurrentPage,
-  selectedCategory,
-  setSelectedCategory,
-  savedPostIds,
-  onSearchQuery,
-  searchQuery
-}) => {
+export const Header: React.FC = () => {
+  const { savedPostIds } = useSavedPosts();
+  const pathname = usePathname();
+  const router = useRouter();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isCategoryDropdownOpen, setIsCategoryDropdownOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
-  const handleCategoryClick = (catSlug: CategorySlug) => {
-    setSelectedCategory(catSlug);
-    setCurrentPage('category');
-    setIsCategoryDropdownOpen(false);
-    setIsMobileMenuOpen(false);
+  const currentPage = {
+    home: pathname === '/',
+    blog: pathname === '/blog' || pathname.startsWith('/blog/'),
+    category: pathname.startsWith('/category/'),
+    products: pathname === '/products',
+    about: pathname === '/about',
+    contact: pathname === '/contact'
   };
 
-  const handleNavClick = (page: PageType) => {
-    setCurrentPage(page);
-    if (page !== 'category') {
-      setSelectedCategory(null);
-    }
-    setIsMobileMenuOpen(false);
-    setIsCategoryDropdownOpen(false);
+  const handleSearchChange = (q: string) => {
+    setSearchQuery(q);
+    router.push(q.trim() ? `/blog?q=${encodeURIComponent(q.trim())}` : '/blog');
   };
 
   return (
@@ -78,8 +62,9 @@ export const Header: React.FC<Props> = ({
         <div className="flex items-center justify-between h-20">
           
           {/* Brand Logo */}
-          <div
-            onClick={() => handleNavClick('home')}
+          <Link
+            href="/"
+            onClick={() => setIsMobileMenuOpen(false)}
             className="cursor-pointer flex items-center space-x-3 group"
           >
             <div className="w-10 h-10 bg-[#4A7C59] rounded-full flex items-center justify-center shadow-2xs group-hover:bg-[#3A6346] transition-all">
@@ -93,27 +78,27 @@ export const Header: React.FC<Props> = ({
                 Wellness & Nutrition
               </span>
             </div>
-          </div>
+          </Link>
 
           {/* Desktop Navigation Links */}
           <nav className="hidden lg:flex items-center space-x-8 text-xs font-medium text-[#4A7C59]/80 uppercase tracking-widest">
-            <button
-              onClick={() => handleNavClick('home')}
+            <Link
+              href="/"
               className={`hover:text-[#4A7C59] transition-colors py-2 border-b-2 ${
-                currentPage === 'home' ? 'text-[#4A7C59] font-bold border-[#F4B942]' : 'border-transparent'
+                currentPage.home ? 'text-[#4A7C59] font-bold border-[#F4B942]' : 'border-transparent'
               }`}
             >
               Home
-            </button>
+            </Link>
 
-            <button
-              onClick={() => handleNavClick('blog')}
+            <Link
+              href="/blog"
               className={`hover:text-[#4A7C59] transition-colors py-2 border-b-2 ${
-                currentPage === 'blog' ? 'text-[#4A7C59] font-bold border-[#F4B942]' : 'border-transparent'
+                currentPage.blog ? 'text-[#4A7C59] font-bold border-[#F4B942]' : 'border-transparent'
               }`}
             >
               Blog
-            </button>
+            </Link>
 
             {/* Categories Dropdown */}
             <div className="relative">
@@ -121,7 +106,7 @@ export const Header: React.FC<Props> = ({
                 onClick={() => setIsCategoryDropdownOpen(!isCategoryDropdownOpen)}
                 onMouseEnter={() => setIsCategoryDropdownOpen(true)}
                 className={`hover:text-[#4A7C59] transition-colors py-2 flex items-center space-x-1 border-b-2 ${
-                  currentPage === 'category' ? 'text-[#4A7C59] font-bold border-[#F4B942]' : 'border-transparent'
+                  currentPage.category ? 'text-[#4A7C59] font-bold border-[#F4B942]' : 'border-transparent'
                 }`}
               >
                 <span>Categories</span>
@@ -137,11 +122,15 @@ export const Header: React.FC<Props> = ({
                     Core Health Topics
                   </div>
                   {CATEGORIES.map((cat) => (
-                    <button
+                    <Link
                       key={cat.id}
-                      onClick={() => handleCategoryClick(cat.slug)}
+                      href={`/category/${cat.slug}`}
+                      onClick={() => {
+                        setIsCategoryDropdownOpen(false);
+                        setIsMobileMenuOpen(false);
+                      }}
                       className={`w-full text-left px-3 py-2.5 rounded-lg hover:bg-[#F4F7F2] transition-colors flex items-start space-x-3 group ${
-                        selectedCategory === cat.slug ? 'bg-[#F4F7F2] text-[#4A7C59] font-semibold' : 'text-[#333333]'
+                        pathname === `/category/${cat.slug}` ? 'bg-[#F4F7F2] text-[#4A7C59] font-semibold' : 'text-[#333333]'
                       }`}
                     >
                       <div className="w-2 h-2 rounded-full bg-[#F4B942] mt-2 group-hover:scale-125 transition-transform" />
@@ -149,40 +138,40 @@ export const Header: React.FC<Props> = ({
                         <div className="font-semibold text-sm group-hover:text-[#4A7C59] transition-colors">{cat.name}</div>
                         <div className="text-xs text-[#777777] line-clamp-1">{cat.tagline}</div>
                       </div>
-                    </button>
+                    </Link>
                   ))}
                 </div>
               )}
             </div>
 
             {/* Recommended Products (Affiliate Hub) */}
-            <button
-              onClick={() => handleNavClick('products')}
+            <Link
+              href="/products"
               className={`hover:text-[#4A7C59] transition-colors py-2 flex items-center space-x-1 border-b-2 ${
-                currentPage === 'products' ? 'text-[#4A7C59] font-bold border-[#F4B942]' : 'border-transparent'
+                currentPage.products ? 'text-[#4A7C59] font-bold border-[#F4B942]' : 'border-transparent'
               }`}
             >
               <ShoppingBag className="w-3.5 h-3.5 text-[#F4B942]" />
               <span>Products</span>
-            </button>
+            </Link>
 
-            <button
-              onClick={() => handleNavClick('about')}
+            <Link
+              href="/about"
               className={`hover:text-[#4A7C59] transition-colors py-2 border-b-2 ${
-                currentPage === 'about' ? 'text-[#4A7C59] font-bold border-[#F4B942]' : 'border-transparent'
+                currentPage.about ? 'text-[#4A7C59] font-bold border-[#F4B942]' : 'border-transparent'
               }`}
             >
               About
-            </button>
+            </Link>
 
-            <button
-              onClick={() => handleNavClick('contact')}
+            <Link
+              href="/contact"
               className={`hover:text-[#4A7C59] transition-colors py-2 border-b-2 ${
-                currentPage === 'contact' ? 'text-[#4A7C59] font-bold border-[#F4B942]' : 'border-transparent'
+                currentPage.contact ? 'text-[#4A7C59] font-bold border-[#F4B942]' : 'border-transparent'
               }`}
             >
               Contact
-            </button>
+            </Link>
           </nav>
 
           {/* Right Utilities */}
@@ -197,8 +186,8 @@ export const Header: React.FC<Props> = ({
             </button>
 
             {/* Saved Bookmarks Counter */}
-            <button
-              onClick={() => handleNavClick('blog')}
+            <Link
+              href="/blog"
               className="p-2 text-slate-600 hover:text-sage hover:bg-slate-100 rounded-full transition-colors relative"
               title="Saved Articles"
             >
@@ -208,7 +197,7 @@ export const Header: React.FC<Props> = ({
                   {savedPostIds.length}
                 </span>
               )}
-            </button>
+            </Link>
 
             {/* Free Guide Call To Action */}
             <button
@@ -236,10 +225,7 @@ export const Header: React.FC<Props> = ({
               <input
                 type="text"
                 value={searchQuery}
-                onChange={(e) => {
-                  onSearchQuery(e.target.value);
-                  if (currentPage !== 'blog') setCurrentPage('blog');
-                }}
+                onChange={(e) => handleSearchChange(e.target.value)}
                 placeholder="Search anti-inflammatory recipes, gut health guides, blood sugar hacks..."
                 className="w-full pl-11 pr-10 py-3 bg-stone-50 border border-stone-300 rounded-xl text-slate-900 placeholder-slate-400 focus:outline-hidden focus:ring-2 focus:ring-sage focus:bg-white text-sm transition-all"
                 autoFocus
@@ -247,7 +233,7 @@ export const Header: React.FC<Props> = ({
               <Search className="w-5 h-5 text-slate-400 absolute left-3.5 top-3.5" />
               {searchQuery && (
                 <button
-                  onClick={() => onSearchQuery('')}
+                  onClick={() => handleSearchChange('')}
                   className="absolute right-3.5 top-3 text-slate-400 hover:text-slate-600 text-xs bg-slate-200 rounded-full w-5 h-5 flex items-center justify-center"
                 >
                   ✕
@@ -262,23 +248,25 @@ export const Header: React.FC<Props> = ({
       {isMobileMenuOpen && (
         <div className="lg:hidden bg-white border-t border-stone-200 px-4 pt-4 pb-6 space-y-4 shadow-lg animate-in slide-in-from-top duration-200">
           <div className="space-y-1 text-slate-800 font-medium">
-            <button
-              onClick={() => handleNavClick('home')}
-              className={`w-full text-left px-3 py-2.5 rounded-lg text-base ${
-                currentPage === 'home' ? 'bg-sage-light text-sage font-bold' : 'hover:bg-slate-50'
+            <Link
+              href="/"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className={`w-full text-left px-3 py-2.5 rounded-lg text-base block ${
+                currentPage.home ? 'bg-sage-light text-sage font-bold' : 'hover:bg-slate-50'
               }`}
             >
               Home
-            </button>
+            </Link>
 
-            <button
-              onClick={() => handleNavClick('blog')}
-              className={`w-full text-left px-3 py-2.5 rounded-lg text-base ${
-                currentPage === 'blog' ? 'bg-sage-light text-sage font-bold' : 'hover:bg-slate-50'
+            <Link
+              href="/blog"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className={`w-full text-left px-3 py-2.5 rounded-lg text-base block ${
+                currentPage.blog ? 'bg-sage-light text-sage font-bold' : 'hover:bg-slate-50'
               }`}
             >
               Blog & Recipes
-            </button>
+            </Link>
 
             {/* Mobile Categories Accordion */}
             <div className="py-2 px-3 border-y border-stone-100 space-y-2">
@@ -286,46 +274,50 @@ export const Header: React.FC<Props> = ({
                 Categories
               </div>
               {CATEGORIES.map((cat) => (
-                <button
+                <Link
                   key={cat.id}
-                  onClick={() => handleCategoryClick(cat.slug)}
+                  href={`/category/${cat.slug}`}
+                  onClick={() => setIsMobileMenuOpen(false)}
                   className={`w-full text-left py-2 px-2 rounded-md text-sm flex items-center justify-between ${
-                    selectedCategory === cat.slug ? 'text-sage font-bold bg-sage-50' : 'text-slate-700 hover:text-sage'
+                    pathname === `/category/${cat.slug}` ? 'text-sage font-bold bg-sage-50' : 'text-slate-700 hover:text-sage'
                   }`}
                 >
                   <span>{cat.name}</span>
                   <span className="text-xs text-slate-400 font-mono">({cat.postsCount})</span>
-                </button>
+                </Link>
               ))}
             </div>
 
-            <button
-              onClick={() => handleNavClick('products')}
+            <Link
+              href="/products"
+              onClick={() => setIsMobileMenuOpen(false)}
               className={`w-full text-left px-3 py-2.5 rounded-lg text-base flex items-center space-x-2 ${
-                currentPage === 'products' ? 'bg-sage-light text-sage font-bold' : 'hover:bg-slate-50'
+                currentPage.products ? 'bg-sage-light text-sage font-bold' : 'hover:bg-slate-50'
               }`}
             >
               <ShoppingBag className="w-5 h-5 text-gold" />
               <span>Recommended Products</span>
-            </button>
+            </Link>
 
-            <button
-              onClick={() => handleNavClick('about')}
-              className={`w-full text-left px-3 py-2.5 rounded-lg text-base ${
-                currentPage === 'about' ? 'bg-sage-light text-sage font-bold' : 'hover:bg-slate-50'
+            <Link
+              href="/about"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className={`w-full text-left px-3 py-2.5 rounded-lg text-base block ${
+                currentPage.about ? 'bg-sage-light text-sage font-bold' : 'hover:bg-slate-50'
               }`}
             >
               About Us
-            </button>
+            </Link>
 
-            <button
-              onClick={() => handleNavClick('contact')}
-              className={`w-full text-left px-3 py-2.5 rounded-lg text-base ${
-                currentPage === 'contact' ? 'bg-sage-light text-sage font-bold' : 'hover:bg-slate-50'
+            <Link
+              href="/contact"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className={`w-full text-left px-3 py-2.5 rounded-lg text-base block ${
+                currentPage.contact ? 'bg-sage-light text-sage font-bold' : 'hover:bg-slate-50'
               }`}
             >
               Contact
-            </button>
+            </Link>
           </div>
 
           <div className="pt-2">

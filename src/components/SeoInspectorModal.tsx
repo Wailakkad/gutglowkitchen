@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { BlogPost } from '../types';
 import { ShieldCheck, Search, Code, CheckCircle2, AlertCircle, Copy, X, Eye } from 'lucide-react';

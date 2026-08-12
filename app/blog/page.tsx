@@ -1,49 +1,39 @@
-import React, { useState } from 'react';
-import { BlogPost, PageType, CategorySlug } from '../types';
-import { CATEGORIES } from '../data/categoryData';
-import { Search, Bookmark, Grid, List, Clock, ArrowRight, Filter, Sparkles } from 'lucide-react';
+'use client';
 
-interface Props {
-  posts: BlogPost[];
-  setCurrentPage: (page: PageType) => void;
-  setSelectedPost: (post: BlogPost) => void;
-  selectedCategory: CategorySlug | null;
-  setSelectedCategory: (cat: CategorySlug | null) => void;
-  savedPostIds: string[];
-  toggleSavePost: (id: string) => void;
-  searchQuery: string;
-  setSearchQuery: (query: string) => void;
-}
+import React, { useState, Suspense } from 'react';
+import Link from 'next/link';
+import { useSearchParams, useRouter } from 'next/navigation';
+import { BLOG_POSTS } from '@/data/blogData';
+import { CATEGORIES } from '@/data/categoryData';
+import { Search, Bookmark, Grid, List, ArrowRight, Filter, Sparkles } from 'lucide-react';
+import { SavePostButton } from '@/components/SavePostButton';
+import { useSavedPosts } from '@/providers/SavedPostsProvider';
 
-export const BlogPage: React.FC<Props> = ({
-  posts,
-  setCurrentPage,
-  setSelectedPost,
-  selectedCategory,
-  setSelectedCategory,
-  savedPostIds,
-  toggleSavePost,
-  searchQuery,
-  setSearchQuery
-}) => {
+function BlogPageContent() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const { savedPostIds } = useSavedPosts();
+  const query = searchParams.get('q') ?? '';
+
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [showSavedOnly, setShowSavedOnly] = useState(false);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
+  const handleSearchChange = (q: string) => {
+    router.replace(q.trim() ? `/blog?q=${encodeURIComponent(q.trim())}` : '/blog', {
+      scroll: false
+    });
+  };
+
   // Filter posts
-  const filteredPosts = posts.filter((post) => {
+  const filteredPosts = BLOG_POSTS.filter((post) => {
     // Search Filter
-    if (searchQuery) {
-      const q = searchQuery.toLowerCase();
+    if (query) {
+      const q = query.toLowerCase();
       const matchesTitle = post.title.toLowerCase().includes(q);
       const matchesExcerpt = post.excerpt.toLowerCase().includes(q);
       const matchesTag = post.tags.some((t) => t.toLowerCase().includes(q));
       if (!matchesTitle && !matchesExcerpt && !matchesTag) return false;
-    }
-
-    // Category Filter
-    if (selectedCategory && post.categorySlug !== selectedCategory) {
-      return false;
     }
 
     // Bookmarked Filter
@@ -60,13 +50,7 @@ export const BlogPage: React.FC<Props> = ({
   });
 
   // Extract all unique tags
-  const allTags = Array.from(new Set(posts.flatMap((p) => p.tags)));
-
-  const handlePostClick = (post: BlogPost) => {
-    setSelectedPost(post);
-    setCurrentPage('post');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  const allTags = Array.from(new Set(BLOG_POSTS.flatMap((p) => p.tags)));
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
@@ -88,15 +72,15 @@ export const BlogPage: React.FC<Props> = ({
           <div className="relative">
             <input
               type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              value={query}
+              onChange={(e) => handleSearchChange(e.target.value)}
               placeholder="Search recipes, ingredients, gut symptoms or glucose hacks..."
               className="w-full pl-11 pr-10 py-3 bg-stone-50 border border-stone-300 rounded-xl text-slate-900 text-sm focus:outline-hidden focus:ring-2 focus:ring-sage focus:bg-white"
             />
             <Search className="w-5 h-5 text-slate-400 absolute left-3.5 top-3.5" />
-            {searchQuery && (
+            {query && (
               <button
-                onClick={() => setSearchQuery('')}
+                onClick={() => handleSearchChange('')}
                 className="absolute right-3.5 top-3 text-slate-400 hover:text-slate-600 text-xs bg-slate-200 rounded-full w-5 h-5 flex items-center justify-center"
               >
                 ✕
@@ -110,39 +94,32 @@ export const BlogPage: React.FC<Props> = ({
       <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-b border-stone-200 pb-4">
         {/* Category Tabs */}
         <div className="flex items-center space-x-2 overflow-x-auto no-scrollbar pb-2 lg:pb-0">
-          <button
-            onClick={() => {
-              setSelectedCategory(null);
-              setShowSavedOnly(false);
-            }}
+          <Link
+            href="/blog"
             className={`px-4 py-2 rounded-xl text-xs font-bold transition-colors whitespace-nowrap ${
-              !selectedCategory && !showSavedOnly
+              !showSavedOnly
                 ? 'bg-sage text-white shadow-xs'
                 : 'bg-white border border-stone-200 text-slate-700 hover:bg-stone-50'
             }`}
           >
-            All Articles ({posts.length})
-          </button>
+            All Articles ({BLOG_POSTS.length})
+          </Link>
 
           {CATEGORIES.map((cat) => (
-            <button
+            <Link
               key={cat.id}
-              onClick={() => {
-                setSelectedCategory(cat.slug);
-                setShowSavedOnly(false);
-              }}
-              className={`px-4 py-2 rounded-xl text-xs font-bold transition-colors whitespace-nowrap ${
-                selectedCategory === cat.slug && !showSavedOnly
-                  ? 'bg-sage text-white shadow-xs'
-                  : 'bg-white border border-stone-200 text-slate-700 hover:bg-stone-50'
-              }`}
+              href={`/category/${cat.slug}`}
+              className="px-4 py-2 rounded-xl text-xs font-bold transition-colors whitespace-nowrap bg-white border border-stone-200 text-slate-700 hover:bg-stone-50"
             >
               {cat.name}
-            </button>
+            </Link>
           ))}
 
           <button
-            onClick={() => setShowSavedOnly(!showSavedOnly)}
+            onClick={() => {
+              setShowSavedOnly(!showSavedOnly);
+              setSelectedTag(null);
+            }}
             className={`px-4 py-2 rounded-xl text-xs font-bold transition-colors whitespace-nowrap flex items-center space-x-1.5 ${
               showSavedOnly
                 ? 'bg-gold text-slate-900 shadow-xs'
@@ -183,7 +160,10 @@ export const BlogPage: React.FC<Props> = ({
         {allTags.map((tag) => (
           <button
             key={tag}
-            onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
+            onClick={() => {
+              setSelectedTag(selectedTag === tag ? null : tag);
+              setShowSavedOnly(false);
+            }}
             className={`text-xs px-3 py-1 rounded-full border transition-colors whitespace-nowrap ${
               selectedTag === tag
                 ? 'bg-slate-900 text-white border-slate-900'
@@ -209,8 +189,7 @@ export const BlogPage: React.FC<Props> = ({
           </p>
           <button
             onClick={() => {
-              setSearchQuery('');
-              setSelectedCategory(null);
+              handleSearchChange('');
               setSelectedTag(null);
               setShowSavedOnly(false);
             }}
@@ -228,31 +207,36 @@ export const BlogPage: React.FC<Props> = ({
           }
         >
           {filteredPosts.map((post) => {
-            const isSaved = savedPostIds.includes(post.id);
-
             if (viewMode === 'list') {
               return (
                 <article
                   key={post.id}
-                  onClick={() => handlePostClick(post)}
                   className="bg-white border border-stone-200 rounded-2xl p-5 shadow-2xs hover:shadow-md transition-all cursor-pointer flex flex-col md:flex-row gap-6 items-center group"
                 >
-                  <img
-                    src={post.coverImage}
-                    alt={post.title}
-                    className="w-full md:w-64 h-48 object-cover rounded-xl shrink-0 group-hover:scale-102 transition-transform duration-200"
-                  />
+                  <Link href={`/blog/${post.slug}`} className="shrink-0">
+                    <img
+                      src={post.coverImage}
+                      alt={post.title}
+                      className="w-full md:w-64 h-48 object-cover rounded-xl group-hover:scale-102 transition-transform duration-200"
+                    />
+                  </Link>
                   <div className="space-y-3 flex-1">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold text-sage bg-sage-light px-2.5 py-0.5 rounded-md">
+                      <Link
+                        href={`/category/${post.categorySlug}`}
+                        className="text-xs font-bold text-sage bg-sage-light px-2.5 py-0.5 rounded-md"
+                      >
                         {post.category}
-                      </span>
+                      </Link>
                       <span className="text-xs text-slate-400 font-mono">{post.readTime}</span>
                     </div>
 
-                    <h3 className="text-xl font-serif font-bold text-slate-900 group-hover:text-sage transition-colors">
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      className="text-xl font-serif font-bold text-slate-900 group-hover:text-sage transition-colors block"
+                    >
                       {post.title}
-                    </h3>
+                    </Link>
 
                     <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">
                       {post.excerpt}
@@ -260,18 +244,7 @@ export const BlogPage: React.FC<Props> = ({
 
                     <div className="flex items-center justify-between pt-2">
                       <span className="text-xs text-slate-500 font-medium">By {post.author.name}</span>
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          toggleSavePost(post.id);
-                        }}
-                        className={`p-2 rounded-lg text-xs font-bold flex items-center space-x-1 ${
-                          isSaved ? 'bg-gold text-slate-900' : 'bg-stone-100 text-slate-600'
-                        }`}
-                      >
-                        <Bookmark className="w-3.5 h-3.5" />
-                        <span>{isSaved ? 'Saved' : 'Save'}</span>
-                      </button>
+                      <SavePostButton postId={post.id} mode="inline" />
                     </div>
                   </div>
                 </article>
@@ -289,23 +262,14 @@ export const BlogPage: React.FC<Props> = ({
                     alt={post.title}
                     className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-300"
                   />
-                  <div className="absolute top-3 left-3 bg-sage text-white text-[11px] font-bold px-2.5 py-1 rounded-md shadow-xs">
-                    {post.category}
-                  </div>
-
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      toggleSavePost(post.id);
-                    }}
-                    className={`absolute top-3 right-3 p-2 rounded-full transition-colors ${
-                      isSaved
-                        ? 'bg-gold text-slate-900'
-                        : 'bg-white/80 hover:bg-white text-slate-600'
-                    }`}
+                  <Link
+                    href={`/category/${post.categorySlug}`}
+                    className="absolute top-3 left-3 bg-sage text-white text-[11px] font-bold px-2.5 py-1 rounded-md shadow-xs"
                   >
-                    <Bookmark className="w-4 h-4" />
-                  </button>
+                    {post.category}
+                  </Link>
+
+                  <SavePostButton postId={post.id} />
                 </div>
 
                 <div className="p-6 space-y-3 flex-1 flex flex-col justify-between">
@@ -316,12 +280,12 @@ export const BlogPage: React.FC<Props> = ({
                       <span>{post.readTime}</span>
                     </div>
 
-                    <h3
-                      onClick={() => handlePostClick(post)}
-                      className="text-xl font-serif font-bold text-slate-900 group-hover:text-sage transition-colors cursor-pointer leading-snug line-clamp-2"
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      className="text-xl font-serif font-bold text-slate-900 group-hover:text-sage transition-colors cursor-pointer leading-snug line-clamp-2 block"
                     >
                       {post.title}
-                    </h3>
+                    </Link>
 
                     <p className="text-xs text-slate-600 line-clamp-3 leading-relaxed">
                       {post.excerpt}
@@ -338,13 +302,13 @@ export const BlogPage: React.FC<Props> = ({
                       <span className="text-xs font-semibold text-slate-700">{post.author.name}</span>
                     </div>
 
-                    <button
-                      onClick={() => handlePostClick(post)}
+                    <Link
+                      href={`/blog/${post.slug}`}
                       className="text-xs font-bold text-sage hover:text-sage-dark flex items-center space-x-1"
                     >
                       <span>Read</span>
                       <ArrowRight className="w-3.5 h-3.5" />
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </article>
@@ -354,4 +318,12 @@ export const BlogPage: React.FC<Props> = ({
       )}
     </div>
   );
-};
+}
+
+export default function BlogPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen" />}>
+      <BlogPageContent />
+    </Suspense>
+  );
+}
