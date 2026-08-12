@@ -39,5 +39,25 @@ export const PRODUCTS: Product[] = [
       'Dishwasher-safe for effortless weekly cleaning'
     ],
     whyWeLoveIt: 'The airtight silicone seal protects baked goods like apple bread from drying out, and the clear glass lets you see your prep without opening the fridge — freshness you can actually verify.'
+  },
+  {
+    id: 'prod-digital-kitchen-scale',
+    name: 'Digital Kitchen Scale – Stainless Steel, 0.1g Precision',
+    category: 'Kitchen Tools',
+    categorySlug: 'kitchen-tools',
+    price: '$19.99',
+    rating: 4.7,
+    reviewsCount: 5200,
+    image: 'https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&q=80&w=600',
+    amazonUrl: 'https://amazon.com/s?k=digital+kitchen+scale+0.1g+precision&tag=gutglowkitchen-20',
+    badge: 'Top Pick',
+    description: 'High-precision digital kitchen scale with 0.1g accuracy for consistent almond flour baking, protein tracking, and portion-controlled anti-inflammatory meal prep.',
+    keyFeatures: [
+      '0.1g precision for accurate flour and protein measurements',
+      'Easy tare function for bowl-to-bowl mixing',
+      'Stainless steel surface that wipes clean in seconds',
+      'Compact design that stores flat in any drawer'
+    ],
+    whyWeLoveIt: 'Baking with almond flour is an exact science — a weigh-in of 0.1g accuracy is the difference between a moist loaf and a dense one, and this scale delivers it reliably every single Sunday.'
   }
 ];

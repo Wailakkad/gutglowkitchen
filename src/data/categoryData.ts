@@ -30,5 +30,20 @@ export const CATEGORIES: CategoryInfo[] = [
       'Leak-proof, oven-safe and freezer-safe container guidance',
       'Storage systems that keep prepped meals fresh all week'
     ]
+  },
+  {
+    id: 'healthy-baking-fall-recipes',
+    name: 'Healthy Baking & Fall Recipes',
+    slug: 'healthy-baking-fall-recipes',
+    description: 'Healthy baking recipes and anti-inflammatory fall treats including apple bread, apple cider donuts, gluten-free quick breads, and clean eating desserts. All recipes use whole food ingredients, no refined sugar, and gut-healing spices for better health and clean eating routines.',
+    tagline: 'Clean baking and fall treats made with whole food ingredients.',
+    iconName: 'ChefHat',
+    image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=800',
+    postsCount: 8,
+    keyBenefits: [
+      'Whole-food baking with zero refined sugar',
+      'Gluten-free quick breads and fall treats',
+      'Gut-friendly spices like cinnamon and ginger'
+    ]
   }
 ];
