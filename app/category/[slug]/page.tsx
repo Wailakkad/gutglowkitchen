@@ -117,8 +117,7 @@ export default async function CategoryPage({ params }: Props) {
                   </p>
                 </div>
 
-                <div className="pt-4 border-t border-stone-100 flex items-center justify-between">
-                  <span className="text-xs font-semibold text-slate-700">By {post.author.name}</span>
+                <div className="pt-4 border-t border-stone-100 flex items-center justify-end">
                   <Link
                     href={`/blog/${post.slug}`}
                     className="text-xs font-bold text-sage hover:text-sage-dark flex items-center space-x-1"

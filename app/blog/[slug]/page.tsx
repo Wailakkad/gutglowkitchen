@@ -8,7 +8,7 @@ import { AffiliateProductBox } from '@/components/AffiliateProductBox';
 import { NewsletterOptIn } from '@/components/NewsletterOptIn';
 import { PostMetaActions } from '@/components/PostMetaActions';
 import { CommentSection } from '@/components/CommentSection';
-import { ArrowLeft, ArrowRight, CheckCircle2, Calendar, Sparkles } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Calendar, Sparkles } from 'lucide-react';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -55,11 +55,6 @@ export default async function SinglePostPage({ params }: Props) {
     description: post.excerpt,
     image: [post.coverImage],
     datePublished: '2026-08-04',
-    author: {
-      '@type': 'Person',
-      name: post.author.name,
-      jobTitle: post.author.role
-    },
     publisher: {
       '@type': 'Organization',
       name: 'Gut Glow Kitchen'
@@ -121,28 +116,11 @@ export default async function SinglePostPage({ params }: Props) {
             {post.excerpt}
           </p>
 
-          {/* Author Badge */}
+          {/* Meta Bar */}
           <div className="pt-4 border-y border-stone-200 flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              <img
-                src={post.author.avatar}
-                alt={post.author.name}
-                className="w-12 h-12 rounded-full object-cover border-2 border-sage"
-              />
-              <div>
-                <div className="font-bold text-slate-900 text-sm flex items-center space-x-1.5">
-                  <span>{post.author.name}</span>
-                  <CheckCircle2 className="w-4 h-4 text-sage" />
-                </div>
-                <div className="text-xs text-slate-500 font-medium">{post.author.role}</div>
-              </div>
-            </div>
-
-            <div className="text-right text-xs text-slate-400 font-mono">
-              <div className="flex items-center space-x-1 justify-end">
-                <Calendar className="w-3.5 h-3.5" />
-                <span>{post.date}</span>
-              </div>
+            <div className="text-xs text-slate-400 font-mono flex items-center space-x-1">
+              <Calendar className="w-3.5 h-3.5" />
+              <span>{post.date}</span>
             </div>
           </div>
         </div>
@@ -213,27 +191,6 @@ export default async function SinglePostPage({ params }: Props) {
             ))}
           </div>
         )}
-
-        {/* Author Bio Card */}
-        <div className="bg-sage-50 border border-sage-light rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-6 my-10">
-          <img
-            src={post.author.avatar}
-            alt={post.author.name}
-            className="w-20 h-20 rounded-2xl object-cover border-2 border-sage shrink-0"
-          />
-          <div className="space-y-2">
-            <div className="flex items-center space-x-2">
-              <h4 className="text-lg font-serif font-bold text-slate-900">
-                Written by {post.author.name}
-              </h4>
-              <span className="text-xs font-mono bg-sage text-white px-2 py-0.5 rounded-md font-semibold">
-                Verified Expert
-              </span>
-            </div>
-            <p className="text-xs text-slate-500 font-mono">{post.author.credentials}</p>
-            <p className="text-xs text-slate-700 leading-relaxed">{post.author.bio}</p>
-          </div>
-        </div>
 
         {/* Newsletter Call to Action */}
         <div className="my-10">

@@ -23,11 +23,6 @@ export const SeoInspectorModal: React.FC<Props> = ({ post, isOpen, onClose }) =>
     description: post.excerpt,
     image: [post.coverImage],
     datePublished: '2026-08-04',
-    author: {
-      '@type': 'Person',
-      name: post.author.name,
-      jobTitle: post.author.role
-    },
     publisher: {
       '@type': 'Organization',
       name: 'Gut Glow Kitchen',

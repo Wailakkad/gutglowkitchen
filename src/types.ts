@@ -16,14 +16,6 @@ export type CategorySlug =
   | 'healthy-baking-fall-recipes'
   | 'refrigerator-pickles-ferments';
 
-export interface Author {
-  name: string;
-  role: string;
-  avatar: string;
-  bio: string;
-  credentials: string;
-}
-
 export interface Ingredient {
   name: string;
   amount: number;
@@ -78,7 +70,6 @@ export interface BlogPost {
   categorySlug: CategorySlug;
   tags: string[];
   coverImage: string;
-  author: Author;
   date: string;
   readTime: string;
   commentsCount: number;

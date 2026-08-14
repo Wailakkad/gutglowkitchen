@@ -243,14 +243,7 @@ export default function HomePage() {
                   </div>
 
                   <div className="pt-4 border-t border-[#4A7C59]/10 flex items-center justify-between">
-                    <div className="flex items-center space-x-2">
-                      <img
-                        src={post.author.avatar}
-                        alt={post.author.name}
-                        className="w-7 h-7 rounded-full object-cover border border-[#4A7C59]/20"
-                      />
-                      <span className="text-xs font-semibold text-[#333333]">{post.author.name}</span>
-                    </div>
+                    <span className="text-xs font-mono text-[#777777]">{post.readTime}</span>
 
                     <Link
                       href={`/blog/${post.slug}`}

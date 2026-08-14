@@ -26,13 +26,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 24,
     views: 14200,
     isFeatured: true,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-anti-inflammatory-prep', title: '1. Why Chronic Inflammation Starts in the Gut' },
       { id: 'the-4-pillars-of-prep', title: '2. The 4 Pillars of Anti-Inflammatory Prep' },
@@ -414,13 +407,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 11,
     views: 8600,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-zucchini', title: '1. Why Zucchini Is a Quiet Anti-Inflammatory Superstar' },
       { id: 'two-rules', title: '2. Two Prep Rules for Perfect Zucchini Every Time' },
@@ -590,13 +576,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 9,
     views: 7400,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-zucchini-dessert', title: '1. Why Zucchini Desserts Actually Work' },
       { id: 'baking-rules', title: '2. 3 Baking Rules for Moist (Not Watery) Bakes' },
@@ -728,13 +707,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 15,
     views: 9800,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-protein', title: '1. Why High-Protein Lunches Keep You Balanced' },
       { id: 'the-formula', title: '2. The 3-3-1 Lunch Formula' },
@@ -874,13 +846,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 13,
     views: 8900,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'snack-rule', title: '1. The One Rule That Makes Any Snack Better' },
       { id: 'no-cook', title: '2. No-Cook Snacks (Under 2 Minutes)' },
@@ -1006,13 +971,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 18,
     views: 11200,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-turmeric', title: '1. Why Turmeric Is a Kitchen Staple' },
       { id: 'absorption', title: '2. The Black Pepper & Fat Trick' },
@@ -1141,13 +1099,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 14,
     views: 9600,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'storage-health-decision', title: '1. Why Your Storage Is a Health Decision' },
       { id: 'glass-vs-plastic', title: '2. Glass vs Plastic: The Honest Comparison' },
@@ -1399,13 +1350,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 12,
     views: 8800,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-system', title: '1. Why Most Meal Prep Attempts Fail' },
       { id: 'the-workflow', title: '2. The 5-Step Weekly Workflow' },
@@ -1631,13 +1575,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 9,
     views: 7400,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'the-question', title: '1. The Question Behind the Question' },
       { id: 'what-plastic-releases', title: '2. What Plastic Can Release (and When)' },
@@ -1847,13 +1784,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 11,
     views: 8200,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'produce-goes-bad', title: '1. Why Produce Goes Bad in Your Fridge' },
       { id: 'four-enemies', title: '2. The Four Enemies of Freshness' },
@@ -2077,13 +2007,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 13,
     views: 9000,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-protein-first', title: '1. Why High-Protein Meal Prep Changes Busy Weeks' },
       { id: 'how-much-protein', title: '2. How Much Protein You Actually Need' },
@@ -2303,13 +2226,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 10,
     views: 7800,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-freezer-oven', title: '1. Why Freezer-to-Oven Containers Change Meal Prep' },
       { id: 'thermal-shock', title: '2. Thermal Shock, Explained Simply' },
@@ -2534,13 +2450,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 16,
     views: 11800,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-anti-inflammatory', title: '1. Why Apple Cinnamon Bread Can Be Anti-Inflammatory' },
       { id: 'ingredients', title: '2. Ingredients You Need' },
@@ -2783,13 +2692,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 13,
     views: 10100,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-healthy', title: '1. What Makes This Apple Bread Healthy?' },
       { id: 'ingredients', title: '2. Full Ingredient List + Substitutions' },
@@ -3024,13 +2926,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 12,
     views: 9400,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-stale', title: '1. Why Apple Bread Goes Stale Fast' },
       { id: 'glass-method', title: '2. The Glass Container Method' },
@@ -3254,13 +3149,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 14,
     views: 9800,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'science', title: '1. The Science Behind Cinnamon and Inflammation' },
       { id: 'apples-gut', title: '2. How Apples Support Gut Health' },
@@ -3445,13 +3333,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 11,
     views: 8700,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'comparison', title: '1. Almond Flour vs White Flour (Comparison)' },
       { id: 'benefits', title: '2. Anti-Inflammatory Benefits of Almond Flour' },
@@ -3636,13 +3517,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 17,
     views: 11200,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'protein-breakfast', title: '1. Why Protein at Breakfast Matters' },
       { id: 'hits-30g', title: '2. How This Recipe Hits 30g Protein' },
@@ -3876,13 +3750,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 18,
     views: 12400,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-sunday', title: '1. Why Sunday Meal Prep Changes Everything' },
       { id: 'what-you-need', title: '2. What You Need to Start' },
@@ -4086,13 +3953,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 15,
     views: 10600,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'variation-1', title: '1. Variation 1 – Classic Apple Cinnamon Loaf' },
       { id: 'variation-2', title: '2. Variation 2 – High Protein Apple Almond Loaf' },
@@ -4272,13 +4132,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 10,
     views: 8200,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-freeze', title: '1. Why Freezing Apple Bread Works' },
       { id: 'step-by-step', title: '2. Step-by-Step Freezing Instructions' },
@@ -4467,13 +4320,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 19,
     views: 13300,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-problematic', title: '1. Why Traditional Apple Cider Donuts Are Problematic' },
       { id: 'how', title: '2. How We Make Them Anti-Inflammatory' },
@@ -4699,13 +4545,6 @@ export const BLOG_POSTS: BlogPost[] = [
     commentsCount: 12,
     views: 8900,
     isFeatured: false,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-tools', title: '1. Why Your Baking Tools Matter' },
       { id: 'scale', title: '2. Essential Tool 1 – Digital Kitchen Scale' },
@@ -4892,13 +4731,6 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '9 min read',
     commentsCount: 14,
     views: 3100,
-    author: {
-      name: 'Dr. Elena Vance, MS, CNS',
-      role: 'Clinical Nutritionist & Founder',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
-      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
-      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
-    },
     tableOfContents: [
       { id: 'why-skip-canning', title: '1. Why Skip Canning?' },
       { id: 'ingredients', title: '2. Ingredients' },

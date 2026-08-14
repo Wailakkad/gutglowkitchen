@@ -243,7 +243,6 @@ function BlogPageContent() {
                     </p>
 
                     <div className="flex items-center justify-between pt-2">
-                      <span className="text-xs text-slate-500 font-medium">By {post.author.name}</span>
                       <SavePostButton postId={post.id} mode="inline" />
                     </div>
                   </div>
@@ -292,16 +291,7 @@ function BlogPageContent() {
                     </p>
                   </div>
 
-                  <div className="pt-4 border-t border-stone-100 flex items-center justify-between">
-                    <div className="flex items-center space-x-2">
-                      <img
-                        src={post.author.avatar}
-                        alt={post.author.name}
-                        className="w-7 h-7 rounded-full object-cover"
-                      />
-                      <span className="text-xs font-semibold text-slate-700">{post.author.name}</span>
-                    </div>
-
+                  <div className="pt-4 border-t border-stone-100 flex items-center justify-end">
                     <Link
                       href={`/blog/${post.slug}`}
                       className="text-xs font-bold text-sage hover:text-sage-dark flex items-center space-x-1"
