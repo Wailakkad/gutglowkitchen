@@ -45,5 +45,20 @@ export const CATEGORIES: CategoryInfo[] = [
       'Gluten-free quick breads and fall treats',
       'Gut-friendly spices like cinnamon and ginger'
     ]
+  },
+  {
+    id: 'refrigerator-pickles-ferments',
+    name: 'Refrigerator Pickles & Ferments',
+    slug: 'refrigerator-pickles-ferments',
+    description: 'Easy refrigerator pickle recipes and gut-healthy ferments — no canning, no fuss, just crisp flavor made simple.',
+    tagline: 'Crisp, gut-friendly pickles — no canning required.',
+    iconName: 'GlassWater',
+    image: '/images/refrigerator-pickles.jpg',
+    postsCount: 1,
+    keyBenefits: [
+      'Zero canning equipment needed — just a jar and a fridge',
+      'Crunchy quick pickles ready in as little as 24 hours',
+      'Gut-friendly ferments and easy low-sodium variations'
+    ]
   }
 ];

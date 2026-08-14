@@ -13,7 +13,8 @@ export type PageType =
 export type CategorySlug =
   | 'anti-inflammatory-meal-prep'
   | 'meal-prep-tools-storage'
-  | 'healthy-baking-fall-recipes';
+  | 'healthy-baking-fall-recipes'
+  | 'refrigerator-pickles-ferments';
 
 export interface Author {
   name: string;

@@ -4869,5 +4869,195 @@ export const BLOG_POSTS: BlogPost[] = [
         </p>
       </div>
     `
+  },
+  {
+    id: 'post-easy-homemade-refrigerator-pickles',
+    slug: 'easy-homemade-refrigerator-pickles-no-canning',
+    title: 'Easy Homemade Refrigerator Pickles (No Canning Required)',
+    excerpt: 'Learn how to make crisp, homemade refrigerator pickles with no canning required. A simple, beginner-friendly small-batch recipe ready in 24 hours.',
+    category: 'Refrigerator Pickles & Ferments',
+    categorySlug: 'refrigerator-pickles-ferments',
+    tags: [
+      'Refrigerator Pickles',
+      'Quick Pickles',
+      'No Canning',
+      'Healthy Snacks',
+      'Meal Prep',
+      'Gut Health',
+      'Small Batch',
+      'Clean Eating'
+    ],
+    coverImage: '/images/refrigerator-pickles.jpg',
+    date: 'August 20, 2026',
+    readTime: '9 min read',
+    commentsCount: 14,
+    views: 3100,
+    author: {
+      name: 'Dr. Elena Vance, MS, CNS',
+      role: 'Clinical Nutritionist & Founder',
+      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300',
+      bio: 'Specializing in gut mucosal barrier restoration, autoimmune diet protocol, and metabolic blood sugar stabilization.',
+      credentials: 'MS Human Nutrition, Certified Nutrition Specialist (CNS)'
+    },
+    tableOfContents: [
+      { id: 'why-skip-canning', title: '1. Why Skip Canning?' },
+      { id: 'ingredients', title: '2. Ingredients' },
+      { id: 'how-to-make-refrigerator-pickles', title: '3. How to Make Refrigerator Pickles' },
+      { id: 'crunchiest-pickles-tips', title: '4. Tips for the Crunchiest Pickles' },
+      { id: 'how-long-pickles-last', title: '5. How Long Do Refrigerator Pickles Last?' },
+      { id: 'faq', title: '6. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'homemade refrigerator pickles',
+      metaTitle: 'Easy Homemade Refrigerator Pickles (No Canning Required)',
+      metaDescription: 'Learn how to make crisp, homemade refrigerator pickles with no canning required. A simple, beginner-friendly small-batch recipe ready in 24 hours.',
+      readabilityScore: '92/100 (Very Easy)',
+      schemaType: 'Article & Recipe'
+    },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
+    recipeDetails: {
+      title: 'Easy Homemade Refrigerator Pickles (Single Jar Batch)',
+      prepTime: '15 mins',
+      cookTime: '5 mins',
+      totalTime: '20 mins',
+      servings: 4,
+      calories: 45,
+      protein: '1g',
+      carbs: '11g',
+      fat: '0g',
+      fiber: '2g',
+      glycemicIndex: 'Low (GI < 35)',
+      gutBenefitScore: 8.6,
+      ingredients: [
+        { name: 'Pickling (Kirby) cucumbers', amount: 5, unit: 'small', note: 'Sliced into spears, or left whole if small' },
+        { name: 'Filtered water', amount: 1, unit: 'cup' },
+        { name: 'Distilled white vinegar', amount: 1, unit: 'cup' },
+        { name: 'Kosher salt', amount: 1.5, unit: 'tbsp', note: 'Dissolves fully in the warm brine' },
+        { name: 'Garlic cloves', amount: 3, unit: 'whole', note: 'Smashed to release flavor' },
+        { name: 'Fresh dill sprigs', amount: 2, unit: 'sprigs', note: 'Or 1 tbsp dried dill' },
+        { name: 'Black peppercorns', amount: 1, unit: 'tsp' },
+        { name: 'Mustard seeds', amount: 0.5, unit: 'tsp', note: 'Optional' },
+        { name: 'Red pepper flakes', amount: 0.25, unit: 'tsp', note: 'Optional, for a little heat' }
+      ],
+      steps: [
+        {
+          stepNumber: 1,
+          instruction: 'Wash the cucumbers well and trim off both ends — the blossom end especially contains an enzyme that can make pickles go soft, so don\u2019t skip this. Slice into spears, rounds, or leave whole if small.',
+          tip: 'Fresher cucumbers make crunchier pickles — choose firm, blemish-free ones.'
+        },
+        {
+          stepNumber: 2,
+          instruction: 'Pack the jar. Add garlic, dill, peppercorns, mustard seeds, and pepper flakes to the bottom of a clean glass jar. Pack the cucumbers in tightly, standing spears upright if possible.'
+        },
+        {
+          stepNumber: 3,
+          instruction: 'Make the brine. In a small saucepan, combine water, vinegar, and salt. Heat gently just until the salt fully dissolves — you don\u2019t need it to boil. Let it cool for a few minutes.',
+          tip: 'Pouring boiling brine over cucumbers can soften them — warm-but-not-boiling is the sweet spot.'
+        },
+        {
+          stepNumber: 4,
+          instruction: 'Pour the warm brine over the cucumbers until fully submerged, then seal the jar with a tight-fitting lid.'
+        },
+        {
+          stepNumber: 5,
+          instruction: 'Let the jar cool to room temperature, then refrigerate. Pickles are ready to taste at 24 hours, but flavor develops best at 3\u20135 days.'
+        }
+      ]
+    },
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        If you\u2019ve ever wanted to make your own pickles but felt intimidated by canning equipment, boiling water baths, and sterilizing jars — good news: you don\u2019t need any of that. Refrigerator pickles give you the same crisp, tangy flavor as store-bought (or better) using nothing more than a jar, a simple brine, and your fridge.
+      </p>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        This is the <strong>base recipe we\u2019ll build every future pickle variation from</strong>, so bookmark this one.
+      </p>
+
+      <h2 id="why-skip-canning" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. Why Skip Canning?
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Refrigerator pickles rely on cold storage instead of heat-processing to stay safe, which means:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>No canning equipment or special jars needed.</strong></li>
+        <li><strong>Ready to eat in as little as 24 hours</strong> (canned pickles need weeks to cure).</li>
+        <li><strong>Pickles stay crisper</strong>, since they\u2019re never heated.</li>
+        <li><strong>Perfect for small batches</strong> — no need to commit to a dozen jars at once.</li>
+      </ul>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        The trade-off: refrigerator pickles need to stay refrigerated and are best eaten within <strong>2\u20133 weeks</strong>, rather than shelf-stored for a year like canned pickles. For most home cooks making a jar or two at a time, that\u2019s not a downside at all.
+      </p>
+
+      <h2 id="ingredients" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. Ingredients
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Just eight pantry staples stand between you and the crunchiest pickles you\u2019ve ever made:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>4\u20135 small pickling (Kirby) cucumbers</strong> — sliced into spears or left whole if small.</li>
+        <li><strong>1 cup water</strong></li>
+        <li><strong>1 cup distilled white vinegar</strong></li>
+        <li><strong>1\u00bd tablespoons kosher salt</strong></li>
+        <li><strong>2\u20133 garlic cloves, smashed</strong></li>
+        <li><strong>1\u20132 fresh dill sprigs</strong> (or 1 tablespoon dried dill)</li>
+        <li><strong>1 teaspoon black peppercorns</strong></li>
+        <li><strong>\u00bd teaspoon mustard seeds</strong> (optional)</li>
+        <li><strong>\u00bc teaspoon red pepper flakes</strong> (optional, for a little heat)</li>
+      </ul>
+
+      <h2 id="how-to-make-refrigerator-pickles" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. How to Make Refrigerator Pickles
+      </h2>
+      <ol class="list-decimal pl-6 space-y-3 text-slate-700 mb-6">
+        <li><strong>Prep the cucumbers.</strong> Wash cucumbers well and trim off both ends — the blossom end especially contains an enzyme that can make pickles go soft, so don\u2019t skip this step. Slice into spears, rounds, or leave whole if small.</li>
+        <li><strong>Pack the jar.</strong> Add garlic, dill, peppercorns, mustard seeds, and pepper flakes to the bottom of a clean glass jar. Pack the cucumbers in tightly, standing spears upright if possible.</li>
+        <li><strong>Make the brine.</strong> In a small saucepan, combine water, vinegar, and salt. Heat gently just until the salt fully dissolves — you don\u2019t need it to boil. Let it cool for a few minutes.</li>
+        <li><strong>Pour and seal.</strong> Pour the warm brine over the cucumbers until fully submerged. Seal the jar with a tight-fitting lid.</li>
+        <li><strong>Refrigerate.</strong> Let the jar cool to room temperature, then refrigerate. Pickles are ready to taste at 24 hours, but flavor develops best at 3\u20135 days.</li>
+      </ol>
+
+      <h2 id="crunchiest-pickles-tips" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. Tips for the Crunchiest Pickles
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li>Use the <strong>freshest cucumbers you can find</strong> — older cucumbers make softer pickles.</li>
+        <li><strong>Always trim the blossom end.</strong></li>
+        <li>Don\u2019t skip the brine cooling step before sealing — pouring boiling brine over cucumbers can soften them.</li>
+        <li>Keep cucumbers <strong>fully submerged</strong> under the brine the whole time they\u2019re stored.</li>
+      </ul>
+
+      <h2 id="how-long-pickles-last" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. How Long Do Refrigerator Pickles Last?
+      </h2>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        Stored in the fridge in a sealed jar, refrigerator pickles stay fresh and crisp for <strong>2\u20133 weeks</strong>. If you notice cloudy brine, an off smell, or visible mold, discard them.
+      </p>
+
+      <h2 id="faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Are refrigerator pickles fermented?</h4>
+          <p class="text-slate-700 leading-relaxed">No — this quick-pickle method uses a vinegar brine, not fermentation. True fermented pickles use a salt brine and beneficial bacteria over several days, which is a different (and slower) process we\u2019ll cover in a future gut-health-focused pickle guide.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I reuse the brine for a second batch?</h4>
+          <p class="text-slate-700 leading-relaxed">It\u2019s best to make a fresh batch of brine each time — reused brine is diluted in flavor and less reliably safe for a second round of raw vegetables.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I use this method for other vegetables?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — this exact brine ratio works well for carrots, green beans, red onions, and more. We\u2019ll cover vegetable-specific variations in upcoming guides.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Your Next Step</h4>
+        <p class="text-slate-800 text-sm leading-relaxed italic">
+          Looking for more ways to use this base brine? Check out our upcoming guides on classic garlic dill pickles, spicy and sweet variations, and gut-healthy low-sodium pickles. And when you\u2019re ready, <a href="/blog" class="text-sage font-bold underline hover:text-sage-dark">explore more gut-friendly guides on Gut Glow Kitchen</a>.
+        </p>
+      </div>
+    `
   }
 ];
