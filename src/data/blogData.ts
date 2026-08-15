@@ -20,7 +20,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Healthy Anti-Inflammatory Meals',
       'Batch Cooking'
     ],
-    coverImage: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786806119/7-Day_Anti-Inflammatory_Meal_Prep_Guide_for_Busy_Women.jpg',
     date: 'August 4, 2026',
     readTime: '12 min read',
     commentsCount: 24,
@@ -47,7 +47,6 @@ export const BLOG_POSTS: BlogPost[] = [
       readabilityScore: '90/100 (Very Easy)',
       schemaType: 'Article & Recipe'
     },
-    affiliateProductIds: ['prod-vitamix-blender'],
     recipeDetails: {
       title: 'Golden Turmeric Salmon & Sweet Potato Meal Prep Bowls',
       prepTime: '20 mins',
@@ -401,7 +400,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Anti-Inflammatory Meal Prep',
     categorySlug: 'anti-inflammatory-meal-prep',
     tags: ['Zucchini', 'Healthy Recipes', 'Anti-Inflammatory', 'Vegetables', 'Low-Carb', 'Meal Prep'],
-    coverImage: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786806116/10_Healthy_Zucchini_Recipes_for_an_Anti-Inflammatory_Diet.jpg',
     date: 'August 1, 2026',
     readTime: '9 min read',
     commentsCount: 11,
@@ -570,7 +569,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Anti-Inflammatory Meal Prep',
     categorySlug: 'anti-inflammatory-meal-prep',
     tags: ['Zucchini', 'Healthy Desserts', 'Baking', 'Clean Eating', 'Low Sugar', 'Anti-Inflammatory'],
-    coverImage: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786806048/7_Healthy_Zucchini_Dessert_Recipes_That_Still_Taste_Like_a_Treat.jpg',
     date: 'July 29, 2026',
     readTime: '8 min read',
     commentsCount: 9,
@@ -701,7 +700,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Anti-Inflammatory Meal Prep',
     categorySlug: 'anti-inflammatory-meal-prep',
     tags: ['High-Protein Lunch', 'High-Protein Recipes', 'Meal Prep', 'Anti-Inflammatory', 'Lunch Ideas', 'Low-Carb'],
-    coverImage: 'https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786806106/12_High-Protein_Anti-Inflammatory_Lunch_Ideas_30_Grams_Each.jpg',
     date: 'July 26, 2026',
     readTime: '10 min read',
     commentsCount: 15,
@@ -840,7 +839,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Anti-Inflammatory Meal Prep',
     categorySlug: 'anti-inflammatory-meal-prep',
     tags: ['Anti-Inflammation Snacks', 'Healthy Snacks', 'Low Inflammation', 'Clean Eating', 'Quick Snacks', 'Anti-Inflammatory'],
-    coverImage: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786806049/15_Low-Inflammation_Snack_Ideas_That_Keep_You_Full_No_Crashes.jpg',
     date: 'July 23, 2026',
     readTime: '9 min read',
     commentsCount: 13,
@@ -965,7 +964,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Anti-Inflammatory Meal Prep',
     categorySlug: 'anti-inflammatory-meal-prep',
     tags: ['Turmeric', 'Golden Milk', 'Anti-Inflammatory', 'Healthy Recipes', 'Spices', 'Meal Prep'],
-    coverImage: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786806032/10_Turmeric_Recipes_for_Inflammation_Golden_Meals_Sips.jpg',
     date: 'July 20, 2026',
     readTime: '10 min read',
     commentsCount: 18,
@@ -1093,7 +1092,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Meal Prep Tools & Storage',
     categorySlug: 'meal-prep-tools-storage',
     tags: ['Glass Meal Prep Containers', 'Borosilicate Glass Food Storage', 'Anti-Inflammatory Meal Prep', 'Non Toxic Kitchen Storage', 'Meal Prep'],
-    coverImage: 'https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786804474/Best_Glass_Meal_Prep_Containers_for_Anti-Inflammatory_Diet_2026_Guide.jpg',
     date: 'August 5, 2026',
     readTime: '11 min read',
     commentsCount: 14,
@@ -1344,7 +1343,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Meal Prep Tools & Storage',
     categorySlug: 'meal-prep-tools-storage',
     tags: ['Anti-Inflammatory Meal Prep', 'Healthy Zucchini Recipes', 'High Protein Meal Prep', 'Glass Meal Prep Containers', 'Meal Prep System'],
-    coverImage: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786804483/How_to_Meal_Prep_Anti-Inflammatory_Recipes_for_the_Week_Step-by-Step_System.jpg',
     date: 'August 6, 2026',
     readTime: '11 min read',
     commentsCount: 12,
@@ -1569,7 +1568,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Meal Prep Tools & Storage',
     categorySlug: 'meal-prep-tools-storage',
     tags: ['Glass Meal Prep Containers', 'Non Toxic Kitchen Storage', 'Borosilicate Glass Food Storage', 'Anti-Inflammatory Meal Prep', 'Healthy Meal Prep'],
-    coverImage: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786804421/Why_Glass_Is_Better_Than_Plastic_for_Healthy_Meal_Prep_The_Honest_Science.jpg',
     date: 'August 7, 2026',
     readTime: '10 min read',
     commentsCount: 9,
@@ -1778,7 +1777,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Meal Prep Tools & Storage',
     categorySlug: 'meal-prep-tools-storage',
     tags: ['Airtight Food Storage', 'Glass Meal Prep Containers', 'Produce Storage', 'Non Toxic Kitchen Storage', 'Healthy Meal Prep'],
-    coverImage: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786804448/How_to_Keep_Produce_Fresh_Longer_with_Airtight_Glass_Storage.jpg',
     date: 'August 8, 2026',
     readTime: '10 min read',
     commentsCount: 11,
@@ -2001,7 +2000,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Meal Prep Tools & Storage',
     categorySlug: 'meal-prep-tools-storage',
     tags: ['High Protein Meal Prep', 'Glass Meal Prep Containers', 'Anti-Inflammatory Meal Prep', 'Healthy Meal Prep', 'Meal Prep System'],
-    coverImage: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786804431/High-Protein_Meal_Prep_for_Busy_Weeks_A_Storage-First_Plan.jpg',
     date: 'August 9, 2026',
     readTime: '11 min read',
     commentsCount: 13,
@@ -2220,7 +2219,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Meal Prep Tools & Storage',
     categorySlug: 'meal-prep-tools-storage',
     tags: ['Freezer Safe Meal Prep Containers', 'Oven Safe Glass Containers', 'Borosilicate Glass Food Storage', 'Glass Meal Prep Containers', 'Healthy Meal Prep'],
-    coverImage: 'https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786804434/Freezer-to-Oven_Safe_Meal_Prep_Containers_The_Complete_Guide.jpg',
     date: 'August 10, 2026',
     readTime: '10 min read',
     commentsCount: 10,
@@ -2444,7 +2443,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Healthy Baking',
       'Meal Prep'
     ],
-    coverImage: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786817659/Anti-Inflammatory_Apple_Cinnamon_Bread_Recipe_Moist_Gluten_Free.jpg',
     date: 'August 12, 2026',
     readTime: '10 min read',
     commentsCount: 16,
@@ -2686,7 +2685,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Healthy Baking',
       'Meal Prep'
     ],
-    coverImage: 'https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786824110/Healthy_Apple_Bread_Recipe_Moist_Easy_Clean_Eating_Approved.jpg',
     date: 'August 12, 2026',
     readTime: '9 min read',
     commentsCount: 13,
@@ -2920,7 +2919,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Clean Eating',
       'Baking Tips'
     ],
-    coverImage: 'https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786805933/How_to_Store_Homemade_Apple_Bread_Fresh_for_5_Days_Glass_Storage_Guide.jpg',
     date: 'August 12, 2026',
     readTime: '9 min read',
     commentsCount: 12,
@@ -3143,7 +3142,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Fall Recipes',
       'Clean Eating'
     ],
-    coverImage: 'https://images.unsplash.com/photo-1513116476489-7635e79feb27?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786799819/Why_Cinnamon_and_Apples_Fight_Inflammation.jpg',
     date: 'August 14, 2026',
     readTime: '9 min read',
     commentsCount: 14,
@@ -3166,7 +3165,7 @@ export const BLOG_POSTS: BlogPost[] = [
       readabilityScore: '92/100 (Very Easy)',
       schemaType: 'Article'
     },
-    affiliateProductIds: ['prod-mcirco-glass-containers', 'prod-digital-kitchen-scale'],
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
     content: `
       <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
         Some food pairings are just good luck. Cinnamon and apples are one of them — fall's favorite flavor combo happens to be one of the most calming duos in the kitchen. The science is real, the benefits are measurable, and the easiest way to enjoy both is a warm slice of <strong>healthy apple bread</strong>. Here is what the research actually says, and how to put it to work in your baking.
@@ -3327,7 +3326,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Quick Bread Recipes',
       'Baking Tips'
     ],
-    coverImage: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786799787/Why_Almond_Flour_Makes_the_Best_Anti-Inflammatory_Apple_Bread.jpg',
     date: 'August 15, 2026',
     readTime: '9 min read',
     commentsCount: 11,
@@ -3350,7 +3349,7 @@ export const BLOG_POSTS: BlogPost[] = [
       readabilityScore: '93/100 (Very Easy)',
       schemaType: 'Article'
     },
-    affiliateProductIds: ['prod-digital-kitchen-scale', 'prod-mcirco-glass-containers'],
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
     content: `
       <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
         Walk down any baking aisle and the flour section tells you everything: white flour still owns the shelf space, but <strong>almond flour</strong> quietly wins the health argument. For <strong>anti-inflammatory apple bread</strong>, it is not even close. Here is the honest comparison, why almond flour earns its place, and how to bake with it so your loaf is moist, tender, and never gritty.
@@ -3511,7 +3510,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Healthy Baking',
       'Clean Eating'
     ],
-    coverImage: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786799768/High_Protein_Anti-Inflammatory_Apple_Bread_Recipe.jpg',
     date: 'August 15, 2026',
     readTime: '10 min read',
     commentsCount: 17,
@@ -3534,7 +3533,7 @@ export const BLOG_POSTS: BlogPost[] = [
       readabilityScore: '91/100 (Very Easy)',
       schemaType: 'Recipe & Article'
     },
-    affiliateProductIds: ['prod-digital-kitchen-scale', 'prod-mcirco-glass-containers'],
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
     recipeDetails: {
       title: 'High Protein Anti-Inflammatory Apple Bread',
       prepTime: '20 mins',
@@ -3744,7 +3743,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Clean Eating',
       'Weekly System'
     ],
-    coverImage: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786799775/Anti-Inflammatory_Apple_Bread_Breakfast_Meal_Prep_System.jpg',
     date: 'August 16, 2026',
     readTime: '10 min read',
     commentsCount: 18,
@@ -3768,7 +3767,7 @@ export const BLOG_POSTS: BlogPost[] = [
       readabilityScore: '92/100 (Very Easy)',
       schemaType: 'Article'
     },
-    affiliateProductIds: ['prod-mcirco-glass-containers', 'prod-digital-kitchen-scale'],
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
     content: `
       <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
         Sunday evening, one hour, and a single loaf of apple bread — that is the whole system. By Monday morning you will have five warm, clean breakfasts ready to grab, and zero decisions to make before coffee. This <strong>apple bread meal prep</strong> plan is the easiest anti-inflammatory breakfast routine we have ever built.
@@ -3947,7 +3946,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Clean Eating',
       'Quick Bread Recipes'
     ],
-    coverImage: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786799806/5_Anti-Inflammatory_Apple_Bread_Variations_for_Fall_Baking.jpg',
     date: 'August 17, 2026',
     readTime: '10 min read',
     commentsCount: 15,
@@ -4126,7 +4125,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Healthy Baking',
       'Meal Prep'
     ],
-    coverImage: 'https://images.unsplash.com/photo-1585699324551-f6c309eedeca?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786799724/How_to_Freeze_Apple_Bread_Correctly.jpg',
     date: 'August 17, 2026',
     readTime: '7 min read',
     commentsCount: 10,
@@ -4314,7 +4313,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Healthy Baking',
       'Quick Bread Recipes'
     ],
-    coverImage: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786799700/Healthy_Apple_Cider_Donuts_Recipe.jpg',
     date: 'August 19, 2026',
     readTime: '9 min read',
     commentsCount: 19,
@@ -4338,7 +4337,7 @@ export const BLOG_POSTS: BlogPost[] = [
       readabilityScore: '92/100 (Very Easy)',
       schemaType: 'Recipe & Article'
     },
-    affiliateProductIds: ['prod-digital-kitchen-scale', 'prod-mcirco-glass-containers'],
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
     recipeDetails: {
       title: 'Healthy Apple Cider Donuts',
       prepTime: '20 mins',
@@ -4539,7 +4538,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Baking Tools',
       'Clean Eating'
     ],
-    coverImage: 'https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&q=80&w=1200',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786799701/Anti-Inflammatory_Baking_Starter_Kit.jpg',
     date: 'August 20, 2026',
     readTime: '9 min read',
     commentsCount: 12,
@@ -4563,7 +4562,7 @@ export const BLOG_POSTS: BlogPost[] = [
       readabilityScore: '93/100 (Very Easy)',
       schemaType: 'Article'
     },
-    affiliateProductIds: ['prod-digital-kitchen-scale', 'prod-mcirco-glass-containers'],
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
     content: `
       <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
         Before you bake your first <strong>anti-inflammatory apple bread</strong>, spend ten minutes on this: the starter kit. Great baking is 20% recipe and 80% setup — the right tools make every loaf come out right, every time. You do not need a specialty kitchen. You need about five honest tools, and this guide tells you exactly which ones.
@@ -4726,7 +4725,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Small Batch',
       'Clean Eating'
     ],
-    coverImage: '/images/refrigerator-pickles.jpg',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1786824625/Easy_Homemade_Refrigerator_Pickles_No_Canning_Required.jpg',
     date: 'August 20, 2026',
     readTime: '9 min read',
     commentsCount: 14,

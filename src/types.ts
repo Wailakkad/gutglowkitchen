@@ -87,6 +87,9 @@ export interface Product {
   category: 'Kitchen Tools' | 'Gut Supplements' | 'Pantry Essentials' | 'Meal Prep Containers';
   categorySlug: 'kitchen-tools' | 'gut-supplements' | 'pantry-essentials' | 'meal-prep-containers';
   price: string;
+  listPrice?: string;
+  discount?: string;
+  pricePerUnit?: string;
   rating: number;
   reviewsCount: number;
   image: string;
