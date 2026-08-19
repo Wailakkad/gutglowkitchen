@@ -27,6 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.seo.metaTitle,
     description: post.seo.metaDescription,
     keywords: post.tags,
+    pinterest: {
+      richPin: true
+    },
     openGraph: {
       title: post.seo.metaTitle,
       description: post.seo.metaDescription,

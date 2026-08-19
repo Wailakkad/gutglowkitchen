@@ -14,7 +14,9 @@ export type CategorySlug =
   | 'anti-inflammatory-meal-prep'
   | 'meal-prep-tools-storage'
   | 'healthy-baking-fall-recipes'
-  | 'refrigerator-pickles-ferments';
+  | 'refrigerator-pickles-ferments'
+  | 'healthy-snacks'
+  | 'bean-salad';
 
 export interface Ingredient {
   name: string;
@@ -58,6 +60,10 @@ export interface SeoData {
   metaDescription: string;
   readabilityScore: string;
   schemaType: string;
+  pinterestTitle?: string;
+  pinterestDescription?: string;
+  pinterestKeywords?: string[];
+  pinterestPinHeadlines?: string[];
 }
 
 export interface BlogPost {

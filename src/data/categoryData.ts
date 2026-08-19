@@ -60,5 +60,35 @@ export const CATEGORIES: CategoryInfo[] = [
       'Crunchy quick pickles ready in as little as 24 hours',
       'Gut-friendly ferments and easy low-sodium variations'
     ]
+  },
+  {
+    id: 'healthy-snacks',
+    name: 'Healthy Snacks',
+    slug: 'healthy-snacks',
+    description: 'Wholesome snack recipes made with whole-food ingredients — sweet and savory bites, snack ideas for work, and make-ahead options that fit a balanced diet.',
+    tagline: 'Snack smarter with whole-food bites you can prep ahead.',
+    iconName: 'Apple',
+    image: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=800',
+    postsCount: 4,
+    keyBenefits: [
+      'Sweet and savory snacks made without refined sugar',
+      'Portable, work-friendly snack ideas for busy days',
+      'Fiber-rich pairings that keep you satisfied between meals'
+    ]
+  },
+  {
+    id: 'bean-salad',
+    name: 'Bean Salad',
+    slug: 'bean-salad',
+    description: 'High-protein bean salad recipes for meal prep and cold lunches — Mediterranean, three bean, five bean, and quinoa versions with simple homemade dressings.',
+    tagline: 'Make-ahead bean salads that keep your lunches easy.',
+    iconName: 'Salad',
+    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800',
+    postsCount: 4,
+    keyBenefits: [
+      'Plant-based, fiber-rich protein for balanced lunches',
+      'Cold salad recipes that improve in flavor after a day',
+      'Simple dressings and storage tips for week-long meal prep'
+    ]
   }
 ];

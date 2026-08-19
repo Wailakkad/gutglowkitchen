@@ -4890,5 +4890,1940 @@ export const BLOG_POSTS: BlogPost[] = [
         </p>
       </div>
     `
+  },
+  {
+    id: 'post-healthy-sweet-snacks-15',
+    slug: 'anti-inflammatory-healthy-sweet-snacks',
+    title: '15 Anti-Inflammatory Healthy Sweet Snacks (No Refined Sugar)',
+    excerpt: 'Fifteen healthy sweet snacks with no refined sugar: yogurt berry bowls, date and nut energy bites, chia pudding, baked apples, and more easy wholesome treats.',
+    category: 'Healthy Snacks',
+    categorySlug: 'healthy-snacks',
+    tags: [
+      'Healthy Sweet Snacks',
+      'Healthy Sweet Treats',
+      'No Refined Sugar Snacks',
+      'Easy Healthy Snacks',
+      'Healthy Snack Recipes',
+      'Naturally Sweet Snacks',
+      'Clean Eating Snacks'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177804/15_Anti-Inflammatory_Healthy_Sweet_Snacks_No_Refined_Sugar.jpg',
+    date: 'August 21, 2026',
+    readTime: '11 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'what-makes-better', title: '1. What Makes a Sweet Snack a Better Choice?' },
+      { id: 'sweet-snack-ideas', title: '2. 15 Healthy Sweet Snack Ideas' },
+      { id: 'choose-sweet-snacks', title: '3. How to Choose Healthy Sweet Snacks' },
+      { id: 'store-sweet-snacks', title: '4. How to Store These Snacks' },
+      { id: 'ingredient-swaps', title: '5. Easy Ingredient Swaps' },
+      { id: 'sweet-snack-faq', title: '6. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'healthy sweet snacks',
+      metaTitle: '15 Anti-Inflammatory Healthy Sweet Snacks (No Refined Sugar)',
+      metaDescription: 'Fifteen healthy sweet snacks made without refined sugar: berry bowls, energy bites, chia pudding, and baked apples — easy wholesome treats for a balanced diet.',
+      readabilityScore: '91/100 (Very Easy)',
+      schemaType: 'Article',
+      pinterestTitle: '15 Anti-Inflammatory Healthy Sweet Snacks (No Refined Sugar)',
+      pinterestDescription: 'Fifteen easy healthy sweet snacks with no refined sugar — yogurt berry bowls, date energy bites, chia pudding, baked apples, and more wholesome treats.',
+      pinterestKeywords: [
+        'healthy sweet snacks',
+        'healthy sweet treats',
+        'no refined sugar snacks',
+        'easy healthy snacks',
+        'healthy snack recipes',
+        'anti-inflammatory snacks',
+        'clean eating snacks'
+      ],
+      pinterestPinHeadlines: [
+        '15 Healthy Sweet Snacks with No Refined Sugar',
+        'Naturally Sweet Snacks Ready in 10 Minutes',
+        'Wholesome Sweet Treats for Afternoon Cravings'
+      ]
+    },
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        Some days just call for something sweet — and that does not have to mean reaching for a candy bar or a packaged granola bar. These 15 healthy sweet snacks use whole-food ingredients like fruit, rolled oats, nuts, seeds, and yogurt, with dates, banana, and cinnamon doing the sweetening instead of refined sugar. Each one is an easy snack recipe that fits well into a balanced eating pattern, and most take under ten minutes to put together.
+      </p>
+
+      <h2 id="what-makes-better" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. What Makes a Sweet Snack a Better Choice?
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        A snack can taste sweet and still be made of ingredients commonly included in anti-inflammatory eating patterns. The difference usually comes down to three things:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Whole-food sweetness:</strong> fruit, dates, and mashed banana bring natural sugars along with fiber, so the sweetness arrives packaged with something your body can actually use.</li>
+        <li><strong>Fiber and protein:</strong> a sweet snack with fiber (oats, fruit, seeds) plus a little protein or fat (yogurt, nut butter, nuts) keeps you fuller than a sugary snack alone.</li>
+        <li><strong>No refined sugar:</strong> snacks without refined sugar skip the sharp glucose spike-and-crash cycle, which is another reason they pair well with steady-energy workdays.</li>
+      </ul>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        None of this is a medical claim — it is simply what the food does: fiber slows digestion and protein adds staying power. If those two things are at the center of your snack, you are already a step ahead of most packaged options.
+      </p>
+
+      <h2 id="sweet-snack-ideas" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. 15 Healthy Sweet Snack Ideas
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Every idea below is a recipe you can eyeball in minutes. Mix and match, double the batch, and keep the ones you love on repeat.
+      </p>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">1. Greek Yogurt Berry Bowl</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Creamy, tangy, and lightly sweet — the dessert-like quality comes from berries, not syrup. One of the easiest healthy sweet treats you can make.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 cup (240 g) plain Greek yogurt, 1/2 cup (75 g) mixed berries, 1 tbsp chia seeds, a pinch of cinnamon.</li>
+        <li><strong>Preparation:</strong> stir the chia and cinnamon into the yogurt, top with berries, and let it sit for 5 minutes so the chia softens.</li>
+        <li><strong>Why it works:</strong> protein from the yogurt, fiber from the berries, and a texture that genuinely feels like dessert.</li>
+        <li><strong>Variation:</strong> swirl in a spoon of almond butter, or warm the berries for 30 seconds for a hot-cold contrast.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">2. Apple Slices with Nut Butter</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">The classic pairing done right: crisp apple, creamy nut butter, and cinnamon. Zero added sugar, full sweet-tooth satisfaction.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 apple, sliced, 1–2 tbsp almond or peanut butter, 1/4 tsp cinnamon.</li>
+        <li><strong>Preparation:</strong> spread the nut butter over the slices, or serve it as a dip, and sprinkle with cinnamon.</li>
+        <li><strong>Why it works:</strong> the apple supplies fiber while the nut butter supplies protein and healthy fat — a naturally sweet snack that holds you for hours.</li>
+        <li><strong>Variation:</strong> swap the apple for pear, or add chopped walnuts on top for crunch.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">3. Banana Oat Bites</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Two ingredients do most of the work here, and the result is a chewy, soft no-bake snack that tastes like a cookie but is made from fruit and whole grains.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 ripe bananas, 1 1/2 cups (135 g) rolled oats, 1/2 tsp cinnamon, 2 tbsp raisins (optional).</li>
+        <li><strong>Preparation:</strong> mash the bananas, stir in the oats, cinnamon, and raisins, roll into 10–12 balls, and chill for 30 minutes.</li>
+        <li><strong>Why it works:</strong> whole-grain fiber plus naturally sweet banana, with no sugar added at all.</li>
+        <li><strong>Variation:</strong> add 1 tbsp cacao powder for a chocolate version, or a spoon of peanut butter.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">4. Date and Nut Energy Bites</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">The original clean snack bar, in bite form. Dates give the caramel-like sweetness; nuts and cacao do the heavy lifting.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 cup (150 g) pitted dates, 3/4 cup almonds (or cashews), 2 tbsp unsweetened cacao powder, a pinch of sea salt.</li>
+        <li><strong>Preparation:</strong> pulse the almonds in a food processor until crumbly, add the rest, and process until a sticky dough forms. Roll into 10 balls and chill 30 minutes.</li>
+        <li><strong>Why it works:</strong> dates supply fiber and magnesium alongside their sweetness — a nutrient-dense snack that travels anywhere.</li>
+        <li><strong>Variation:</strong> roll the finished balls in shredded coconut or crushed walnuts.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">5. Chia Pudding</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Chia seeds absorb liquid into a pudding-like texture that takes about five minutes of actual work. An excellent make-ahead sweet snack.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 3 tbsp chia seeds, 1 cup (240 ml) milk of choice, 1/2 tsp vanilla extract, 1/2 cup berries.</li>
+        <li><strong>Preparation:</strong> whisk the chia, milk, and vanilla in a jar, wait 5 minutes, whisk again to break up clumps, then refrigerate for at least 2 hours or overnight.</li>
+        <li><strong>Why it works:</strong> chia is rich in fiber and plant-based omega-3s — a wholesome option with a mousse-like texture.</li>
+        <li><strong>Variation:</strong> stir in 1 tbsp cacao for chocolate pudding, or top with chopped nuts.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">6. Frozen Yogurt Berry Bites</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Little frozen yogurt drops that eat like berry sorbet. They take 5 minutes to make and are perfect for a hot afternoon.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 cup (240 g) plain Greek yogurt, 1 cup (150 g) berries (blueberries or raspberries work best), 1 tsp honey or maple syrup (optional).</li>
+        <li><strong>Preparation:</strong> gently fold the berries into the yogurt, drop teaspoon-sized mounds onto a parchment-lined tray, and freeze for 2 hours.</li>
+        <li><strong>Why it works:</strong> portioned automatically, high in protein, and naturally sweet from the fruit.</li>
+        <li><strong>Variation:</strong> add a little vanilla extract, or dip the frozen bites in melted dark chocolate for a special version.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">7. Cinnamon Baked Apples</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Warm, soft, and fragrant — this snack smells like fall baking but needs just four ingredients. The oven does the work while you do other things.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 apples, 1 tsp ground cinnamon, 2 tbsp chopped walnuts, 2 tbsp water.</li>
+        <li><strong>Preparation:</strong> core and dice the apples, toss with cinnamon, place in a small baking dish with the water and walnuts, and bake at 177°C (350°F) for 25 minutes.</li>
+        <li><strong>Why it works:</strong> a warm snack that is mostly whole fruit, with healthy fats from the walnuts.</li>
+        <li><strong>Variation:</strong> swap walnuts for pecans, or add 1/2 tsp grated ginger.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">8. Cacao Energy Bites</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">The chocolate-lover version of the date and nut bite. Deep cocoa flavor, zero dairy, and no refined sugar.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 cup (150 g) pitted dates, 1/2 cup walnuts, 2 tbsp cacao powder, 2 tbsp shredded coconut (plus extra for rolling).</li>
+        <li><strong>Preparation:</strong> process the walnuts until crumbly, add the dates, cacao, and coconut, and blend to a dough. Roll into 10 balls and chill.</li>
+        <li><strong>Why it works:</strong> the cacao brings richness and antioxidants to a fiber-rich base — a small, satisfying bite.</li>
+        <li><strong>Variation:</strong> add 1/4 tsp espresso powder for a mocha note, or orange zest for a citrus lift.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">9. Banana Peanut Butter Bites</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Sandwich-style frozen banana rounds with a thin layer of peanut butter between them. Like a tiny ice-cream sandwich.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 banana, sliced into 1 cm (1/2-inch) rounds, 2 tbsp natural peanut butter.</li>
+        <li><strong>Preparation:</strong> spread a thin layer of peanut butter on one side of each round, sandwich pairs together, and freeze for 30 minutes.</li>
+        <li><strong>Why it works:</strong> portioned sweetness with protein and healthy fat to balance the natural sugars.</li>
+        <li><strong>Variation:</strong> use almond butter or sunflower seed butter, and sprinkle a pinch of cinnamon between the layers.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">10. Berry Chia Cups</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Layered parfait cups of chia pudding and berry puree in small glasses or jars — pretty enough for guests, easy enough for a weekday snack.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 4 tbsp chia seeds, 1 cup (240 ml) milk of choice, 1/2 tsp vanilla, 1 cup (150 g) berries, 1 tbsp water.</li>
+        <li><strong>Preparation:</strong> make the chia pudding as in idea 5. Simmer the berries with the water for 3 minutes and mash into a loose puree. Layer pudding and puree in two glasses, then chill.</li>
+        <li><strong>Why it works:</strong> the intense fruit layer makes a small portion feel like a full dessert.</li>
+        <li><strong>Variation:</strong> add a spoon of Greek yogurt between layers for extra creaminess.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">11. Overnight Oats Snack Cups</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">A snack-sized portion of overnight oats — softer and lighter than a breakfast bowl, with the same staying power.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1/2 cup (45 g) rolled oats, 1/2 cup (120 ml) milk of choice, 1 tbsp chia seeds, 1/2 cup (75 g) berries, 1/2 tsp cinnamon.</li>
+        <li><strong>Preparation:</strong> stir everything together in a jar, seal, and refrigerate overnight. Add the berries on top before eating.</li>
+        <li><strong>Why it works:</strong> the oats and chia give you whole-grain fiber with a pudding-like finish.</li>
+        <li><strong>Variation:</strong> use grated apple and walnuts instead of berries for a crumble-style cup.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">12. Fruit and Seed Clusters</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Roasted seed clusters with a touch of dried fruit — crunchy, faintly sweet, and dangerously easy to snack on.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 cup mixed seeds (pumpkin and sunflower), 1/4 cup dried cranberries or raisins, 1/2 tsp cinnamon, 1 tbsp maple syrup, 1 tsp olive oil.</li>
+        <li><strong>Preparation:</strong> toss everything together, spread on a parchment-lined tray, and bake at 150°C (300°F) for 15 minutes. Let cool completely so the clusters set.</li>
+        <li><strong>Why it works:</strong> crisp, salty-sweet, and full of seeds — a great cradle for those week-of-the-month crunchy cravings.</li>
+        <li><strong>Variation:</strong> add 2 tbsp chopped pecans, or a pinch of sea salt on top.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">13. Yogurt Bark</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Greek yogurt frozen into a crisp bark studded with berries and nuts. Break it into shards and you have a week of crunchy-yet-creamy snacks.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 cups (480 g) plain Greek yogurt, 1/2 cup berries, 2 tbsp chopped almonds or pistachios, 1/2 tsp vanilla.</li>
+        <li><strong>Preparation:</strong> spread the yogurt about 1 cm (1/2-inch) thick on a parchment-lined tray, scatter the toppings, and freeze for 3 hours. Snap into shards.</li>
+        <li><strong>Why it works:</strong> a high-protein, low-sugar frozen treat that stores brilliantly in the freezer.</li>
+        <li><strong>Variation:</strong> drizzle melted dark chocolate over the bark before freezing for a weekend version.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">14. Naturally Sweetened Oat Bites</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Soft-baked oat bites sweetened only with banana and applesauce — like a muffin top you can hold in one hand.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 cup (90 g) rolled oats blended to a coarse flour, 1/2 cup unsweetened applesauce, 1 ripe banana, 1 tsp cinnamon, 1/2 tsp baking powder.</li>
+        <li><strong>Preparation:</strong> mash the banana, stir in everything else, scoop 12 small mounds onto a lined tray, and bake at 177°C (350°F) for 12 minutes.</li>
+        <li><strong>Why it works:</strong> fruit does the sweetening and the oats do the filling — a wholesome snack with real staying power.</li>
+        <li><strong>Variation:</strong> fold in 2 tbsp cacao nibs or chopped dark chocolate.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">15. Dark Chocolate Fruit and Nut Combos</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">The adult candy box: dark chocolate, nuts, and dried fruit in a small bowl. A little goes a long way when the chocolate is good.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 squares of 70% (or higher) dark chocolate, 6 almonds or walnuts, 2 dried apricots or dried cherries.</li>
+        <li><strong>Preparation:</strong> no prep at all — assemble in a tiny bowl or jar and eat slowly.</li>
+        <li><strong>Why it works:</strong> the bitter-sweet chocolate plus nuts and fruit creates a balanced bite with less sugar than any candy bar.</li>
+        <li><strong>Variation:</strong> try orange segments with dark chocolate and pistachios.</li>
+      </ul>
+
+      <h2 id="choose-sweet-snacks" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. How to Choose Healthy Sweet Snacks
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        When you are at the store (or staring at your own pantry), use these quick checks to separate wholesome sweet snacks from candy in disguise:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Read the first five ingredients.</strong> If a food's first listed ingredient is a type of sugar or syrup, it is a sweet treat, not a snack.</li>
+        <li><strong>Look for whole-food sweeteners:</strong> fruit, dates, honey, and maple syrup appear with fiber and nutrients attached; they also taste stronger, so you need less.</li>
+        <li><strong>Aim for at least 2 g of fiber per serving</strong> — the difference between an energy snack and a sugar ride.</li>
+        <li><strong>Check the portion.</strong> A healthy snack is a handful, not a feast. The snacks above are all naturally portioned.</li>
+        <li><strong>Pair whenever possible:</strong> fruit plus a protein or fat (nut butter, yogurt, nuts) always beats fruit alone.</li>
+      </ul>
+
+      <h2 id="store-sweet-snacks" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. How to Store These Snacks
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Most of this list stores beautifully, which makes them perfect make-ahead snacks:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Refrigerator (3–5 days):</strong> yogurt bowls, chia pudding, berry chia cups, overnight oats cups, and baked apples. Hold berries and toppings separate until serving so nothing turns soggy.</li>
+        <li><strong>Freezer (1–3 months):</strong> yogurt bark, frozen yogurt berry bites, and banana peanut butter bites. Lay them flat in a freezer bag or glass container with parchment between layers.</li>
+        <li><strong>Pantry (1–2 weeks):</strong> energy bites, oat bites, banana oat bites, and fruit and seed clusters in an airtight jar at room temperature.</li>
+      </ul>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        For pantry jars and fridge cups, airtight <a href="/blog/best-glass-meal-prep-containers-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">glass meal prep containers</a> keep these snacks fresh without picking up odors from everything else in the fridge.
+      </p>
+
+      <h2 id="ingredient-swaps" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. Easy Ingredient Swaps
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Once you have the pattern, every sweet snack becomes customizable. Here are the swaps that keep things clean:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>White sugar →</strong> mashed banana, unsweetened applesauce, or pitted dates.</li>
+        <li><strong>Butter →</strong> nut butter, tahini, or olive oil in baked bites.</li>
+        <li><strong>White flour →</strong> oat flour or almond flour.</li>
+        <li><strong>Syrups →</strong> a small amount of maple syrup or honey — flavor first, quantity second.</li>
+        <li><strong>Milk chocolate →</strong> dark chocolate at 70% cacao or higher.</li>
+        <li><strong>Whipped cream →</strong> plain Greek yogurt.</li>
+      </ul>
+
+      <h2 id="sweet-snack-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What are healthy sweet snacks?</h4>
+          <p class="text-slate-700 leading-relaxed">Healthy sweet snacks are sweet-tasting snacks built on whole foods — fruit, yogurt, oats, nuts, and seeds — where the sweetness comes from fruit or small amounts of natural sweeteners instead of refined sugar.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What can I eat when I crave something sweet?</h4>
+          <p class="text-slate-700 leading-relaxed">Start with fruit plus a protein or fat: apple with nut butter, Greek yogurt with berries, or a date with a walnut. If it is a chocolate craving, two squares of 70% dark chocolate usually does it.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Are snacks without refined sugar healthier?</h4>
+          <p class="text-slate-700 leading-relaxed">For most people, they are a more wholesome option — the sweetness comes packaged with fiber, vitamins, and protein instead of empty calories, so they are more satisfying for the same amount of sweetness.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What are easy healthy sweet treats to make at home?</h4>
+          <p class="text-slate-700 leading-relaxed">The fastest are Greek yogurt berry bowls, apple slices with nut butter, and date and nut energy bites. All three take under ten minutes, and energy bites make enough for a week.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Start With One, Then Build</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Make one of these today — the yogurt bowl needs exactly two minutes. When you are ready for more ideas, check out our <a href="/blog/healthy-snacks-for-work" class="text-sage font-bold underline hover:text-sage-dark">healthy snacks for work</a> and our list of <a href="/blog/healthy-snacks-for-adults" class="text-sage font-bold underline hover:text-sage-dark">healthy snacks for adults</a>. And when the craving turns serious, our <a href="/blog/healthy-dessert-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">healthy dessert recipes</a> have you covered.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-healthy-snacks-for-work',
+    slug: 'healthy-snacks-for-work',
+    title: '20 Healthy Snacks for Work (Anti-Inflammatory + Easy)',
+    excerpt: 'Twenty healthy snacks for work that survive a commute and a busy desk: no-fridge bites, fridge-friendly cups, sweet and savory options, plus meal prep tips.',
+    category: 'Healthy Snacks',
+    categorySlug: 'healthy-snacks',
+    tags: [
+      'Healthy Snacks for Work',
+      'Healthy Office Snacks',
+      'Easy Healthy Snacks',
+      'Healthy Snack Recipes',
+      'Make Ahead Healthy Snacks',
+      'Portable Snacks',
+      'Healthy Snacks for Adults'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177794/20_Healthy_Snacks_for_Work_Anti-Inflammatory_Easy.jpg',
+    date: 'August 22, 2026',
+    readTime: '10 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'good-work-snack', title: '1. What Makes a Good Work Snack?' },
+      { id: 'work-snack-ideas', title: '2. 20 Healthy Snacks for Work' },
+      { id: 'meal-prep-work-snacks', title: '3. How to Meal Prep Work Snacks' },
+      { id: 'containers-work-snacks', title: '4. Best Containers for Work Snacks' },
+      { id: 'snack-combinations', title: '5. Healthy Snack Combinations for a Busy Workday' },
+      { id: 'work-snack-faq', title: '6. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'healthy snacks for work',
+      metaTitle: '20 Healthy Snacks for Work (Anti-Inflammatory + Easy)',
+      metaDescription: 'Twenty healthy snacks for work that travel well: no-fridge bites, fridge-friendly cups, sweet and savory options, plus easy meal prep tips for busy office days.',
+      readabilityScore: '92/100 (Very Easy)',
+      schemaType: 'Article',
+      pinterestTitle: '20 Healthy Snacks for Work (Easy + Make Ahead)',
+      pinterestDescription: 'Twenty healthy snacks for work — desk-stash friendly bites, fridge-friendly cups, sweet and savory options, and make-ahead snacks for busy office days.',
+      pinterestKeywords: [
+        'healthy snacks for work',
+        'healthy office snacks',
+        'easy healthy snacks',
+        'healthy snack recipes',
+        'make ahead snacks',
+        'portable snacks',
+        'anti-inflammatory snacks'
+      ],
+      pinterestPinHeadlines: [
+        '20 Healthy Snacks for Work (Desk Approved)',
+        'Easy Snacks to Bring to Work — No Vending Machine Needed',
+        'Make-Ahead Healthy Office Snacks for a Busy Week'
+      ]
+    },
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        The 3 PM wall hits everyone at a desk. The difference between riding it out and caving into the vending machine is usually a snack that survived the commute. The best healthy snacks for work are portable, easy to store, low mess, simple to prepare, and realistic for busy workdays — and here are twenty of them.
+      </p>
+
+      <h2 id="good-work-snack" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. What Makes a Good Work Snack?
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Portable:</strong> it fits in a bag or a desk drawer without drama.</li>
+        <li><strong>Easy to store:</strong> it survives hours out of the fridge, or it lives happily in the office fridge without leaking.</li>
+        <li><strong>Low mess:</strong> no sticky fingers over the keyboard, no crumbs everywhere, no strong smells.</li>
+        <li><strong>Easy to prepare:</strong> if it takes more than 15 minutes on Sunday, you probably will not make it twice.</li>
+        <li><strong>Satisfying:</strong> it has protein, fiber, or healthy fat — not just sugar — so it actually holds you until dinner.</li>
+      </ul>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        Everything below checks at least four of those boxes, and most are made of ingredients commonly included in anti-inflammatory eating patterns.
+      </p>
+
+      <h2 id="work-snack-ideas" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. 20 Healthy Snacks for Work
+      </h2>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">No-Refrigerator Snacks</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">The desk-drawer heroes. These are fine at room temperature for a full workday.</p>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">1. Nut and Seed Trail Mix</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1/3 cup almonds, 1/3 cup walnuts, 2 tbsp pumpkin seeds, 2 tbsp dried cranberries, 1 tbsp cacao nibs.<br /><strong>Preparation:</strong> mix once in a jar, portion into small containers for the week.<br /><strong>Transport tip:</strong> rides in a desk drawer for two weeks without issue.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">2. Roasted Chickpeas</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 can (15 oz / 425 g) chickpeas, 1 tbsp olive oil, 1 tsp smoked paprika, 1/2 tsp sea salt.<br /><strong>Preparation:</strong> rinse, dry, toss with oil and spices, roast at 204°C (400°F) for 30 minutes until crisp.<br /><strong>Transport tip:</strong> airtight container on the desk — crisp for about 3 days.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">3. Whole-Grain Crackers with Single-Serve Nut Butter</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 6–8 whole-grain crackers, 1 single-serve almond or peanut butter pouch.<br /><strong>Preparation:</strong> zero — just grab and go.<br /><strong>Transport tip:</strong> the pouch opener doubles as a spreader in a pinch.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-6">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">4. Dried Fruit with Almonds</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 2 dried apricots, 12 almonds (about a palmful).<br /><strong>Preparation:</strong> portion into a small jar on Sunday.<br /><strong>Transport tip:</strong> keeps all week at room temperature; the almonds balance the fruit's natural sugars.</p>
+      </div>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">Refrigerator-Friendly Snacks</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">For the office fridge crew — easy to pack in the morning, leak-free with the right container.</p>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">5. Hard-Boiled Eggs</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 2 eggs, a pinch of flaky salt.<br /><strong>Preparation:</strong> boil 9 minutes, cool, keep in the shell.<br /><strong>Transport tip:</strong> shells keep them fresh 5 days; peel at your desk right before eating.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">6. Greek Yogurt with Berries</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 cup (240 g) plain Greek yogurt, 1/2 cup (75 g) berries.<br /><strong>Preparation:</strong> pack berries in a small cup on top so the yogurt stays thick.<br /><strong>Transport tip:</strong> keep it in the office fridge; berries mixed in only at snack time.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">7. Vegetable Sticks with Hummus</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 cup cucumber, bell pepper, and carrot sticks, 2 tbsp hummus.<br /><strong>Preparation:</strong> cut the veg once on Sunday; store sticks in water in a glass jar.<br /><strong>Transport tip:</strong> hummus in a small jar, sticks in a separate container, assemble at your desk.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-6">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">8. Cottage Cheese with Peach</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1/2 cup (120 g) cottage cheese, 1/2 peach (or diced pear), a sprinkle of cinnamon.<br /><strong>Preparation:</strong> layer in a small container, fruit on top.<br /><strong>Transport tip:</strong> fruit on top travels better than stirred in — nothing gets mushy.</p>
+      </div>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">Sweet Snacks</h3>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">9. Apple Slices with Almond Butter</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 apple, 1–2 tbsp almond butter, 1 tsp lemon juice.<br /><strong>Preparation:</strong> slice; toss in lemon juice so they do not brown.<br /><strong>Transport tip:</strong> dip cup with the almond butter, apple slices on the side — no browning, no mess.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">10. Banana Oat Bites</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 2 ripe bananas, 1 1/2 cups (135 g) rolled oats, 1/2 tsp cinnamon.<br /><strong>Preparation:</strong> mash, mix, roll into 10–12 balls, chill 30 minutes.<br /><strong>Transport tip:</strong> these are fine in a drawstring bag for two days, or fridge-happy for a week.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">11. Dark Chocolate and Walnut Bites</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 2 squares 70% dark chocolate, 5 walnut halves.<br /><strong>Preparation:</strong> assemble in a tiny jar.<br /><strong>Transport tip:</strong> chocolate melts in warm bags — carry it in a small insulated snack pouch or keep it in the desk drawer in winter.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-6">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">12. Cinnamon Baked Apple Cup</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 2 apples, 1 tsp cinnamon, 2 tbsp walnuts, 2 tbsp water.<br /><strong>Preparation:</strong> dice, toss with cinnamon, bake at 177°C (350°F) for 25 minutes with the water.<br /><strong>Transport tip:</strong> make a batch Sunday, portion into small cups, eat cold at your desk — it tastes like apple pie filling.</p>
+      </div>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">Savory Snacks</h3>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">13. Edamame Pods</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 cup frozen edamame in pods, flaky salt.<br /><strong>Preparation:</strong> steam 5 minutes from frozen and season.<br /><strong>Transport tip:</strong> pod the edamame first and pack just the beans with a spoon — no need to shell at your desk.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">14. Tuna Pouch with Cucumber Rounds</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 pouch (85 g) wild-caught tuna, 1/2 English cucumber, sliced.<br /><strong>Preparation:</strong> slice the cucumber; bring a fork.<br /><strong>Transport tip:</strong> tuna pouch goes in your bag dry and safe — no can, no leak, no drain.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">15. Turkey and Cheese Roll-Ups</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 3 slices lean turkey, 1 slice cheese, 1 tsp Dijon mustard per roll-up.<br /><strong>Preparation:</strong> spread, roll, slice into coins.<br /><strong>Transport tip:</strong> fridge only — pack in the morning with a small cold pack.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-6">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">16. Olives with Mozzarella Bites</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1/4 cup olives, 3–4 mini mozzarella balls, a crack of black pepper.<br /><strong>Preparation:</strong> drain and combine.<br /><strong>Transport tip:</strong> a little brine keeps them fresh — just keep it in a leak-proof jar.</p>
+      </div>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">Make-Ahead Snacks</h3>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">17. Egg Muffins</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 6 eggs, 1 cup chopped spinach, 1/2 bell pepper diced, salt, pepper.<br /><strong>Preparation:</strong> whisk, fill a 12-cup muffin tin (about 6 wells), bake at 177°C (350°F) for 18 minutes.<br /><strong>Transport tip:</strong> bake Sunday, fridge all week, reheat 30 seconds — or eat cold in the office kitchen.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">18. Overnight Oats Jar</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1/2 cup (45 g) rolled oats, 1/2 cup (120 ml) milk, 1 tbsp chia seeds, 1/2 cup berries.<br /><strong>Preparation:</strong> stir in a jar Sunday night, fridge overnight.<br /><strong>Transport tip:</strong> make four jars at once — grab one each morning, eat straight from the jar at your desk.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">19. Yogurt Bark Shards</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 2 cups (480 g) Greek yogurt, 1/2 cup berries, 2 tbsp pistachios.<br /><strong>Preparation:</strong> spread 1 cm thick on parchment, freeze 3 hours, snap into shards.<br /><strong>Transport tip:</strong> shards travel in a lunch bag cold pack; they hold their shape for a few hours.</p>
+      </div>
+
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-6">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">20. Frozen Banana Peanut Butter Bites</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 banana sliced 1 cm thick, 2 tbsp peanut butter.<br /><strong>Preparation:</strong> sandwich slices with a thin layer of peanut butter, freeze 30 minutes.<br /><strong>Transport tip:</strong> pack with an ice pack or eat them straight from the office freezer if you have one.</p>
+      </div>
+
+      <h2 id="meal-prep-work-snacks" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. How to Meal Prep Work Snacks
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        A fifteen-minute Sunday session covers five snack days. Here is the exact routine:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Boil six eggs</strong> while you unload groceries.</li>
+        <li><strong>Portion your trail mix</strong> into five small jars.</li>
+        <li><strong>Cut veggie sticks</strong> and store them in a glass jar of cold water.</li>
+        <li><strong>Make one batch</strong> of egg muffins or banana oat bites for the freezer.</li>
+        <li><strong>Assemble yogurt cups</strong> with fruit on top, not stirred in.</li>
+      </ul>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        Done. You now have a week of easy snacks to bring to work, and the vending machine has lost another customer. For a full weekly system, our <a href="/blog/meal-prep-anti-inflammatory-recipes-step-by-step" class="text-sage font-bold underline hover:text-sage-dark">step-by-step anti-inflammatory meal prep guide</a> pairs perfectly with this snack routine.
+      </p>
+
+      <h2 id="containers-work-snacks" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. Best Containers for Work Snacks
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Small glass jars</strong> for trail mix, chia pudding, and overnight oats — airtight and see-through so you do not forget what is inside.</li>
+        <li><strong>Leak-proof glass containers</strong> for anything wet: yogurt, veggie sticks with hummus, olives. The full guide to <a href="/blog/best-glass-meal-prep-containers-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">choosing glass meal prep containers</a> covers exactly what to look for.</li>
+        <li><strong>A lunch bag with a cold pack</strong> for eggs, yogurt, and roll-ups if you are a fridge-sharer.</li>
+        <li><strong>One drawer organizer</strong> at your desk for the no-fridge items — portioned and ready.</li>
+      </ul>
+
+      <h2 id="snack-combinations" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. Healthy Snack Combinations for a Busy Workday
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Combine a couple of items from above and you have a mini-meal. Three combinations that work well:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>10:30 AM:</strong> hard-boiled egg + 6 whole-grain crackers + a handful of grapes.</li>
+        <li><strong>3 PM:</strong> apple slices with almond butter + a small green herbal tea instead of a second coffee.</li>
+        <li><strong>Long day stretch:</strong> Greek yogurt cup + roasted chickpeas — sweet and savory, protein both ways.</li>
+      </ul>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        The pattern to remember is the same one we use everywhere on Gut Glow Kitchen: carbohydrate plus protein or fat. That combination is what keeps office snacks satisfying instead of just distracting.
+      </p>
+
+      <h2 id="work-snack-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">How many snacks should I bring to work?</h4>
+          <p class="text-slate-700 leading-relaxed">Plan for one mid-morning and one mid-afternoon snack — two total is plenty for most workdays. If your lunches are often meetings, add a third backup snack in your desk drawer.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What are the best no-fridge snacks for work?</h4>
+          <p class="text-slate-700 leading-relaxed">Nut and seed trail mix, roasted chickpeas, single-serve nut butter with crackers, and dried fruit with almonds all survive a full workday at room temperature.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Are these work snacks meal prep friendly?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — most hold for 4–5 days in the fridge and all of the no-fridge options last 1–2 weeks in a sealed jar. The 15-minute Sunday session above covers a full week.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">How do I keep snacks fresh in an office fridge?</h4>
+          <p class="text-slate-700 leading-relaxed">Use leak-proof containers, keep fruit and yogurt separate until snack time, and label everything with the day. Freshness follows the container rules we outline in our glass storage guide.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Set Up Your Desk Stash Today</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Choose three snacks from this list, prep them once, and your workdays change immediately. For more snack ideas, try our <a href="/blog/anti-inflammatory-healthy-sweet-snacks" class="text-sage font-bold underline hover:text-sage-dark">healthy sweet snacks without refined sugar</a> or the full list of <a href="/blog/healthy-snacks-for-adults" class="text-sage font-bold underline hover:text-sage-dark">healthy snacks for adults</a>. And if lunch is the real problem, a <a href="/blog/bean-salad-recipes-for-food-prep" class="text-sage font-bold underline hover:text-sage-dark">make-ahead bean salad</a> makes every workday meal easier.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-healthy-snacks-for-adults',
+    slug: 'healthy-snacks-for-adults',
+    title: 'Healthy Snacks for Adults (Anti-Inflammatory + Fiber-Rich)',
+    excerpt: 'Twenty healthy snacks for adults built on fiber-rich fruits, vegetables, nuts, seeds, yogurt, and whole grains — balanced sweet and savory ideas plus pairings.',
+    category: 'Healthy Snacks',
+    categorySlug: 'healthy-snacks',
+    tags: [
+      'Healthy Snacks for Adults',
+      'Healthy Snack Recipes',
+      'Easy Healthy Snacks',
+      'Gut-Friendly Snacks',
+      'High Fiber Snacks',
+      'Healthy Sweet Snacks',
+      'Healthy Savory Snacks'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177755/Healthy_Snacks_for_Adults_Anti-Inflammatory_Fiber-Rich.jpg',
+    date: 'August 23, 2026',
+    readTime: '10 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'balanced-snack-adults', title: '1. What Makes a Balanced Snack for Adults?' },
+      { id: 'adult-snack-ideas', title: '2. 20 Healthy Snack Ideas for Adults' },
+      { id: 'snack-pairings', title: '3. Healthy Snack Pairings' },
+      { id: 'build-better-snack', title: '4. How to Build a Better Snack' },
+      { id: 'snack-prep-week', title: '5. Easy Snack Prep for the Week' },
+      { id: 'adult-snack-faq', title: '6. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'healthy snacks for adults',
+      metaTitle: 'Healthy Snacks for Adults (Anti-Inflammatory + Fiber-Rich)',
+      metaDescription: 'Twenty healthy snacks for adults: fiber-rich fruits and vegetables, nuts, seeds, yogurt and whole grains — sweet and savory ideas plus easy weekly prep.',
+      readabilityScore: '92/100 (Very Easy)',
+      schemaType: 'Article',
+      pinterestTitle: 'Healthy Snacks for Adults (Fiber-Rich + Easy)',
+      pinterestDescription: 'Twenty healthy snacks for adults made with fiber-rich fruit, vegetables, nuts, seeds, yogurt, and whole grains — with easy pairings and weekly prep tips.',
+      pinterestKeywords: [
+        'healthy snacks for adults',
+        'healthy snack recipes',
+        'gut-friendly snacks',
+        'high fiber snacks',
+        'healthy sweet snacks',
+        'healthy savory snacks',
+        'easy healthy snacks'
+      ],
+      pinterestPinHeadlines: [
+        '20 Healthy Snacks for Adults You Will Actually Eat',
+        'Fiber-Rich Snack Ideas for Balanced Energy',
+        'Sweet and Savory Snacks Built Around Whole Foods'
+      ]
+    },
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        Between breakfast and dinner there are usually two long stretches — and what happens in them shapes the rest of your day. Healthy snacks for adults are less about "eating less" and more about choosing snacks made from fiber-rich fruits, vegetables, nuts, seeds, yogurt, and whole grains. Twenty ideas below, organized by the way you actually snack.
+      </p>
+
+      <h2 id="balanced-snack-adults" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. What Makes a Balanced Snack for Adults?
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        A balanced snack does three jobs at once — and none of them is complicated:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>It has fiber.</strong> Fruits, vegetables, nuts, seeds, and whole grains all bring it. Fiber slows digestion and helps a snack actually register as food.</li>
+        <li><strong>It has protein or fat.</strong> Yogurt, eggs, nuts, seeds, and lean meats keep you satisfied so one snack is enough.</li>
+        <li><strong>It is a realistic portion.</strong> A snack is a bridge between meals, not a meal itself — think handsful, not bowls.</li>
+      </ul>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        You will notice a lot of the ideas below combine yogurt, fermented foods, and high-fiber plants. These are the ingredients people typically associate with gut-friendly eating because they are the foods included in most balanced, plant-focused eating patterns. We are not making health claims here — just recommending the foods that make a snack worth eating.
+      </p>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        For the same reasons, this list works well with an <strong>anti-inflammatory eating style</strong>: it relies on whole foods, healthy fats, and fiber instead of refined snacks.
+      </p>
+
+      <h2 id="adult-snack-ideas" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. 20 Healthy Snack Ideas for Adults
+      </h2>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">Sweet Snacks</h3>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">1. Greek Yogurt with Berries and Cinnamon</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 cup (240 g) plain Greek yogurt, 1/2 cup berries, 1/4 tsp cinnamon.<br /><strong>Why it works:</strong> protein plus fiber, with no added sugar needed.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">2. Apple Slices with Nut Butter</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 apple, 1–2 tbsp almond or peanut butter.<br /><strong>Why it works:</strong> the classic fiber-plus-fat pairing; the nut butter makes the apple's sweetness last.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">3. Chia Pudding Cup</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 3 tbsp chia seeds, 1 cup (240 ml) milk of choice, 1/2 tsp vanilla, a few berries.<br /><strong>Why it works:</strong> a make-ahead snack that is mostly fiber and plant-based fat.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-6">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">4. Dark Chocolate with Orange Segments</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 2 squares 70% dark chocolate, 1/2 orange in segments.<br /><strong>Why it works:</strong> a small portion of rich chocolate with fruit — sweets done properly.</p>
+      </div>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">Savory Snacks</h3>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">5. Vegetable Sticks with Hummus</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 cup carrot, cucumber, and pepper sticks, 2 tbsp hummus.<br /><strong>Why it works:</strong> fiber and water from the vegetables, protein from the chickpeas in the hummus.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">6. Avocado on a Whole-Grain Cracker</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1/4 avocado, 3 whole-grain crackers, flaky salt, pepper.<br /><strong>Why it works:</strong> healthy fat on whole grain — the simplest open-faced snack there is.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">7. Olives with Cheese Cubes</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1/4 cup olives, 3 cubes of your favorite cheese.<br /><strong>Why it works:</strong> salty, satisfying, and zero preparation.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-6">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">8. Roasted Chickpeas</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 can (15 oz / 425 g) chickpeas, 1 tbsp olive oil, smoked paprika, salt.<br /><strong>Why it works:</strong> crisp, savory, and high in fiber — a great stand-in for chips.</p>
+      </div>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">High-Fiber Snacks</h3>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">9. Pear with Walnuts</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 ripe pear, 8 walnut halves.<br /><strong>Why it works:</strong> one pear supplies about 6 g of fiber; the walnuts add omega-3 fats and crunch.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">10. Berries with Pumpkin Seeds</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 cup mixed berries, 2 tbsp pumpkin seeds.<br /><strong>Why it works:</strong> fiber from the berries, iron and protein from the seeds — a crunchy, sweet bowl.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">11. Oat-Based Energy Bite</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1/2 cup rolled oats, 1/2 banana, 1 tbsp nut butter, cinnamon.<br /><strong>Why it works:</strong> whole-grain fiber plus fruit sweetness in a two-minute no-bake bite.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-6">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">12. Air-Popped Popcorn with Olive Oil</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 3 cups air-popped popcorn, 1 tsp olive oil, sea salt.<br /><strong>Why it works:</strong> popcorn is a whole grain with real fiber — the oil drizzle makes it satisfying instead of dull.</p>
+      </div>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">Protein-Containing Snacks</h3>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">13. Hard-Boiled Eggs</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 2 eggs, flaky salt, black pepper.<br /><strong>Why it works:</strong> about 12 g of protein in a self-contained package that keeps for days.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">14. Cottage Cheese with Cucumber</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1/2 cup (120 g) cottage cheese, 1/2 cup cucumber coins, dill, pepper.<br /><strong>Why it works:</strong> one of the highest-protein dairy snacks around, with vegetables for crunch.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">15. Turkey Roll-Ups</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 3 slices lean turkey, 1 slice cheese, mustard.<br /><strong>Why it works:</strong> a handheld protein snack that takes one minute to assemble.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-6">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">16. Edamame</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 cup shelled edamame, steamed, sea salt.<br /><strong>Why it works:</strong> plant protein plus fiber, eaten by the spoon — warm or cold.</p>
+      </div>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">Make-Ahead Snacks</h3>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">17. Egg Muffins</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 6 eggs, spinach, bell pepper, salt, pepper.<br /><strong>Why it works:</strong> bake once on Sunday, grab-and-go all week.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">18. Overnight Oats</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1/2 cup (45 g) oats, 1/2 cup (120 ml) milk, 1 tbsp chia, berries.<br /><strong>Why it works:</strong> the whole-grain base of a balanced snack, ready before you are.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-4">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">19. Date and Nut Energy Bites</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> 1 cup pitted dates, 3/4 cup almonds, 2 tbsp cacao.<br /><strong>Why it works:</strong> 10 balls, no oven, a week of snacks.</p>
+      </div>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-6">
+        <h4 class="font-bold text-slate-900 text-sm mb-1">20. Seed Crackers with Hummus Cups</h4>
+        <p class="text-xs text-slate-700 leading-relaxed"><strong>Ingredients:</strong> a batch of homemade seed crackers (or whole-grain crackers), 4 small hummus portions.<br /><strong>Why it works:</strong> portion both on Sunday and you have four ready savory snacks.</p>
+      </div>
+
+      <h2 id="snack-pairings" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. Healthy Snack Pairings
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The best snacks are rarely single foods. Pairing changes everything:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Fruit + nut butter:</strong> apple, pear, or banana with almond or peanut butter — fiber meets fat and protein.</li>
+        <li><strong>Yogurt + berries + seeds:</strong> protein, fiber, and crunchy texture in one bowl.</li>
+        <li><strong>Vegetables + hummus:</strong> the fiber of the plants doubles up with chickpea protein.</li>
+        <li><strong>Whole-grain crackers + avocado:</strong> whole grains with heart-healthy fat.</li>
+        <li><strong>Popcorn + pumpkin seeds:</strong> two wholegrains-adjacent crunch sources with extra fiber and minerals.</li>
+        <li><strong>Apple + cheese:</strong> sweet-savory classic that holds its own for hours.</li>
+      </ul>
+
+      <h2 id="build-better-snack" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. How to Build a Better Snack
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Once you know the formula, you never need another snack list:
+      </p>
+      <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-6 text-slate-700 text-sm leading-relaxed">
+        <strong>Base</strong> (fiber — fruit, vegetables, whole grains) + <strong>Boost</strong> (protein or fat — yogurt, nuts, seeds, eggs, cheese) + <strong>Flavor</strong> (spices, salt, herbs, a squeeze of citrus) = a balanced snack.
+      </div>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        Test it: roasted chickpeas = fiber base + protein boost + smoked paprika flavor. Apple and nut butter = fiber base + fat boost + cinnamon flavor. Every snack in this article follows the same shape.
+      </p>
+
+      <h2 id="snack-prep-week" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. Easy Snack Prep for the Week
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li>Boil six eggs and roast one tray of chickpeas on Sunday.</li>
+        <li>Cut vegetable sticks and store them in cold water in the fridge.</li>
+        <li>Portion nuts and seeds into small jars — five jars, five days.</li>
+        <li>Make one batch of energy bites or egg muffins for the freezer.</li>
+        <li>Keep the snack drawer at eye level: out of sight snacks do not get eaten.</li>
+      </ul>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        Ten minutes, once a week. That is the entire system. If you want a longer list of savory options, our <a href="/blog/low-inflammation-snack-ideas" class="text-sage font-bold underline hover:text-sage-dark">low-inflammation snack ideas</a> page is a great companion to this one.
+      </p>
+
+      <h2 id="adult-snack-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">How many snacks a day is reasonable for adults?</h4>
+          <p class="text-slate-700 leading-relaxed">One or two snacks between meals works well for most people. Snack when you are actually hungry — protein plus fiber means one snack is usually enough.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What makes a snack gut-friendly?</h4>
+          <p class="text-slate-700 leading-relaxed">Gut-friendly eating patterns usually center on fiber-rich plants and fermented foods — things like yogurt, berries, oats, nuts, and vegetables. These are also simply good snacks for anyone.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I eat these snacks at work?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — most of this list is portable, and our guide to <a href="/blog/healthy-snacks-for-work" class="text-sage font-bold underline hover:text-sage-dark">healthy snacks for work</a> shows how to pack each one for a desk or office fridge.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Do these snacks fit a low-sugar diet?</h4>
+          <p class="text-slate-700 leading-relaxed">They are all made without refined sugar, so they fit easily into lower-sugar and clean eating patterns. Fruit provides the sweetness, always paired with protein or fat.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Build Your Snack Week</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Pick four or five snacks from this list and prep them once. Need more sweetness? Our <a href="/blog/anti-inflammatory-healthy-sweet-snacks" class="text-sage font-bold underline hover:text-sage-dark">no-refined-sugar sweet snacks</a> have fifteen options. Craving something more substantial? A <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad</a> turns snack time into a mini meal.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-healthy-dessert-recipes',
+    slug: 'healthy-dessert-recipes-anti-inflammatory',
+    title: '10 Healthy Dessert Recipes (Anti-Inflammatory + Clean Eating)',
+    excerpt: 'Ten healthy dessert recipes with no refined sugar: fruit crumbles, chocolate chia pudding, banana nice cream, yogurt bark and more wholesome sweet treats.',
+    category: 'Healthy Snacks',
+    categorySlug: 'healthy-snacks',
+    tags: [
+      'Healthy Dessert',
+      'Healthy Dessert Recipes',
+      'Clean Eating Desserts',
+      'No Refined Sugar Desserts',
+      'Healthy Sweet Treats',
+      'Easy Healthy Desserts',
+      'Healthy Baking'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177701/10_Healthy_Dessert_Recipes_Anti-Inflammatory_Clean_Eating.jpg',
+    date: 'August 24, 2026',
+    readTime: '10 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'wholesome-dessert', title: '1. What Makes a Dessert a More Wholesome Choice?' },
+      { id: 'dessert-recipes', title: '2. 10 Healthy Dessert Recipes' },
+      { id: 'dessert-swaps', title: '3. Healthy Dessert Ingredient Swaps' },
+      { id: 'satisfy-sweet-craving', title: '4. How to Satisfy a Sweet Craving with Simple Ingredients' },
+      { id: 'dessert-faq', title: '5. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'healthy dessert',
+      metaTitle: '10 Healthy Dessert Recipes (Anti-Inflammatory + Clean Eating)',
+      metaDescription: 'Ten healthy dessert recipes made without refined sugar: fruit crumbles, chocolate chia pudding, banana nice cream, yogurt bark and other easy wholesome treats.',
+      readabilityScore: '93/100 (Very Easy)',
+      schemaType: 'Recipe & Article',
+      pinterestTitle: '10 Healthy Dessert Recipes (No Refined Sugar)',
+      pinterestDescription: 'Ten healthy dessert recipes for clean eating — fruit crumbles, chocolate chia pudding, banana nice cream, yogurt bark, and no-bake fudge — all without refined sugar.',
+      pinterestKeywords: [
+        'healthy dessert recipes',
+        'healthy sweet treats',
+        'clean eating desserts',
+        'no refined sugar desserts',
+        'easy healthy desserts',
+        'healthy homemade desserts',
+        'healthy sweet snacks'
+      ],
+      pinterestPinHeadlines: [
+        '10 Healthy Dessert Recipes You Will Crave Again',
+        'Clean Eating Desserts with No Refined Sugar',
+        'Easy Homemade Desserts for a Sweet Tooth'
+      ]
+    },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
+    recipeDetails: {
+      title: 'No-Bake Dark Chocolate Date and Walnut Fudge',
+      prepTime: '15 mins',
+      cookTime: '0 mins',
+      totalTime: '15 mins',
+      servings: 12,
+      calories: 85,
+      protein: '2g',
+      carbs: '11g',
+      fat: '5g',
+      fiber: '2g',
+      glycemicIndex: 'Low (GI < 35)',
+      gutBenefitScore: 8.9,
+      ingredients: [
+        { name: 'Medjool dates, pitted', amount: 1, unit: 'cup (about 12)', note: 'Soak in warm water 10 minutes if firm' },
+        { name: 'Raw walnuts', amount: 0.5, unit: 'cup' },
+        { name: 'Unsweetened cocoa powder', amount: 0.25, unit: 'cup' },
+        { name: 'Almond butter', amount: 2, unit: 'tbsp' },
+        { name: 'Vanilla extract', amount: 1, unit: 'tsp' },
+        { name: 'Ground cinnamon', amount: 0.5, unit: 'tsp' },
+        { name: 'Fine sea salt', amount: 1, unit: 'pinch' }
+      ],
+      steps: [
+        {
+          stepNumber: 1,
+          instruction: 'Pulse the walnuts in a food processor until they look like coarse crumbs.',
+          tip: 'Do not over-process — small walnut pieces add texture to the fudge.'
+        },
+        {
+          stepNumber: 2,
+          instruction: 'Add the dates, cocoa powder, almond butter, vanilla, cinnamon, and salt. Process until a sticky dough forms, about 30 to 45 seconds.',
+          tip: 'If the dough looks dry, add 1 tsp of water at a time until it holds together.'
+        },
+        {
+          stepNumber: 3,
+          instruction: 'Press the mixture into a parchment-lined 8 x 4 inch (20 x 10 cm) loaf pan, spreading it evenly to the edges.',
+          timerMinutes: 30,
+          tip: 'Chill for 30 minutes before slicing for clean, even squares.'
+        },
+        {
+          stepNumber: 4,
+          instruction: 'Cut into 12 squares and store in an airtight container in the fridge for up to 2 weeks, or freeze for up to 3 months.'
+        }
+      ]
+    },
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        Dessert does not have to be a sugar bomb to feel like dessert. These 10 healthy dessert recipes use fruit, oats, yogurt, dates, and dark chocolate to build sweetness from whole foods — the kind of clean eating desserts that fit naturally into a balanced diet. Most are ready in under 30 minutes, and several need no oven at all.
+      </p>
+
+      <h2 id="wholesome-dessert" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. What Makes a Dessert a More Wholesome Choice?
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Whole-food sweetness:</strong> dates, banana, applesauce, and berries bring sugar with fiber and nutrients attached.</li>
+        <li><strong>Fiber first:</strong> oats, fruit, and nuts slow down a dessert and make a small portion feel satisfying.</li>
+        <li><strong>Healthy fats:</strong> nut butters, walnuts, and yogurt add richness that makes up for missing butter and cream.</li>
+        <li><strong>Real portions:</strong> these recipes serve 2–12 people honestly, with no "serving size: one molecule" tricks.</li>
+        <li><strong>No refined sugar:</strong> everything here skips white sugar and corn syrup — some are completely sugar-free, and the rest use a small amount of maple or honey.</li>
+      </ul>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        A dessert like this is simply a more wholesome option than a processed one — full of ingredients commonly included in anti-inflammatory eating patterns, without the pointless ingredients.
+      </p>
+
+      <h2 id="dessert-recipes" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. 10 Healthy Dessert Recipes
+      </h2>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">1. Warm Berry and Oat Crumble</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">A two-serving crumble that tastes like a bakery dessert but is mostly fruit and oats.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 cups (300 g) berries, 1/2 cup (45 g) rolled oats, 2 tbsp almond flour, 1 tbsp maple syrup, 1 tbsp melted coconut oil or butter, 1/2 tsp cinnamon, a pinch of salt.</li>
+        <li><strong>Instructions:</strong> place berries in a small baking dish. Stir together the oats, almond flour, maple, oil, cinnamon, and salt; scatter over the berries. Bake at 190°C (375°F) for 20 minutes until bubbling.</li>
+        <li><strong>Prep time:</strong> 10 minutes. <strong>Serves:</strong> 2.</li>
+        <li><strong>Storage:</strong> fridge for 3 days; reheat in the oven or microwave.</li>
+        <li><strong>Substitution:</strong> use sliced apples or pears instead of berries.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">2. No-Bake Dark Chocolate Date and Walnut Fudge</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Our featured dessert — five minutes of food processor work, thirty minutes of chilling, and a week of clean chocolate fudge. Full interactive recipe card below.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 cup (150 g) pitted Medjool dates, 1/2 cup walnuts, 1/4 cup unsweetened cocoa powder, 2 tbsp almond butter, 1 tsp vanilla, 1/2 tsp cinnamon, pinch of salt.</li>
+        <li><strong>Instructions:</strong> process the walnuts to crumbs, add everything else, and blend until a sticky dough forms. Press into a lined loaf pan, chill 30 minutes, and cut into 12 squares.</li>
+        <li><strong>Prep time:</strong> 15 minutes (plus chilling). <strong>Serves:</strong> 12.</li>
+        <li><strong>Storage:</strong> airtight container in the fridge for 2 weeks or freezer for 3 months.</li>
+        <li><strong>Substitution:</strong> swap walnuts for pecans or almonds; almond butter for peanut butter.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">3. Chocolate Chia Pudding</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">A mousse-like pudding that genuinely tastes like chocolate mousse — because cacao and chia have that kind of relationship.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 3 tbsp chia seeds, 1 cup (240 ml) milk of choice, 1 tbsp unsweetened cocoa powder, 1 tsp maple syrup (optional), 1/2 tsp vanilla.</li>
+        <li><strong>Instructions:</strong> whisk everything in a jar, rest 5 minutes, whisk again, and refrigerate at least 2 hours. Top with berries or a few cacao nibs.</li>
+        <li><strong>Prep time:</strong> 5 minutes. <strong>Serves:</strong> 1–2.</li>
+        <li><strong>Storage:</strong> up to 4 days in the fridge — make four jars at once.</li>
+        <li><strong>Substitution:</strong> coconut milk makes it richer; skip the syrup entirely for a sugar-free version.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">4. Cinnamon Baked Apples with Walnuts</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Warm apples, cinnamon, and toasted walnuts — the easiest "hot dessert" there is, with zero added sugar.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 apples, 1 tsp cinnamon, 2 tbsp chopped walnuts, 2 tbsp water.</li>
+        <li><strong>Instructions:</strong> core and dice the apples, toss with cinnamon, put in a small dish with the water, scatter the walnuts, and bake at 177°C (350°F) for 25 minutes.</li>
+        <li><strong>Prep time:</strong> 5 minutes. <strong>Serves:</strong> 2.</li>
+        <li><strong>Storage:</strong> 4 days refrigerated; delicious cold too.</li>
+        <li><strong>Substitution:</strong> pears work beautifully — just shave a few minutes off the bake time.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">5. Yogurt Berry Bark</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Greek yogurt frozen into crisp, creamy shards. Snappable, shareable, and honestly pretty.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 cups (480 g) plain Greek yogurt, 1/2 cup berries, 2 tbsp chopped almonds or pistachios, 1/2 tsp vanilla.</li>
+        <li><strong>Instructions:</strong> spread the yogurt about 1 cm thick on parchment, scatter the toppings, and freeze 3 hours. Break into pieces.</li>
+        <li><strong>Prep time:</strong> 10 minutes (plus freezing). <strong>Serves:</strong> 6–8 pieces.</li>
+        <li><strong>Storage:</strong> frozen in a sealed container for up to 2 months.</li>
+        <li><strong>Substitution:</strong> use coconut yogurt for a dairy-free bark.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">6. Banana Nice Cream</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Two ingredients, one blender, and the texture of soft-serve ice cream — with no dairy and no sugar added.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 ripe bananas, frozen in chunks, 1 tbsp unsweetened cocoa powder (optional), 2 tbsp milk or water.</li>
+        <li><strong>Instructions:</strong> blend the frozen banana chunks with cocoa and a splash of liquid until smooth and creamy, scraping the sides once.</li>
+        <li><strong>Prep time:</strong> 5 minutes. <strong>Serves:</strong> 2 small bowls.</li>
+        <li><strong>Storage:</strong> freeze leftovers in a container; re-blend with a splash of milk to refresh.</li>
+        <li><strong>Substitution:</strong> add 1 tbsp peanut butter for a peanut butter banana version.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">7. Banana-Oat Muffins (No Refined Sugar)</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Soft, lightly sweet muffins made from banana, oats, and eggs — the dessert you can also eat for breakfast.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 ripe bananas, 2 eggs, 1 cup (90 g) rolled oats (blended to flour), 1 tsp baking soda, 1/2 tsp cinnamon, 1/4 cup chopped walnuts.</li>
+        <li><strong>Instructions:</strong> mash the bananas, whisk in the eggs, stir in the oat flour, baking soda, cinnamon, and walnuts. Scoop into 8 muffin cups and bake at 177°C (350°F) for 18 minutes.</li>
+        <li><strong>Prep time:</strong> 15 minutes. <strong>Serves:</strong> 8 muffins.</li>
+        <li><strong>Storage:</strong> 4 days on the counter in a container, or 2 months in the freezer.</li>
+        <li><strong>Substitution:</strong> add 2 tbsp cacao for chocolate muffins.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">8. Roasted Peaches with Yogurt</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Roasting intensifies the natural sweetness of peaches like magic — a warm, elegant dessert in 20 minutes.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 peaches, halved and pitted, 1/2 cup (120 g) plain Greek yogurt, 1/4 tsp cinnamon.</li>
+        <li><strong>Instructions:</strong> place peach halves cut-side up in a baking dish, sprinkle with cinnamon, and roast at 190°C (375°F) for 15 minutes. Serve warm with the yogurt.</li>
+        <li><strong>Prep time:</strong> 5 minutes. <strong>Serves:</strong> 2–4.</li>
+        <li><strong>Storage:</strong> 2 days refrigerated; reheat gently.</li>
+        <li><strong>Substitution:</strong> nectarines or plums work just as well.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">9. Frozen Yogurt Berry Bites</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Tiny frozen yogurt drops that taste like berry sorbet — an easy dessert for portion control by design.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 cup (240 g) plain Greek yogurt, 1 cup (150 g) blueberries or raspberries.</li>
+        <li><strong>Instructions:</strong> fold the berries into the yogurt, drop teaspoon mounds onto parchment, and freeze 2 hours.</li>
+        <li><strong>Prep time:</strong> 10 minutes (plus freezing). <strong>Serves:</strong> about 20 bites.</li>
+        <li><strong>Storage:</strong> frozen in a sealed container for 1 month.</li>
+        <li><strong>Substitution:</strong> dip the frozen bites in melted dark chocolate for a fancier version.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">10. Apple Cinnamon Oat Bars</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Chewy oat bars with real apple pieces — the kind of bake that disappears from the tin in two days.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 1/2 cups (135 g) rolled oats, 1/2 cup unsweetened applesauce, 1 small apple, diced (about 1 cup), 1/4 cup chopped walnuts, 1 tsp cinnamon, 1/2 tsp baking powder, 1 egg.</li>
+        <li><strong>Instructions:</strong> stir everything together, press into a lined 8 x 8 inch (20 x 20 cm) pan, and bake at 177°C (350°F) for 25 minutes until golden. Cool fully before slicing.</li>
+        <li><strong>Prep time:</strong> 15 minutes. <strong>Serves:</strong> 9 bars.</li>
+        <li><strong>Storage:</strong> 5 days in a container on the counter, or 2 months frozen.</li>
+        <li><strong>Substitution:</strong> swap walnuts for raisins or dried cranberries.</li>
+      </ul>
+
+      <h2 id="dessert-swaps" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. Healthy Dessert Ingredient Swaps
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Apply these swaps to any dessert recipe you already love:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Sugar →</strong> mashed ripe banana, applesauce, or soaked, blended dates. Use roughly the same volume, and know your bake will be a little more moist and darker.</li>
+        <li><strong>Butter →</strong> nut butter, tahini, or olive oil at about 2/3 the amount.</li>
+        <li><strong>White flour →</strong> oat flour or almond flour for softer, denser, more filling treats.</li>
+        <li><strong>Whole milk →</strong> plain Greek yogurt or coconut milk for extra richness and protein.</li>
+        <li><strong>Milk chocolate →</strong> dark chocolate at 70% cacao and up — half the bar goes further.</li>
+        <li><strong>Whipped topping →</strong> whipped plain Greek yogurt with a drop of vanilla.</li>
+      </ul>
+
+      <h2 id="satisfy-sweet-craving" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. How to Satisfy a Sweet Craving with Simple Ingredients
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Before you start baking, the five-second fix list:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Frozen grapes or frozen banana coins</strong> — nature's popsicles, no prep.</li>
+        <li><strong>A date stuffed with a walnut and a pinch of salt</strong> — tastes like a caramel chew.</li>
+        <li><strong>A square of 70% dark chocolate with a piece of orange</strong> — a candy bar upgrade.</li>
+        <li><strong>Warm cinnamon apple slices</strong> — 90 seconds in the microwave changes everything.</li>
+        <li><strong>Greek yogurt with berries and a drizzle of tahini</strong> — creamy, sweet, and done.</li>
+      </ul>
+
+      <h2 id="dessert-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Are healthy desserts actually lower in sugar?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — most of these recipes have zero added sugar, and the rest use a small amount of maple syrup or honey. The sweetness comes mainly from fruit and dates, which bring fiber along for the ride.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I make these desserts ahead of time?</h4>
+          <p class="text-slate-700 leading-relaxed">Almost all of them. Chia pudding, fudge, bark, muffins, and oat bars all keep for days or freeze for months — perfect make-ahead treats for the week.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What is the best sweetener for clean eating desserts?</h4>
+          <p class="text-slate-700 leading-relaxed">Whole dates and very ripe banana are the workhorses — they sweeten and add moisture. When you need a liquid sweetener, a small amount of maple syrup or honey goes furthest.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Do these desserts taste like "diet" desserts?</h4>
+          <p class="text-slate-700 leading-relaxed">No — they taste like fruit, chocolate, oats, and nuts, because that is what they are made of. The texture is softer and more rustic than bakery desserts, and the flavor is honest.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Dessert, Minus the Sugar Bomb</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Start with the no-bake fudge — it takes fifteen minutes and turns clean eating into something you will look forward to. For more sweet ideas, our <a href="/blog/anti-inflammatory-healthy-sweet-snacks" class="text-sage font-bold underline hover:text-sage-dark">healthy sweet snacks</a> list has fifteen more, and the <a href="/blog/healthy-zucchini-dessert-recipes" class="text-sage font-bold underline hover:text-sage-dark">zucchini dessert recipes</a> will surprise you.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-cold-bean-salad-recipes',
+    slug: 'cold-bean-salad-recipes-anti-inflammatory',
+    title: 'Cold Bean Salad Recipes for Anti-Inflammatory Meal Prep',
+    excerpt: 'Five cold bean salad recipes for meal prep: Mediterranean, Italian, three bean, kidney bean, and fresh herb versions with homemade dressings and storage tips.',
+    category: 'Bean Salad',
+    categorySlug: 'bean-salad',
+    tags: [
+      'Cold Bean Salad',
+      'Bean Salad Recipes',
+      'Bean Salad Meal Prep',
+      'Healthy Bean Salad',
+      'Make Ahead Bean Salad',
+      'Cold Lunch Recipes',
+      'Healthy Salad Recipes'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177734/Cold_Bean_Salad_Recipes_for_Anti-Inflammatory_Meal_Prep.jpg',
+    date: 'August 25, 2026',
+    readTime: '10 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'why-cold-bean-salads', title: '1. Why Cold Bean Salads Are Great for Meal Prep' },
+      { id: 'cold-bean-salad-ideas', title: '2. 5 Cold Bean Salad Ideas' },
+      { id: 'best-beans', title: '3. Best Beans for Cold Bean Salads' },
+      { id: 'bean-salad-fridge-life', title: '4. How Long Does Bean Salad Last in the Refrigerator?' },
+      { id: 'keep-bean-salad-fresh', title: '5. How to Keep Bean Salad Fresh' },
+      { id: 'bean-salad-faq', title: '6. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'cold bean salad',
+      metaTitle: 'Cold Bean Salad Recipes for Anti-Inflammatory Meal Prep',
+      metaDescription: 'Five cold bean salad recipes for meal prep: Mediterranean, Italian, three bean, kidney bean, and fresh herb versions — with dressings and fridge-life tips.',
+      readabilityScore: '92/100 (Very Easy)',
+      schemaType: 'Article',
+      pinterestTitle: '5 Cold Bean Salad Recipes for Easy Meal Prep',
+      pinterestDescription: 'Five cold bean salad recipes perfect for meal prep: Mediterranean, Italian, three bean, kidney bean, and fresh herb versions with simple homemade dressings.',
+      pinterestKeywords: [
+        'cold bean salad',
+        'bean salad recipes',
+        'bean salad meal prep',
+        'healthy bean salad',
+        'make ahead bean salad',
+        'cold lunch recipes',
+        'healthy salad recipes'
+      ],
+      pinterestPinHeadlines: [
+        '5 Cold Bean Salad Recipes for Easy Meal Prep',
+        'Make-Ahead Bean Salads for Weekday Lunches',
+        'Healthy Bean Salad Ideas with Homemade Dressings'
+      ]
+    },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        A cold bean salad is the meal prep MVP: no reheating, no wilting, and somehow it tastes better on day three than day one. Made with fiber-rich beans, crisp vegetables, and a simple homemade dressing, these five cold bean salad recipes are easy lunches you can make on Sunday and enjoy all week.
+      </p>
+
+      <h2 id="why-cold-bean-salads" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. Why Cold Bean Salads Are Great for Meal Prep
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Better with time:</strong> beans and dressing get along like old friends — the flavors marry overnight instead of fading.</li>
+        <li><strong>No reheating:</strong> pull a container from the fridge and lunch is ready. Perfect for desks, picnics, and busy days.</li>
+        <li><strong>Affordable:</strong> canned beans cost a fraction of most lunch proteins, and a single can feeds two people.</li>
+        <li><strong>Fiber and plant protein:</strong> a generous helping of beans is a wholesome, satisfying base that holds you until dinner.</li>
+        <li><strong>Made of stable ingredients:</strong> beans, oil, vinegar, and sturdy vegetables keep for days — ideal for make-ahead cold lunches.</li>
+      </ul>
+
+      <h2 id="cold-bean-salad-ideas" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. 5 Cold Bean Salad Ideas
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Each salad below makes about 6 servings (roughly 1.5 cups each) and keeps 4–5 days in the fridge. Cans are 15 oz (425 g), drained and rinsed.
+      </p>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">1. Mediterranean Bean Salad</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Bright, herb-heavy, and full of crunch — the salad that makes you forget beans ever seemed boring.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 can chickpeas, 1 can cannellini beans, 1 English cucumber diced, 1 1/2 cups cherry tomatoes halved, 1/2 small red onion finely diced, 1/4 cup Kalamata olives, 1/4 cup chopped parsley.</li>
+        <li><strong>Dressing:</strong> 1/4 cup extra virgin olive oil, 3 tbsp lemon juice, 1 clove garlic minced, 1 tsp dried oregano, salt and pepper.</li>
+        <li><strong>Preparation:</strong> whisk the dressing, toss with everything, and let it rest 20 minutes before serving so the flavors settle.</li>
+        <li><strong>Storage:</strong> airtight container in the fridge, 4–5 days.</li>
+        <li><strong>Meal-prep note:</strong> add crumbled feta (about 1/2 cup) only to the portions you will eat within 2 days — it softens fast.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">2. Italian Bean Salad</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">White beans, roasted peppers, artichokes, and a tangy red wine vinaigrette — like antipasto in a bowl.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 can cannellini beans, 1 can red kidney beans, 1 cup jarred roasted red peppers sliced, 1 cup jarred artichoke hearts quartered, 1/2 small red onion thinly sliced, 1/4 cup fresh basil chiffonade.</li>
+        <li><strong>Dressing:</strong> 1/4 cup extra virgin olive oil, 2 tbsp red wine vinegar, 1 tsp Dijon mustard, 1 tsp dried Italian herbs, salt and pepper.</li>
+        <li><strong>Preparation:</strong> drain the peppers and artichokes well, whisk the dressing, and toss everything together. Chill at least 30 minutes.</li>
+        <li><strong>Storage:</strong> airtight container, 4–5 days. The peppers and artichokes hold up beautifully.</li>
+        <li><strong>Meal-prep note:</strong> this one is the most pack-and-go of the five — nothing wilts or browns.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">3. Three Bean Salad</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">The retro classic, modernized: green beans, kidney beans, and chickpeas in a tangy vinaigrette with celery crunch.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 cups fresh green beans (trimmed and cut), 1 can red kidney beans, 1 can chickpeas, 2 celery stalks diced, 1/3 cup thinly sliced red onion.</li>
+        <li><strong>Dressing:</strong> 1/4 cup extra virgin olive oil, 3 tbsp apple cider vinegar, 1 tsp Dijon mustard, 1 tsp maple syrup or honey (optional), salt and pepper.</li>
+        <li><strong>Preparation:</strong> blanch the green beans in salted boiling water for 3 minutes, then plunge into ice water. Drain well, whisk the dressing, and toss everything together.</li>
+        <li><strong>Storage:</strong> airtight container, 4–5 days. Drain any pooling liquid before serving.</li>
+        <li><strong>Meal-prep note:</strong> the syrup in the dressing is optional — the salad is excellent without it if you prefer fully savory.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">4. Kidney Bean Salad</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Smoky, limey, and just a little spicy — kidney beans with corn and bell pepper in a cumin-lime dressing.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 cans red kidney beans, 1 cup frozen corn (thawed), 1 red bell pepper diced, 1/2 small red onion finely diced, 1/4 cup chopped cilantro, 1 jalapeño seeded and minced (optional).</li>
+        <li><strong>Dressing:</strong> 1/4 cup extra virgin olive oil, 3 tbsp lime juice, 1 tsp ground cumin, 1 clove garlic minced, salt and pepper.</li>
+        <li><strong>Preparation:</strong> whisk the dressing, toss with everything, and let it rest 15 minutes so the cumin blooms.</li>
+        <li><strong>Storage:</strong> airtight container, 4 days. The lime keeps the flavors bright.</li>
+        <li><strong>Meal-prep note:</strong> great with avocado — add it per portion, at serving time only.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">5. Fresh Herb Bean Salad</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">The simplest of the five: mixed beans, a mountain of herbs, and a lemony dressing. Herbs do the heavy lifting.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 can chickpeas, 1 can cannellini beans, 1 can black beans, 1 cup finely chopped parsley, 1/2 cup chopped mint, 1/2 cup chopped dill, 3 spring onions sliced.</li>
+        <li><strong>Dressing:</strong> 1/4 cup extra virgin olive oil, 1/4 cup lemon juice, 1 tsp Dijon mustard, 1 clove garlic minced, salt and pepper.</li>
+        <li><strong>Preparation:</strong> whisk the dressing, toss with the beans and herbs, and taste — add another squeeze of lemon if you like it bright.</li>
+        <li><strong>Storage:</strong> airtight container, 3–4 days. The herbs soften over time, which is fine — they stay fragrant.</li>
+        <li><strong>Meal-prep note:</strong> add the herbs in two stages if making a big batch: half at mixing, half the day you eat it.</li>
+      </ul>
+
+      <h2 id="best-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. Best Beans for Cold Bean Salads
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Chickpeas:</strong> hold their shape, absorb dressing, add a hearty bite — the backbone of Mediterranean salads.</li>
+        <li><strong>Cannellini beans:</strong> creamy and mellow; they soak up dressings and round out any mix.</li>
+        <li><strong>Red kidney beans:</strong> firm and meaty with a beautiful color that makes the bowl look alive.</li>
+        <li><strong>Black beans:</strong> earthy and slightly sweet — best with lime, cumin, and cilantro dressings.</li>
+        <li><strong>Pinto beans:</strong> creamy inside, sturdy outside; a great addition to 5-bean mixes.</li>
+        <li><strong>Green beans:</strong> not canned — blanched fresh green beans add color, crunch, and a different texture entirely.</li>
+      </ul>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        Canned beans are perfectly fine here — just drain and rinse them well. If you cook dried beans, use the same weight (about 1 1/2 cups cooked per can). All of these are rich in fiber and plant-based protein, which makes them a wholesome base for cold lunches.
+      </p>
+
+      <h2 id="bean-salad-fridge-life" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. How Long Does Bean Salad Last in the Refrigerator?
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Bean salads are among the longest-lived cold salads. Stored airtight in the fridge:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>4–5 days</strong> is the sweet spot for most recipes in this article.</li>
+        <li><strong>Herb-heavy salads</strong> (like the fresh herb version) are best eaten within 3–4 days.</li>
+        <li><strong>Past day five,</strong> texture degrades and flavor dulls — meal prep 4 days at a time for the best experience.</li>
+        <li><strong>Do not freeze dressed salads</strong> — the beans turn mealy and the dressing separates. Undressed beans freeze fine for up to 3 months.</li>
+      </ul>
+
+      <h2 id="keep-bean-salad-fresh" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. How to Keep Bean Salad Fresh
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Store dressing separately</strong> if you plan to keep a batch longer than 4 days — dressed beans marinate, undressed beans wait.</li>
+        <li><strong>Salt at the table,</strong> not in the batch. Salt pulls moisture out of vegetables over time.</li>
+        <li><strong>Keep tender herbs on top</strong> of the container, folded in only at serving.</li>
+        <li><strong>Use glass containers</strong> — beans stain plastic and glass keeps flavors clean. Our <a href="/blog/best-glass-meal-prep-containers-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">glass meal prep container guide</a> covers what to look for.</li>
+        <li><strong>Give it a gentle stir</strong> before each serving to redistribute the dressing that settles at the bottom.</li>
+      </ul>
+
+      <h2 id="bean-salad-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I use dried beans instead of canned?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — cook 1 cup of dried beans per can the recipe calls for, then cool them fully before adding to the salad. Rinsed canned beans save about 45 minutes, which is why most people use them.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Does bean salad freeze well?</h4>
+          <p class="text-slate-700 leading-relaxed">Dressed bean salad does not — the dressing separates and the beans turn soft. Freeze cooked, undressed beans in a sealed container for up to 3 months instead.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">How do I keep beans from getting mushy?</h4>
+          <p class="text-slate-700 leading-relaxed">Rinse canned beans gently (no vigorous shaking), take care not to over-stir once dressed, and skip freezing. Firm beans hold up for the full week in the fridge.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I add greens to a cold bean salad?</h4>
+          <p class="text-slate-700 leading-relaxed">Add leafy greens at serving time, not storage time — dressed greens wilt within hours. A handful of arugula or spinach turns any of these salads into a complete plate.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Make One, Keep the Week</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Pick the Mediterranean version — it is the most beginner-friendly. For more protein and an even longer fridge life, try our <a href="/blog/high-protein-anti-inflammatory-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">5 bean salad recipe</a> or add a scoop of <a href="/blog/bean-salad-recipe-with-quinoa" class="text-sage font-bold underline hover:text-sage-dark">quinoa to the mix</a>. And for the full rotating set, our <a href="/blog/bean-salad-recipes-for-food-prep" class="text-sage font-bold underline hover:text-sage-dark">bean salad food prep guide</a> has you covered.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-5-bean-salad',
+    slug: 'high-protein-anti-inflammatory-bean-salad',
+    title: 'High Protein Anti-Inflammatory Bean Salad Recipe (5 Bean Version)',
+    excerpt: 'A high protein 5 bean salad with chickpeas, black, kidney, cannellini, and pinto beans, a zesty homemade dressing, and honest nutrition info per serving.',
+    category: 'Bean Salad',
+    categorySlug: 'bean-salad',
+    tags: [
+      '5 Bean Salad',
+      'High Protein Bean Salad',
+      'Bean Salad Recipes',
+      'Healthy Bean Salad',
+      'Bean Salad Meal Prep',
+      'High Protein Salad',
+      'Cold Bean Salad'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177736/High_Protein_Anti-Inflammatory_Bean_Salad_Recipe_5_Bean_Version.jpg',
+    date: 'August 26, 2026',
+    readTime: '10 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'why-5-bean-salad', title: '1. Why This 5 Bean Salad Works' },
+      { id: 'five-bean-ingredients', title: '2. Ingredients' },
+      { id: 'make-five-bean-salad', title: '3. How to Make 5 Bean Salad' },
+      { id: 'best-dressing', title: '4. The Best Homemade Dressing' },
+      { id: 'increase-protein', title: '5. How to Increase Protein' },
+      { id: 'bean-salad-prep-storage', title: '6. Meal Prep and Storage' },
+      { id: 'bean-substitutions', title: '7. Ingredient Substitutions' },
+      { id: 'bean-salad-nutrition', title: '8. Nutrition Information' },
+      { id: 'five-bean-faq', title: '9. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: '5 bean salad',
+      metaTitle: 'High Protein 5 Bean Salad Recipe (Anti-Inflammatory + Meal Prep)',
+      metaDescription: 'A high protein 5 bean salad recipe: chickpeas, black, kidney, cannellini, and pinto beans with a zesty homemade dressing — great for meal prep lunches.',
+      readabilityScore: '92/100 (Very Easy)',
+      schemaType: 'Recipe & Article',
+      pinterestTitle: 'High Protein 5 Bean Salad for Meal Prep',
+      pinterestDescription: 'This high protein 5 bean salad uses chickpeas, black beans, kidney beans, cannellini, and pinto beans with a zesty lemon-cumin dressing. Perfect for meal prep.',
+      pinterestKeywords: [
+        '5 bean salad',
+        '5 bean salad recipe',
+        'high protein bean salad',
+        'bean salad recipes healthy',
+        'healthy bean salad',
+        'bean salad meal prep',
+        'cold bean salad'
+      ],
+      pinterestPinHeadlines: [
+        'High Protein 5 Bean Salad You Can Make on Sunday',
+        'The Best 5 Bean Salad for Meal Prep Lunches',
+        'A Fiber-Rich Bean Salad with a Zesty Homemade Dressing'
+      ]
+    },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
+    recipeDetails: {
+      title: 'High Protein 5 Bean Salad with Lemon-Cumin Dressing',
+      prepTime: '20 mins',
+      cookTime: '0 mins',
+      totalTime: '20 mins',
+      servings: 6,
+      calories: 210,
+      protein: '8g',
+      carbs: '22g',
+      fat: '10g',
+      fiber: '8g',
+      glycemicIndex: 'Low (GI < 35)',
+      gutBenefitScore: 9.2,
+      ingredients: [
+        { name: 'Chickpeas (garbanzo beans), drained and rinsed', amount: 1, unit: 'can (15 oz / 425 g)' },
+        { name: 'Black beans, drained and rinsed', amount: 1, unit: 'can (15 oz / 425 g)' },
+        { name: 'Red kidney beans, drained and rinsed', amount: 1, unit: 'can (15 oz / 425 g)' },
+        { name: 'Cannellini beans, drained and rinsed', amount: 1, unit: 'can (15 oz / 425 g)' },
+        { name: 'Pinto beans, drained and rinsed', amount: 1, unit: 'can (15 oz / 425 g)' },
+        { name: 'Red bell pepper, diced', amount: 1, unit: 'medium' },
+        { name: 'Red onion, finely diced', amount: 0.5, unit: 'small' },
+        { name: 'Cherry tomatoes, halved', amount: 1.5, unit: 'cups' },
+        { name: 'Fresh parsley, chopped', amount: 0.5, unit: 'cup' },
+        { name: 'Extra virgin olive oil', amount: 0.25, unit: 'cup' },
+        { name: 'Fresh lemon juice', amount: 0.25, unit: 'cup' },
+        { name: 'Red wine vinegar', amount: 2, unit: 'tbsp' },
+        { name: 'Dijon mustard', amount: 1, unit: 'tsp' },
+        { name: 'Garlic clove, minced', amount: 1, unit: 'whole' },
+        { name: 'Ground cumin', amount: 0.5, unit: 'tsp' },
+        { name: 'Sea salt and black pepper', amount: 1, unit: 'to taste' }
+      ],
+      steps: [
+        {
+          stepNumber: 1,
+          instruction: 'Drain and rinse all five cans of beans in a colander and shake off excess water. Dump them into a large mixing bowl.',
+          tip: 'Rinsing removes about 40% of the sodium from canned beans and gives the dressing room to stick.'
+        },
+        {
+          stepNumber: 2,
+          instruction: 'Add the diced bell pepper, red onion, cherry tomatoes, and parsley to the bowl.',
+          tip: 'Cut the vegetables small so every forkful gets a little of everything.'
+        },
+        {
+          stepNumber: 3,
+          instruction: 'Whisk the dressing: olive oil, lemon juice, red wine vinegar, Dijon mustard, garlic, cumin, salt, and pepper in a small jar.',
+          tip: 'Shake it in a sealed jar for 10 seconds — faster than whisking and no extra dish.'
+        },
+        {
+          stepNumber: 4,
+          instruction: 'Pour the dressing over the salad and toss gently until everything is coated.',
+          timerMinutes: 20,
+          tip: 'Let the salad rest 20 minutes at room temperature before serving so the beans really take on the dressing.'
+        },
+        {
+          stepNumber: 5,
+          instruction: 'Taste, adjust salt and pepper, and transfer to airtight containers. Refrigerate for up to 5 days.'
+        }
+      ]
+    },
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        Five cans of beans walk into a bowl and become lunch for the week. That is the whole idea behind this 5 bean salad — a high protein bean salad that is more than the sum of its parts, with a zesty lemon-cumin dressing that makes it taste like something you would order at a café, not something you assembled from the pantry.
+      </p>
+
+      <h2 id="why-5-bean-salad" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. Why This 5 Bean Salad Works
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Five textures, one bowl:</strong> chickpeas bring the body, black beans bring the earthiness, kidney beans bring the meaty bite, cannellini bring the cream, and pintos round it all out.</li>
+        <li><strong>Plant protein and fiber:</strong> every serving supplies about 8 g of protein and 8 g of fiber from beans alone — a genuinely filling base for a balanced lunch.</li>
+        <li><strong>No cooking:</strong> this recipe is 20 minutes of prep and zero time at the stove or oven.</li>
+        <li><strong>Improves in the fridge:</strong> like most cold bean salads, it tastes better the next day — which is exactly what you want from meal prep.</li>
+        <li><strong>Ingredient flexibility:</strong> swap beans freely; the recipe works with any combination you have on hand.</li>
+      </ul>
+
+      <h2 id="five-bean-ingredients" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. Ingredients
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The ingredient list looks long, but every item is pantry- or fridge-standard:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>The beans:</strong> 1 can (15 oz / 425 g) each of chickpeas, black beans, kidney beans, cannellini beans, and pinto beans — drained and rinsed.</li>
+        <li><strong>The crunch:</strong> 1 red bell pepper, 1/2 small red onion, 1 1/2 cups cherry tomatoes.</li>
+        <li><strong>The freshness:</strong> 1/2 cup fresh parsley, chopped (flat-leaf if you can find it).</li>
+        <li><strong>The dressing:</strong> 1/4 cup extra virgin olive oil, 1/4 cup lemon juice, 2 tbsp red wine vinegar, 1 tsp Dijon mustard, 1 garlic clove, 1/2 tsp ground cumin, salt, and pepper.</li>
+      </ul>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        Makes 6 servings of about 1 1/2 cups each. Double the batch freely — this recipe scales linearly.
+      </p>
+
+      <h2 id="make-five-bean-salad" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. How to Make 5 Bean Salad
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Full step-by-step instructions are in the interactive recipe card below — print it, scale the servings, and check off ingredients as you go. The short version:
+      </p>
+      <ol class="list-decimal pl-6 space-y-2 text-slate-700 mb-6">
+        <li>Rinse and drain all five cans of beans well.</li>
+        <li>Dice the bell pepper and onion; halve the tomatoes; chop the parsley.</li>
+        <li>Shake the dressing ingredients together in a jar.</li>
+        <li>Toss everything, rest 20 minutes, taste, adjust, and portion into containers.</li>
+      </ol>
+
+      <h2 id="best-dressing" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. The Best Homemade Dressing
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        This dressing is the sleeper hit of the recipe. The lemon keeps the salad bright for days, the cumin adds warmth without heat, and the mustard emulsifies everything so the oil and vinegar stay together longer:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>1/4 cup extra virgin olive oil</strong> — the base and a healthy fat source.</li>
+        <li><strong>1/4 cup fresh lemon juice</strong> — brightens every bean.</li>
+        <li><strong>2 tbsp red wine vinegar</strong> — adds the tang that makes it taste "restaurant."</li>
+        <li><strong>1 tsp Dijon mustard</strong> — the glue that keeps it emulsified.</li>
+        <li><strong>1 clove garlic, minced, and 1/2 tsp ground cumin</strong> — the flavor backbone.</li>
+        <li><strong>Salt and black pepper to taste</strong> — season at the end, not the start.</li>
+      </ul>
+
+      <h2 id="increase-protein" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. How to Increase Protein
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Beans are a solid plant-based protein source, and you can easily push this salad higher:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Add 2 tbsp hemp seeds per serving</strong> — about 10 g of protein added to the salad, with a nutty taste that fits the dressing.</li>
+        <li><strong>Fold in a hard-boiled egg per serving</strong> — 6 g of protein each and a natural pairing with beans.</li>
+        <li><strong>Spoon it over quinoa or brown rice</strong> — the grain adds both protein and staying power.</li>
+        <li><strong>Top with grilled chicken or canned tuna</strong> — about 25 g of protein more per serving.</li>
+      </ul>
+
+      <h2 id="bean-salad-prep-storage" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Meal Prep and Storage
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Fridge:</strong> airtight containers for up to 5 days. It genuinely improves overnight.</li>
+        <li><strong>Portion it immediately:</strong> six containers, one Sunday session, zero assembly at lunch.</li>
+        <li><strong>Stir gently before serving:</strong> the dressing settles toward the bottom; a fold brings it back.</li>
+        <li><strong>Storage containers:</strong> glass keeps the dressing from staining plastic and the flavor clean — see our <a href="/blog/best-glass-meal-prep-containers-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">glass meal prep container guide</a>.</li>
+      </ul>
+
+      <h2 id="bean-substitutions" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        7. Ingredient Substitutions
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Missing a bean?</strong> Use 5 cans of the same kind if you must — or swap in lentils or black-eyed peas.</li>
+        <li><strong>No red wine vinegar?</strong> Apple cider vinegar works with the lemon beautifully.</li>
+        <li><strong>No cumin?</strong> Smoked paprika gives a different but equally good warmth.</li>
+        <li><strong>No parsley?</strong> Use chopped cilantro for a brighter, herbier version.</li>
+        <li><strong>Tomatoes too watery for you?</strong> Use 1 cup diced roasted red peppers instead — they hold up longer.</li>
+      </ul>
+
+      <h2 id="bean-salad-nutrition" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        8. Nutrition Information
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Calculated from the exact quantities in this recipe (per serving, about 1 1/2 cups), using standard USDA nutrition data:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Calories:</strong> about 210 per serving.</li>
+        <li><strong>Protein:</strong> about 8 g per serving, from the beans and vegetables.</li>
+        <li><strong>Carbohydrates:</strong> about 22 g, most of it from beans, along with <strong>8 g of fiber.</strong></li>
+        <li><strong>Fat:</strong> about 10 g, almost entirely from the olive oil.</li>
+        <li><strong>Sodium:</strong> varies with rinsing and salt — rinsing canned beans well cuts a meaningful portion of it.</li>
+      </ul>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        A note on the protein number: 8 g per serving is what the recipe itself provides. If you want a higher-protein claim, use one of the additions in section 5 — the numbers above are the honest base.
+      </p>
+
+      <h2 id="five-bean-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        9. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I make this 5 bean salad with dried beans?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — cook about 3/4 cup of each dried bean (roughly 5 cups cooked total), cool completely, and use as directed. Canned beans simply save you the time.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">How long does 5 bean salad last in the fridge?</h4>
+          <p class="text-slate-700 leading-relaxed">Up to 5 days in an airtight container. It tastes its best on days 2–4, once the dressing has fully soaked into the beans.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Is the salad better warm or cold?</h4>
+          <p class="text-slate-700 leading-relaxed">Cold, straight from the fridge — that is the point. If you prefer a milder dressing flavor, let a portion sit at room temperature for 10 minutes before eating.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What if I only have three or four bean varieties?</h4>
+          <p class="text-slate-700 leading-relaxed">Use whatever beans you have. The dressing and vegetables do the real work — any combination of 3–5 beans makes a great salad.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Five Cans, One Great Week</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Make this Sunday and you have lunch covered until Friday. Feeling adventurous? Try the <a href="/blog/bean-salad-recipe-with-quinoa" class="text-sage font-bold underline hover:text-sage-dark">quinoa version of this salad</a>, browse all our <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad recipes</a>, or pair it with our <a href="/blog/high-protein-anti-inflammatory-lunch-ideas" class="text-sage font-bold underline hover:text-sage-dark">high-protein lunch ideas</a> for a full week of planning.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-bean-salad-with-quinoa',
+    slug: 'bean-salad-recipe-with-quinoa',
+    title: 'Bean Salad Recipe with Quinoa (Anti-Inflammatory + High Protein)',
+    excerpt: 'An easy bean salad recipe with quinoa: chickpeas, black beans, cucumber, herbs, and a lemon vinaigrette — a high-fiber, high-protein salad for meal prep lunches.',
+    category: 'Bean Salad',
+    categorySlug: 'bean-salad',
+    tags: [
+      'Bean Salad Recipe with Quinoa',
+      'Quinoa Bean Salad',
+      'Quinoa Salad with Beans',
+      'Healthy Bean Salad',
+      'High Protein Bean Salad',
+      'Easy Quinoa Salad',
+      'Meal Prep Quinoa Salad'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177683/Bean_Salad_Recipe_with_Quinoa_Anti-Inflammatory_High_Protein.jpg',
+    date: 'August 27, 2026',
+    readTime: '10 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'why-quinoa-bean-salad', title: '1. Why Add Quinoa to Bean Salad?' },
+      { id: 'quinoa-ingredients', title: '2. Ingredients' },
+      { id: 'make-quinoa-bean-salad', title: '3. How to Make Bean Salad with Quinoa' },
+      { id: 'quinoa-dressing', title: '4. Easy Homemade Dressing' },
+      { id: 'quinoa-meal-prep', title: '5. How to Meal Prep This Salad' },
+      { id: 'quinoa-substitutions', title: '6. Ingredient Substitutions' },
+      { id: 'serving-ideas', title: '7. Serving Ideas' },
+      { id: 'quinoa-faq', title: '8. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'bean salad recipe with quinoa',
+      metaTitle: 'Bean Salad Recipe with Quinoa (Anti-Inflammatory + High Protein)',
+      metaDescription: 'An easy bean salad recipe with quinoa: chickpeas, black beans, cucumber, and fresh herbs in a lemon vinaigrette — a high-fiber salad that meal preps beautifully.',
+      readabilityScore: '93/100 (Very Easy)',
+      schemaType: 'Recipe & Article',
+      pinterestTitle: 'Bean Salad with Quinoa — Easy Meal Prep Lunch',
+      pinterestDescription: 'This bean salad recipe with quinoa combines chickpeas, black beans, cucumber, and herbs with a lemony vinaigrette. A high-fiber meal prep lunch ready in 30 minutes.',
+      pinterestKeywords: [
+        'bean salad recipe with quinoa',
+        'quinoa bean salad',
+        'quinoa salad with beans',
+        'healthy bean salad',
+        'high protein bean salad',
+        'easy quinoa salad',
+        'meal prep quinoa salad'
+      ],
+      pinterestPinHeadlines: [
+        'Bean Salad with Quinoa — Ready in 30 Minutes',
+        'A High-Fiber Quinoa and Bean Salad for Meal Prep',
+        'Easy Quinoa Salad Recipe with Chickpeas and Black Beans'
+      ]
+    },
+    recipeDetails: {
+      title: 'Quinoa and Bean Salad with Lemon Vinaigrette',
+      prepTime: '15 mins',
+      cookTime: '15 mins',
+      totalTime: '30 mins',
+      servings: 6,
+      calories: 270,
+      protein: '9g',
+      carbs: '29g',
+      fat: '13g',
+      fiber: '6g',
+      glycemicIndex: 'Low (GI < 35)',
+      gutBenefitScore: 9,
+      ingredients: [
+        { name: 'Quinoa, rinsed', amount: 1, unit: 'cup (170 g)' },
+        { name: 'Water', amount: 2, unit: 'cups' },
+        { name: 'Chickpeas, drained and rinsed', amount: 1, unit: 'can (15 oz / 425 g)' },
+        { name: 'Black beans, drained and rinsed', amount: 1, unit: 'can (15 oz / 425 g)' },
+        { name: 'English cucumber, diced', amount: 1, unit: 'medium' },
+        { name: 'Cherry tomatoes, halved', amount: 1, unit: 'cup' },
+        { name: 'Red onion, finely diced', amount: 0.33, unit: 'cup' },
+        { name: 'Fresh parsley or mint, chopped', amount: 0.25, unit: 'cup' },
+        { name: 'Pumpkin seeds', amount: 2, unit: 'tbsp' },
+        { name: 'Extra virgin olive oil', amount: 0.25, unit: 'cup' },
+        { name: 'Fresh lemon juice', amount: 3, unit: 'tbsp' },
+        { name: 'Dijon mustard', amount: 1, unit: 'tsp' },
+        { name: 'Garlic clove, minced', amount: 1, unit: 'whole' },
+        { name: 'Ground cumin', amount: 0.5, unit: 'tsp' },
+        { name: 'Sea salt and black pepper', amount: 1, unit: 'to taste' }
+      ],
+      steps: [
+        {
+          stepNumber: 1,
+          instruction: 'Rinse the quinoa thoroughly in a fine-mesh strainer (this removes its bitter coating). Combine with the water and a pinch of salt in a small saucepan, bring to a boil, then reduce to a simmer, cover, and cook for 15 minutes. Remove from heat and let it steam, covered, for 5 more minutes.',
+          timerMinutes: 15,
+          tip: 'Fluff with a fork and spread on a plate to cool completely — warm quinoa turns the salad soggy.'
+        },
+        {
+          stepNumber: 2,
+          instruction: 'While the quinoa cooks, dice the cucumber, halve the tomatoes, dice the onion, and chop the herbs. Combine with the drained chickpeas and black beans in a large bowl.',
+          tip: 'Scoop the seeds out of the cucumber before dicing for a firmer texture in the salad.'
+        },
+        {
+          stepNumber: 3,
+          instruction: 'Whisk (or shake in a jar) the dressing: olive oil, lemon juice, Dijon mustard, garlic, cumin, salt, and pepper.'
+        },
+        {
+          stepNumber: 4,
+          instruction: 'Add the cooled quinoa and the dressing to the bowl with the beans and vegetables. Toss gently, add the pumpkin seeds, and taste — adjust salt and lemon as needed.',
+          timerMinutes: 10,
+          tip: 'Letting the salad rest 10 minutes before serving lets the quinoa absorb the dressing.'
+        },
+        {
+          stepNumber: 5,
+          instruction: 'Portion into airtight containers. Refrigerate for up to 5 days.'
+        }
+      ]
+    },
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        Quinoa and beans are a classic pairing in grain salads for a simple reason: quinoa is a complete protein, beans bring the fiber, and together they make a salad that keeps you genuinely full. This bean salad recipe with quinoa is the easy weeknight version — 30 minutes, one pot for the quinoa, and a lemony dressing that works with everything in the bowl.
+      </p>
+
+      <h2 id="why-quinoa-bean-salad" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. Why Add Quinoa to Bean Salad?
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Protein teamwork:</strong> quinoa contains all nine essential amino acids — a rare trait for a plant food — so it pairs especially well with beans.</li>
+        <li><strong>Texture:</strong> quinoa adds a light, fluffy chew that balances the creaminess of beans.</li>
+        <li><strong>Fiber from two directions:</strong> quinoa brings its own fiber, and beans bring theirs. The salad easily clears 6 g per serving.</li>
+        <li><strong>Neutral flavor:</strong> quinoa tastes like a blank canvas — it absorbs lemon and cumin beautifully instead of fighting them.</li>
+        <li><strong>Extra servings:</strong> a cup of dry quinoa turns into about 3 cups cooked, stretching the same quantity of beans into six generous lunches.</li>
+      </ul>
+
+      <h2 id="quinoa-ingredients" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. Ingredients
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>The grains:</strong> 1 cup (170 g) quinoa, rinsed, cooked in 2 cups water.</li>
+        <li><strong>The beans:</strong> 1 can (15 oz / 425 g) chickpeas and 1 can black beans, drained and rinsed.</li>
+        <li><strong>The crunch:</strong> 1 English cucumber, 1 cup cherry tomatoes, 1/3 cup diced red onion.</li>
+        <li><strong>The freshness:</strong> 1/4 cup chopped parsley or mint, 2 tbsp pumpkin seeds.</li>
+        <li><strong>The dressing:</strong> 1/4 cup extra virgin olive oil, 3 tbsp lemon juice, 1 tsp Dijon mustard, 1 garlic clove, 1/2 tsp cumin, salt, and pepper.</li>
+      </ul>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        Makes 6 servings of about 1 1/2 cups each.
+      </p>
+
+      <h2 id="make-quinoa-bean-salad" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. How to Make Bean Salad with Quinoa
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The interactive recipe card below has the full step-by-step version. The short version:
+      </p>
+      <ol class="list-decimal pl-6 space-y-2 text-slate-700 mb-6">
+        <li>Rinse the quinoa, then cook it with the water for 15 minutes and let it steam 5 minutes off the heat.</li>
+        <li>Spread the quinoa on a plate to cool — this is the one step you should not skip.</li>
+        <li>Dice the vegetables while the quinoa cools.</li>
+        <li>Combine beans, vegetables, cooled quinoa, dressing, and pumpkin seeds in a large bowl.</li>
+        <li>Taste, adjust, rest 10 minutes, and portion.</li>
+      </ol>
+
+      <h2 id="quinoa-dressing" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. Easy Homemade Dressing
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Three tablespoons of lemon juice do a lot of work here — they brighten the quinoa, wake up the beans, and keep the salad lively for days in the fridge. The Dijon keeps it emulsified, and the cumin gives it that warm, almost smoky undertone that makes this taste homemade in the best way.
+      </p>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        Make the dressing in the jar you will store the salad in: whisk, pour, toss, done. One less bowl to wash.
+      </p>
+
+      <h2 id="quinoa-meal-prep" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. How to Meal Prep This Salad
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Fridge life:</strong> 5 days in an airtight container. Unlike leafy salads, this one looks almost identical on day five.</li>
+        <li><strong>Portion right away:</strong> six containers means grab-and-go lunches all week.</li>
+        <li><strong>Cucumber tip:</strong> it softens as it sits — fine, since the dressing keeps everything tasting fresh. If you want crunch on day five, add cucumber to each portion the morning you eat it.</li>
+        <li><strong>Add pumpkin seeds at serving time</strong> if you plan to keep the batch beyond day two — they stay crunchier that way.</li>
+        <li><strong>Container choice:</strong> glass containers work best for oil-and-lemon dressings. See our <a href="/blog/best-glass-meal-prep-containers-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">glass meal prep guide</a> for the specifics.</li>
+      </ul>
+
+      <h2 id="quinoa-substitutions" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Ingredient Substitutions
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Quinoa →</strong> brown rice, farro, or couscous. Cooking times differ — check the package, and always cool before mixing.</li>
+        <li><strong>Chickpeas or black beans →</strong> kidney beans, cannellini, or lentils work perfectly.</li>
+        <li><strong>Cucumber →</strong> zucchini, finely diced — drain it after dicing.</li>
+        <li><strong>Parsley or mint →</strong> cilantro, dill, or basil. Pick one and commit; mixing too many herbs muddies the flavor.</li>
+        <li><strong>Pumpkin seeds →</strong> sunflower seeds or slivered almonds.</li>
+        <li><strong>No cumin?</strong> Smoked paprika gives a different warmth; a pinch of chili flakes bring heat.</li>
+      </ul>
+
+      <h2 id="serving-ideas" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        7. Serving Ideas
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>As a solo lunch bowl</strong> — it is complete on its own, straight from the fridge.</li>
+        <li><strong>Stuffed into roasted bell peppers or pita</strong> for a handheld meal.</li>
+        <li><strong>Over a bed of arugula</strong> with a drizzle of extra olive oil.</li>
+        <li><strong>Alongside grilled chicken or salmon</strong> — the salad plays the starch-and-veg role beautifully.</li>
+        <li><strong>Topped with a soft-boiled egg</strong> on days you want extra protein.</li>
+      </ul>
+
+      <h2 id="quinoa-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        8. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Do I have to rinse quinoa?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — quinoa has a natural bitter coating (saponins). A 30-second rinse in a fine strainer removes it, and the difference is noticeable.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">How long does quinoa bean salad last in the fridge?</h4>
+          <p class="text-slate-700 leading-relaxed">Up to 5 days in an airtight container. It stays safe and flavorful, though the cucumber does soften — add fresh cucumber to individual portions if you want crunch.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I eat this cold straight from the fridge?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes, that is the best way. The dressing firms up slightly when chilled, which some people prefer; letting a portion sit for 10 minutes softens it.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Is this quinoa salad gluten-free?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — quinoa, beans, and the dressing are all naturally gluten-free. Use certified gluten-free quinoa if you are sensitive, since it is sometimes processed alongside grains.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">A Salad That Keeps</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Make it once and you understand why quinoa and beans became a famous duo. For the all-bean version, try our <a href="/blog/high-protein-anti-inflammatory-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">5 bean salad recipe</a>, and for more cold lunch options, browse all our <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad recipes</a>.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-bean-salad-food-prep',
+    slug: 'bean-salad-recipes-for-food-prep',
+    title: 'Bean Salad Recipes for Food Prep (Make Ahead Anti-Inflammatory Salads)',
+    excerpt: 'Five make-ahead bean salad recipes for food prep: Mediterranean, three bean, five bean, kidney bean, and quinoa versions — with storage and crisp-keeping tips.',
+    category: 'Bean Salad',
+    categorySlug: 'bean-salad',
+    tags: [
+      'Bean Salad Recipes for Food Prep',
+      'Bean Salad Meal Prep',
+      'Make Ahead Bean Salad',
+      'Cold Bean Salad Recipes',
+      'Healthy Meal Prep Salads',
+      'Healthy Bean Salad Recipes',
+      'Bean Salad for Lunch'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177691/Bean_Salad_Recipes_for_Food_Prep_Make_Ahead_Anti-Inflammatory_Salads.jpg',
+    date: 'August 28, 2026',
+    readTime: '10 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'bean-salad-food-prep-why', title: '1. Why Bean Salad Is Great for Food Prep' },
+      { id: 'make-ahead-bean-salads', title: '2. 5 Make-Ahead Bean Salad Recipes' },
+      { id: 'store-bean-salad', title: '3. How to Store Bean Salad' },
+      { id: 'crisp-vegetables', title: '4. How to Keep Vegetables Crisp' },
+      { id: 'meal-prep-containers', title: '5. Best Containers for Meal Prep' },
+      { id: 'food-prep-faq', title: '6. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'bean salad recipes for food prep',
+      metaTitle: 'Bean Salad Recipes for Food Prep (Make Ahead Anti-Inflammatory Salads)',
+      metaDescription: 'Five make-ahead bean salad recipes for food prep: Mediterranean, three bean, five bean, kidney bean, and quinoa versions — with storage and crispness tips.',
+      readabilityScore: '92/100 (Very Easy)',
+      schemaType: 'Article',
+      pinterestTitle: '5 Make-Ahead Bean Salad Recipes for Food Prep',
+      pinterestDescription: 'Five make-ahead bean salad recipes for food prep — Mediterranean, three bean, five bean, kidney bean, and quinoa versions — plus storage and crispness tips.',
+      pinterestKeywords: [
+        'bean salad recipes for food prep',
+        'bean salad meal prep',
+        'make ahead bean salad',
+        'cold bean salad recipes',
+        'healthy meal prep salads',
+        'healthy bean salad recipes',
+        'bean salad for lunch'
+      ],
+      pinterestPinHeadlines: [
+        '5 Make-Ahead Bean Salads for a Week of Lunches',
+        'Bean Salad Food Prep — Sunday to Friday Made Simple',
+        'Cold Bean Salad Recipes That Taste Better on Day 3'
+      ]
+    },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        If you need one food-prep hero, make it the bean salad. These five make-ahead bean salad recipes for food prep require no hot lunch, no reheating, and no wilting — they are the dishes you portion on Sunday and stop thinking about until Friday.
+      </p>
+
+      <h2 id="bean-salad-food-prep-why" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. Why Bean Salad Is Great for Food Prep
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>No reheating needed:</strong> cold by design, perfect for desks and on-the-go eating.</li>
+        <li><strong>Flavor improves overnight:</strong> the one meal-prep dish that gets better, not worse, in the fridge.</li>
+        <li><strong>Long fridge life:</strong> 4–5 days versus the 2-day window of leafy salads.</li>
+        <li><strong>Cheap and shelf-stable:</strong> canned beans store for months, so the ingredients are always ready when you are.</li>
+        <li><strong>Fiber and plant protein:</strong> a wholesome, filling base that makes lunch feel like a real meal.</li>
+      </ul>
+
+      <h2 id="make-ahead-bean-salads" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. 5 Make-Ahead Bean Salad Recipes
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Each makes about 6 servings and keeps 4–5 days refrigerated. Cans are 15 oz (425 g), drained and rinsed.
+      </p>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">1. Mediterranean Bean Salad</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Chickpeas and cannellini with cucumber, tomatoes, olives, and oregano — the most popular bean salad on the site, and the safest bet for a new food-prep routine.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 can chickpeas, 1 can cannellini beans, 1 English cucumber diced, 1 1/2 cups cherry tomatoes halved, 1/2 red onion sliced, 1/4 cup Kalamata olives, 1/4 cup parsley.</li>
+        <li><strong>Dressing:</strong> 1/4 cup olive oil, 3 tbsp lemon juice, 1 minced garlic clove, 1 tsp oregano, salt, pepper.</li>
+        <li><strong>Preparation:</strong> whisk the dressing, toss, rest 20 minutes, portion.</li>
+        <li><strong>Storage:</strong> airtight containers, 4–5 days.</li>
+        <li><strong>Meal-prep instructions:</strong> portion immediately into 6 containers; add feta (optional) only to the first 2 days' worth.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">2. 3 Bean Salad</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Green beans, kidney beans, and chickpeas in a tangy apple-cider vinaigrette with celery — the classic that has fed potlucks for decades.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 cups fresh green beans (blanched), 1 can kidney beans, 1 can chickpeas, 2 celery stalks diced, 1/3 cup red onion sliced.</li>
+        <li><strong>Dressing:</strong> 1/4 cup olive oil, 3 tbsp apple cider vinegar, 1 tsp Dijon mustard, 1 tsp maple syrup (optional), salt, pepper.</li>
+        <li><strong>Preparation:</strong> blanch the green beans 3 minutes, ice-bath them, dry well, then toss everything together.</li>
+        <li><strong>Storage:</strong> airtight containers, 4–5 days; drain pooling liquid before serving.</li>
+        <li><strong>Meal-prep instructions:</strong> skip the maple syrup in the batch and add sweetness per portion — some people want it, some do not.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">3. 5 Bean Salad</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Our signature high-protein 5 bean salad, done in brief — the full recipe with nutrition info lives on its own page.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 can each of chickpeas, black beans, kidney beans, cannellini, and pinto beans, plus 1 bell pepper, 1/2 red onion, 1 1/2 cups cherry tomatoes, 1/2 cup parsley.</li>
+        <li><strong>Dressing:</strong> 1/4 cup olive oil, 1/4 cup lemon juice, 2 tbsp red wine vinegar, 1 tsp Dijon, 1 garlic clove, 1/2 tsp cumin, salt, pepper.</li>
+        <li><strong>Preparation:</strong> rinse all five beans, chop and dice, shake the dressing in a jar, toss, and rest 20 minutes.</li>
+        <li><strong>Storage:</strong> airtight containers, up to 5 days.</li>
+        <li><strong>Meal-prep instructions:</strong> see the <a href="/blog/high-protein-anti-inflammatory-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">full 5 bean salad recipe</a> for step-by-step instructions and honest nutrition numbers.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">4. Kidney Bean Salad</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">Smoky, lime-forward, and barely any prep: kidney beans, corn, and bell pepper in a cumin-lime dressing.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 2 cans kidney beans, 1 cup frozen corn (thawed), 1 red bell pepper diced, 1/2 red onion, 1/4 cup cilantro.</li>
+        <li><strong>Dressing:</strong> 1/4 cup olive oil, 3 tbsp lime juice, 1 tsp cumin, 1 minced garlic clove, salt, pepper.</li>
+        <li><strong>Preparation:</strong> whisk, toss, rest 15 minutes.</li>
+        <li><strong>Storage:</strong> airtight containers, 4 days.</li>
+        <li><strong>Meal-prep instructions:</strong> add avocado at serving time only — it browns fast in dressing.</li>
+      </ul>
+
+      <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">5. Bean and Quinoa Salad</h3>
+      <p class="mb-2 text-slate-700 leading-relaxed">The grain-plus-bean version: quinoa, chickpeas, and black beans in a lemon vinaigrette — the largest batch and the one that travels best.</p>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Ingredients:</strong> 1 cup quinoa (rinsed, cooked in 2 cups water), 1 can chickpeas, 1 can black beans, 1 English cucumber diced, 1 cup cherry tomatoes, 1/3 cup red onion, 2 tbsp pumpkin seeds.</li>
+        <li><strong>Dressing:</strong> 1/4 cup olive oil, 3 tbsp lemon juice, 1 tsp Dijon, 1 garlic clove, 1/2 tsp cumin, salt, pepper.</li>
+        <li><strong>Preparation:</strong> cool the quinoa completely, then toss everything with the dressing and seeds.</li>
+        <li><strong>Storage:</strong> airtight containers, up to 5 days.</li>
+        <li><strong>Meal-prep instructions:</strong> the complete recipe with step-by-step photos lives at our <a href="/blog/bean-salad-recipe-with-quinoa" class="text-sage font-bold underline hover:text-sage-dark">bean salad recipe with quinoa</a> page.</li>
+      </ul>
+
+      <h2 id="store-bean-salad" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. How to Store Bean Salad
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Fridge, always:</strong> bean salads live in the refrigerator — 4–5 days in airtight containers.</li>
+        <li><strong>Portion before storing:</strong> six containers beat one giant bowl; you avoid re-dressing and re-contaminating the batch.</li>
+        <li><strong>No freeze for dressed salads:</strong> freezing breaks the beans' texture and the dressing's emulsion. Cooked undressed beans freeze up to 3 months.</li>
+        <li><strong>Stir gently before each serving</strong> to redistribute the dressing that settles.</li>
+      </ul>
+
+      <h2 id="crisp-vegetables" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. How to Keep Vegetables Crisp
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Dry everything first:</strong> wet vegetables water down the dressing and soften faster. Shake cans well and pat vegetables dry.</li>
+        <li><strong>Salt late:</strong> salt draws moisture out of vegetables. Season the batch lightly, and add finishing salt per plate.</li>
+        <li><strong>Use sturdy vegetables:</strong> cucumber, bell pepper, celery, and roasted red peppers hold up for the full week; leafy greens do not.</li>
+        <li><strong>Store seeds and crunchy toppings separately</strong> if you want snack-crisp texture after day two.</li>
+        <li><strong>Add delicate items at the end:</strong> avocado, feta, fresh cucumber added per portion stay perfect instead of sad.</li>
+      </ul>
+
+      <h2 id="meal-prep-containers" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. Best Containers for Meal Prep
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Leak-proof glass containers</strong> for dressing-heavy salads — beans and oil stain plastic; glass stays clean and clear.</li>
+        <li><strong>4–5 cup (1–1.2 L)</strong> size fits a full lunch portion of these salads comfortably.</li>
+        <li><strong>Small jars</strong> for extra dressing or crunchy add-ins like pumpkin seeds.</li>
+        <li><strong>Glass over plastic for flavor:</strong> garlicky dressings linger in plastic and flavor the next meal. Our <a href="/blog/best-glass-meal-prep-containers-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">complete glass container guide</a> shows what to look for before buying a set.</li>
+      </ul>
+
+      <h2 id="food-prep-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I prep all five bean salads at once?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — they share ingredients and dressings, so a 45-minute Sunday session can produce up to 30 portions. Freeze any that repeat more than once a week.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">How long do make-ahead bean salads stay good?</h4>
+          <p class="text-slate-700 leading-relaxed">Four to five days in the fridge, airtight. Herb-heavy versions are best within 3–4 days, and none should be frozen once dressed.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What is the best bean salad for a beginner?</h4>
+          <p class="text-slate-700 leading-relaxed">The Mediterranean bean salad — two cans of beans, five minutes of chopping, and a forgiving dressing. The 3 bean salad is the second-easiest.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Are these salads keto or low-carb friendly?</h4>
+          <p class="text-slate-700 leading-relaxed">No — beans and quinoa are carbohydrate-rich foods that fit balanced and high-fiber eating patterns, but not a keto approach. They pair well with the protein-focused <a href="/blog/high-protein-anti-inflammatory-lunch-ideas" class="text-sage font-bold underline hover:text-sage-dark">high-protein lunch ideas</a> for variety.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Your Sunday Food Prep, Solved</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Pick one salad from this list and portion it into six containers. Next week, pick another. For the full cold-lunch set, browse all our <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad recipes</a>, and when snack time rolls around, our <a href="/blog/healthy-snacks-for-work" class="text-sage font-bold underline hover:text-sage-dark">healthy snacks for work</a> have your desk covered.
+        </p>
+      </div>
+    `
   }
 ];
