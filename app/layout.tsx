@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { SavedPostsProvider } from '@/providers/SavedPostsProvider';
+import { GoogleAnalytics } from '@/components/GoogleAnalytics';
 import { WordPressAdminBar } from '@/components/WordPressAdminBar';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
@@ -34,6 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col bg-cream text-slate-800 font-sans antialiased selection:bg-sage/20 selection:text-sage-dark">
+        <GoogleAnalytics />
         <SavedPostsProvider>
           <WordPressAdminBar />
           <Header />

@@ -4943,6 +4943,7 @@ export const BLOG_POSTS: BlogPost[] = [
         'Wholesome Sweet Treats for Afternoon Cravings'
       ]
     },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
     content: `
       <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
         Some days just call for something sweet — and that does not have to mean reaching for a candy bar or a packaged granola bar. These 15 healthy sweet snacks use whole-food ingredients like fruit, rolled oats, nuts, seeds, and yogurt, with dates, banana, and cinnamon doing the sweetening instead of refined sugar. Each one is an easy snack recipe that fits well into a balanced eating pattern, and most take under ten minutes to put together.
@@ -5231,6 +5232,7 @@ export const BLOG_POSTS: BlogPost[] = [
         'Make-Ahead Healthy Office Snacks for a Busy Week'
       ]
     },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
     content: `
       <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
         The 3 PM wall hits everyone at a desk. The difference between riding it out and caving into the vending machine is usually a snack that survived the commute. The best healthy snacks for work are portable, easy to store, low mess, simple to prepare, and realistic for busy workdays — and here are twenty of them.
@@ -5490,6 +5492,7 @@ export const BLOG_POSTS: BlogPost[] = [
         'Sweet and Savory Snacks Built Around Whole Foods'
       ]
     },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
     content: `
       <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
         Between breakfast and dinner there are usually two long stretches — and what happens in them shapes the rest of your day. Healthy snacks for adults are less about "eating less" and more about choosing snacks made from fiber-rich fruits, vegetables, nuts, seeds, yogurt, and whole grains. Twenty ideas below, organized by the way you actually snack.
@@ -6463,6 +6466,7 @@ export const BLOG_POSTS: BlogPost[] = [
         'Easy Quinoa Salad Recipe with Chickpeas and Black Beans'
       ]
     },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
     recipeDetails: {
       title: 'Quinoa and Bean Salad with Lemon Vinaigrette',
       prepTime: '15 mins',

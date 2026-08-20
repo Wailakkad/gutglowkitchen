@@ -49,6 +49,7 @@ export default async function SinglePostPage({ params }: Props) {
   if (!post) notFound();
 
   const affiliateProducts = PRODUCTS.filter((p) => post.affiliateProductIds?.includes(p.id));
+  const hasProducts = affiliateProducts.length > 0;
   const relatedPosts = BLOG_POSTS.filter((p) => p.id !== post.id).slice(0, 2);
 
   const schemaJson = {
@@ -84,7 +85,9 @@ export default async function SinglePostPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaJson) }}
       />
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6">
+      <div className={hasProducts ? 'max-w-6xl mx-auto px-4 sm:px-6' : 'max-w-4xl mx-auto px-4 sm:px-6'}>
+        <div className={hasProducts ? 'grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_320px] gap-10' : ''}>
+          <div className="min-w-0">
         
         {/* Back Link & Meta Tools Bar */}
         <div className="flex items-center justify-between mb-6 text-xs">
@@ -165,33 +168,19 @@ export default async function SinglePostPage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
 
+        {/* Affiliate Product (mobile — sidebar is hidden below lg) */}
+        {affiliateProducts.length > 0 && (
+          <div className="lg:hidden my-10 space-y-4">
+            {affiliateProducts.map((prod) => (
+              <AffiliateProductBox key={prod.id} product={prod} compact />
+            ))}
+          </div>
+        )}
+
         {/* Interactive Recipe Component (if post contains recipe details) */}
         {post.recipeDetails && (
           <div className="my-10">
             <RecipeCard recipe={post.recipeDetails} />
-          </div>
-        )}
-
-        {/* Affiliate Product Section (if linked products exist) */}
-        {affiliateProducts.length > 0 && (
-          <div className="my-12 space-y-6">
-            <div className="bg-amber-50/80 border border-amber-200 rounded-2xl p-5 flex items-center justify-between">
-              <div>
-                <h4 className="font-serif font-bold text-slate-900 text-lg">
-                  Tools Used in This Recipe & Protocol
-                </h4>
-                <p className="text-xs text-slate-600">
-                  Tested and approved by Gut Glow Kitchen clinical nutritionists.
-                </p>
-              </div>
-              <span className="text-[11px] font-bold bg-amber-200 text-amber-900 px-2.5 py-1 rounded-md shrink-0">
-                Amazon Affiliate
-              </span>
-            </div>
-
-            {affiliateProducts.map((prod) => (
-              <AffiliateProductBox key={prod.id} product={prod} />
-            ))}
           </div>
         )}
 
@@ -234,6 +223,32 @@ export default async function SinglePostPage({ params }: Props) {
           </section>
         )}
 
+      </div>
+        </div>
+
+        {/* Right Sidebar — Affiliate Product (desktop) */}
+        {hasProducts && (
+          <aside className="hidden lg:block">
+            <div className="sticky top-24 space-y-4">
+              <div className="bg-amber-50/80 border border-amber-200 rounded-2xl p-4">
+                <div className="flex items-center justify-between gap-2">
+                  <h4 className="font-serif font-bold text-slate-900 text-sm leading-snug">
+                    Tools We Use & Recommend
+                  </h4>
+                  <span className="text-[10px] font-bold bg-amber-200 text-amber-900 px-2 py-1 rounded-md shrink-0">
+                    Amazon Affiliate
+                  </span>
+                </div>
+                <p className="text-[11px] text-slate-600 mt-1.5 leading-snug">
+                  Tested and approved by Gut Glow Kitchen clinical nutritionists.
+                </p>
+              </div>
+              {affiliateProducts.map((prod) => (
+                <AffiliateProductBox key={prod.id} product={prod} compact />
+              ))}
+            </div>
+          </aside>
+        )}
       </div>
     </article>
   );
