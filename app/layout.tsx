@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     title: 'Gut Glow Kitchen – Anti-Inflammatory Meal Prep, Gut Health & Low-Glycemic Recipes',
     description:
       'Evidence-backed anti-inflammatory meal prep plans, gut health recipes, blood sugar balancing guides, and 16:8 intermittent fasting meal plans for busy women.'
+  },
+  other: {
+    'google-site-verification': 'Nsz6F0v4KXYEIMqCWjIQqEoKvDrhkISduv0IDrYGubg'
   }
 };
 
