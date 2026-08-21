@@ -34,8 +34,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics />
       <body className="min-h-screen flex flex-col bg-cream text-slate-800 font-sans antialiased selection:bg-sage/20 selection:text-sage-dark">
-        <GoogleAnalytics />
         <SavedPostsProvider>
           <WordPressAdminBar />
           <Header />
