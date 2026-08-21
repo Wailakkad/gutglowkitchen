@@ -16,7 +16,7 @@ export type CategorySlug =
   | 'healthy-baking-fall-recipes'
   | 'refrigerator-pickles-ferments'
   | 'healthy-snacks'
-  | 'bean-salad';
+  | 'healthy-bean-recipes';
 
 export interface Ingredient {
   name: string;

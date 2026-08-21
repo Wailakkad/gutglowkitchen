@@ -5966,8 +5966,8 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'cold-bean-salad-recipes-anti-inflammatory',
     title: 'Cold Bean Salad Recipes for Anti-Inflammatory Meal Prep',
     excerpt: 'Five cold bean salad recipes for meal prep: Mediterranean, Italian, three bean, kidney bean, and fresh herb versions with homemade dressings and storage tips.',
-    category: 'Bean Salad',
-    categorySlug: 'bean-salad',
+    category: 'Healthy Bean Recipes',
+    categorySlug: 'healthy-bean-recipes',
     tags: [
       'Cold Bean Salad',
       'Bean Salad Recipes',
@@ -6058,7 +6058,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">3. Three Bean Salad</h3>
-      <p class="mb-2 text-slate-700 leading-relaxed">The retro classic, modernized: green beans, kidney beans, and chickpeas in a tangy vinaigrette with celery crunch.</p>
+      <p class="mb-2 text-slate-700 leading-relaxed">The retro classic, modernized: green beans, kidney beans, and chickpeas in a tangy vinaigrette with celery crunch. The full walkthrough with variations lives at our <a href="/blog/3-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">classic 3 bean salad recipe</a>.</p>
       <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
         <li><strong>Ingredients:</strong> 2 cups fresh green beans (trimmed and cut), 1 can red kidney beans, 1 can chickpeas, 2 celery stalks diced, 1/3 cup thinly sliced red onion.</li>
         <li><strong>Dressing:</strong> 1/4 cup extra virgin olive oil, 3 tbsp apple cider vinegar, 1 tsp Dijon mustard, 1 tsp maple syrup or honey (optional), salt and pepper.</li>
@@ -6068,7 +6068,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">4. Kidney Bean Salad</h3>
-      <p class="mb-2 text-slate-700 leading-relaxed">Smoky, limey, and just a little spicy — kidney beans with corn and bell pepper in a cumin-lime dressing.</p>
+      <p class="mb-2 text-slate-700 leading-relaxed">Smoky, limey, and just a little spicy — kidney beans with corn and bell pepper in a cumin-lime dressing. See our <a href="/blog/kidney-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">easy kidney bean salad recipe</a> for the step-by-step version, or the <a href="/blog/southwest-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">southwest bean salad with avocado</a> for a creamier take.</p>
       <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
         <li><strong>Ingredients:</strong> 2 cans red kidney beans, 1 cup frozen corn (thawed), 1 red bell pepper diced, 1/2 small red onion finely diced, 1/4 cup chopped cilantro, 1 jalapeño seeded and minced (optional).</li>
         <li><strong>Dressing:</strong> 1/4 cup extra virgin olive oil, 3 tbsp lime juice, 1 tsp ground cumin, 1 clove garlic minced, salt and pepper.</li>
@@ -6161,8 +6161,8 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'high-protein-anti-inflammatory-bean-salad',
     title: 'High Protein Anti-Inflammatory Bean Salad Recipe (5 Bean Version)',
     excerpt: 'A high protein 5 bean salad with chickpeas, black, kidney, cannellini, and pinto beans, a zesty homemade dressing, and honest nutrition info per serving.',
-    category: 'Bean Salad',
-    categorySlug: 'bean-salad',
+    category: 'Healthy Bean Recipes',
+    categorySlug: 'healthy-bean-recipes',
     tags: [
       '5 Bean Salad',
       'High Protein Bean Salad',
@@ -6407,7 +6407,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
         <h4 class="font-bold text-sage-dark text-lg mb-2">Five Cans, One Great Week</h4>
         <p class="text-slate-800 text-sm leading-relaxed">
-          Make this Sunday and you have lunch covered until Friday. Feeling adventurous? Try the <a href="/blog/bean-salad-recipe-with-quinoa" class="text-sage font-bold underline hover:text-sage-dark">quinoa version of this salad</a>, browse all our <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad recipes</a>, or pair it with our <a href="/blog/high-protein-anti-inflammatory-lunch-ideas" class="text-sage font-bold underline hover:text-sage-dark">high-protein lunch ideas</a> for a full week of planning.
+          Make this Sunday and you have lunch covered until Friday. Feeling adventurous? Try the <a href="/blog/bean-salad-recipe-with-quinoa" class="text-sage font-bold underline hover:text-sage-dark">quinoa version of this salad</a>, browse all our <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad recipes</a>, or pair it with our <a href="/blog/high-protein-anti-inflammatory-lunch-ideas" class="text-sage font-bold underline hover:text-sage-dark">high-protein lunch ideas</a> for a full week of planning. For more of the family, our <a href="/blog/3-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">classic 3 bean salad</a> and <a href="/blog/southwest-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">southwest bean salad</a> rotate beautifully alongside it.
         </p>
       </div>
     `
@@ -6417,8 +6417,8 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'bean-salad-recipe-with-quinoa',
     title: 'Bean Salad Recipe with Quinoa (Anti-Inflammatory + High Protein)',
     excerpt: 'An easy bean salad recipe with quinoa: chickpeas, black beans, cucumber, herbs, and a lemon vinaigrette — a high-fiber, high-protein salad for meal prep lunches.',
-    category: 'Bean Salad',
-    categorySlug: 'bean-salad',
+    category: 'Healthy Bean Recipes',
+    categorySlug: 'healthy-bean-recipes',
     tags: [
       'Bean Salad Recipe with Quinoa',
       'Quinoa Bean Salad',
@@ -6638,7 +6638,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
         <h4 class="font-bold text-sage-dark text-lg mb-2">A Salad That Keeps</h4>
         <p class="text-slate-800 text-sm leading-relaxed">
-          Make it once and you understand why quinoa and beans became a famous duo. For the all-bean version, try our <a href="/blog/high-protein-anti-inflammatory-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">5 bean salad recipe</a>, and for more cold lunch options, browse all our <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad recipes</a>.
+          Make it once and you understand why quinoa and beans became a famous duo. For the all-bean version, try our <a href="/blog/high-protein-anti-inflammatory-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">5 bean salad recipe</a>, and for more cold lunch options, browse all our <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad recipes</a> or start at the <a href="/blog/healthy-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">master list of healthy bean recipes</a>.
         </p>
       </div>
     `
@@ -6648,8 +6648,8 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'bean-salad-recipes-for-food-prep',
     title: 'Bean Salad Recipes for Food Prep (Make Ahead Anti-Inflammatory Salads)',
     excerpt: 'Five make-ahead bean salad recipes for food prep: Mediterranean, three bean, five bean, kidney bean, and quinoa versions — with storage and crisp-keeping tips.',
-    category: 'Bean Salad',
-    categorySlug: 'bean-salad',
+    category: 'Healthy Bean Recipes',
+    categorySlug: 'healthy-bean-recipes',
     tags: [
       'Bean Salad Recipes for Food Prep',
       'Bean Salad Meal Prep',
@@ -6730,7 +6730,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">2. 3 Bean Salad</h3>
-      <p class="mb-2 text-slate-700 leading-relaxed">Green beans, kidney beans, and chickpeas in a tangy apple-cider vinaigrette with celery — the classic that has fed potlucks for decades.</p>
+      <p class="mb-2 text-slate-700 leading-relaxed">Green beans, kidney beans, and chickpeas in a tangy apple-cider vinaigrette with celery — the classic that has fed potlucks for decades. The dedicated step-by-step version is our <a href="/blog/3-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">classic 3 bean salad recipe</a>.</p>
       <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
         <li><strong>Ingredients:</strong> 2 cups fresh green beans (blanched), 1 can kidney beans, 1 can chickpeas, 2 celery stalks diced, 1/3 cup red onion sliced.</li>
         <li><strong>Dressing:</strong> 1/4 cup olive oil, 3 tbsp apple cider vinegar, 1 tsp Dijon mustard, 1 tsp maple syrup (optional), salt, pepper.</li>
@@ -6750,7 +6750,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <h3 class="text-lg font-bold text-slate-900 mt-6 mb-2">4. Kidney Bean Salad</h3>
-      <p class="mb-2 text-slate-700 leading-relaxed">Smoky, lime-forward, and barely any prep: kidney beans, corn, and bell pepper in a cumin-lime dressing.</p>
+      <p class="mb-2 text-slate-700 leading-relaxed">Smoky, lime-forward, and barely any prep: kidney beans, corn, and bell pepper in a cumin-lime dressing. The full recipe with variations is our <a href="/blog/kidney-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">easy kidney bean salad recipe</a>.</p>
       <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
         <li><strong>Ingredients:</strong> 2 cans kidney beans, 1 cup frozen corn (thawed), 1 red bell pepper diced, 1/2 red onion, 1/4 cup cilantro.</li>
         <li><strong>Dressing:</strong> 1/4 cup olive oil, 3 tbsp lime juice, 1 tsp cumin, 1 minced garlic clove, salt, pepper.</li>
@@ -6825,7 +6825,1670 @@ export const BLOG_POSTS: BlogPost[] = [
       <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
         <h4 class="font-bold text-sage-dark text-lg mb-2">Your Sunday Food Prep, Solved</h4>
         <p class="text-slate-800 text-sm leading-relaxed">
-          Pick one salad from this list and portion it into six containers. Next week, pick another. For the full cold-lunch set, browse all our <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad recipes</a>, and when snack time rolls around, our <a href="/blog/healthy-snacks-for-work" class="text-sage font-bold underline hover:text-sage-dark">healthy snacks for work</a> have your desk covered.
+          Pick one salad from this list and portion it into six containers. Next week, pick another. For the full cold-lunch set, browse all our <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad recipes</a> or start from our <a href="/blog/healthy-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">complete list of healthy bean recipes</a>, and when snack time rolls around, our <a href="/blog/healthy-snacks-for-work" class="text-sage font-bold underline hover:text-sage-dark">healthy snacks for work</a> have your desk covered.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-healthy-bean-recipes',
+    slug: 'healthy-bean-recipes',
+    title: '25 Healthy Bean Recipes for Easy Lunches & Dinners',
+    excerpt: 'Twenty-five healthy bean recipes organized by how you actually cook — bean salads, burritos, rice and beans, butter bean and cannellini dishes, plus meal prep and storage tips.',
+    category: 'Healthy Bean Recipes',
+    categorySlug: 'healthy-bean-recipes',
+    tags: [
+      'Healthy Bean Recipes',
+      'Easy Bean Recipes',
+      'Bean Recipes for Dinner',
+      'Vegetarian Bean Recipes',
+      'Easy Bean Meals',
+      'Canned Bean Recipes',
+      'Meal Prep Bean Recipes'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177683/Bean_Salad_Recipe_with_Quinoa_Anti-Inflammatory_High_Protein.jpg',
+    date: 'September 1, 2026',
+    readTime: '12 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'why-beans', title: '1. Why Beans Are Great for Easy Healthy Meals' },
+      { id: 'bean-recipes-lunch', title: '2. Easy Bean Recipes for Lunch' },
+      { id: 'bean-recipes-dinner', title: '3. Healthy Bean Recipes for Dinner' },
+      { id: 'easy-bean-salads', title: '4. Easy Bean Salads' },
+      { id: 'bean-burritos-wraps', title: '5. Bean Burritos & Wraps' },
+      { id: 'rice-and-bean-recipes', title: '6. Rice and Bean Recipes' },
+      { id: 'butter-bean-recipes', title: '7. Butter Bean Recipes' },
+      { id: 'cannellini-bean-recipes', title: '8. Cannellini Bean Recipes' },
+      { id: 'kidney-bean-recipes', title: '9. Kidney Bean Recipes' },
+      { id: 'meal-prep-bean-recipes', title: '10. Meal Prep Bean Recipes' },
+      { id: 'canned-beans', title: '11. How to Use Canned Beans' },
+      { id: 'store-bean-recipes', title: '12. How to Store Cooked Bean Recipes' },
+      { id: 'bean-recipes-faq', title: '13. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'healthy bean recipes',
+      metaTitle: '25 Healthy Bean Recipes for Easy Lunches & Dinners',
+      metaDescription: 'Twenty-five healthy bean recipes for easy lunches and dinners — bean salads, burritos, rice and beans, butter bean and cannellini dishes, with meal prep and storage tips.',
+      readabilityScore: '92/100 (Very Easy)',
+      schemaType: 'Article',
+      pinterestTitle: '25 Healthy Bean Recipes for Easy Lunches & Dinners',
+      pinterestDescription: 'Twenty-five healthy bean recipes organized by meal — salads, burritos, rice and beans, butter bean and cannellini dishes — with make-ahead and storage tips.',
+      pinterestKeywords: [
+        'healthy bean recipes',
+        'easy bean recipes',
+        'bean recipes for dinner',
+        'vegetarian bean recipes',
+        'canned bean recipes',
+        'high protein bean meals'
+      ],
+      pinterestPinHeadlines: [
+        '25 Healthy Bean Recipes for Easy Lunches & Dinners',
+        'Bean Recipes for Lunch, Dinner & Meal Prep',
+        'Easy Vegetarian Bean Meals for Busy Weeks'
+      ]
+    },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        Beans are the most reliable ingredient in a healthy kitchen: cheap, shelf-stable, and packed with fiber and plant protein. This guide rounds up twenty-five healthy bean recipes and organizes them by how you actually cook — quick lunches, hearty dinners, cold salads, burritos, one-pot rice and beans, and creamy butter bean or cannellini meals. Bookmark it as your starting point for the whole bean topic.
+      </p>
+
+      <h2 id="why-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. Why Beans Are Great for Easy Healthy Meals
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>They are rich in plant-based foods:</strong> beans bring fiber and plant protein to every plate, which makes meals more satisfying for longer.</li>
+        <li><strong>They fit any eating pattern:</strong> vegetarian, plant-forward, and balanced omnivore diets all make room for beans.</li>
+        <li><strong>Canned beans mean dinner in minutes:</strong> no soaking, no overnight planning — drain, rinse, and cook.</li>
+        <li><strong>They are one of the cheapest proteins in the store:</strong> a can of beans costs a fraction of most protein sources.</li>
+        <li><strong>They store for months:</strong> the pantry ingredient that never goes bad on you.</li>
+      </ul>
+
+      <h2 id="bean-recipes-lunch" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. Easy Bean Recipes for Lunch
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Lunch is where beans shine brightest — most of these ideas take ten minutes and need no reheating.
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Bean salad trio:</strong> the <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad recipes</a> on this site are built for five-day lunches. Add the <a href="/blog/kidney-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">kidney bean salad</a> or the <a href="/blog/southwest-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">southwest version with avocado</a> to rotate the week.</li>
+        <li><strong>Leftover bean bowls:</strong> yesterday's <a href="/blog/rice-and-beans-recipe" class="text-sage font-bold underline hover:text-sage-dark">rice and beans</a> is today's perfect desk lunch.</li>
+        <li><strong>Bean wraps:</strong> wrap beans, cheese, and salsa in a tortilla the night before — or follow the full <a href="/blog/easy-bean-burrito-recipe" class="text-sage font-bold underline hover:text-sage-dark">bean burrito recipe</a>.</li>
+        <li><strong>Soup lunch:</strong> a batch of <a href="/blog/cannellini-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">cannellini bean soup</a> reheats beautifully in a mug.</li>
+      </ul>
+
+      <h2 id="bean-recipes-dinner" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. Healthy Bean Recipes for Dinner
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        For dinner you want beans that feel like a real meal, not a side dish.
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Burrito night:</strong> black beans, melted cheese, and warm tortillas — the <a href="/blog/easy-bean-burrito-recipe" class="text-sage font-bold underline hover:text-sage-dark">easy bean burrito recipe</a> is a family favorite.</li>
+        <li><strong>One-pot rice and beans:</strong> a weeknight classic that cooks in a single pot, detailed in our <a href="/blog/rice-and-beans-recipe" class="text-sage font-bold underline hover:text-sage-dark">easy rice and beans recipe</a>.</li>
+        <li><strong>Creamy butter bean dishes:</strong> <a href="/blog/butter-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">butter bean recipes</a> like creamy skillet beans and butter bean stew feel richer than they are.</li>
+        <li><strong>Cannellini skillet meals:</strong> white beans with garlic, greens, and a squeeze of lemon — plenty of ideas in our <a href="/blog/cannellini-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">cannellini bean recipes</a>.</li>
+      </ul>
+
+      <h2 id="easy-bean-salads" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. Easy Bean Salads
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Bean salads are the ultimate make-ahead lunch: they taste better on day two, stay crisp for five days, and need no reheating. The branch includes the <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">five cold bean salad ideas</a>, the <a href="/blog/high-protein-anti-inflammatory-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">high-protein 5 bean salad</a>, the <a href="/blog/bean-salad-recipe-with-quinoa" class="text-sage font-bold underline hover:text-sage-dark">bean salad with quinoa</a>, and the <a href="/blog/bean-salad-recipes-for-food-prep" class="text-sage font-bold underline hover:text-sage-dark">bean salad food prep guide</a>. For more specific versions: the <a href="/blog/kidney-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">kidney bean salad</a>, the <a href="/blog/southwest-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">southwest bean salad with corn and avocado</a>, and the <a href="/blog/3-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">classic 3 bean salad</a>.
+      </p>
+
+      <h2 id="bean-burritos-wraps" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. Bean Burritos & Wraps
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        A bean burrito is the fastest route to a meal that everyone agrees on. Beans give the filling body, cheese adds richness, and tortillas make it portable. Our <a href="/blog/easy-bean-burrito-recipe" class="text-sage font-bold underline hover:text-sage-dark">black bean and cheese burrito recipe</a> covers the assembly, the best fillings, and how to freeze them for busy weeks.
+      </p>
+
+      <h2 id="rice-and-bean-recipes" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Rice and Bean Recipes
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Rice plus beans is one of the great culinary combinations — grains and beans complement each other's protein profiles, and the dish costs almost nothing to make. The <a href="/blog/rice-and-beans-recipe" class="text-sage font-bold underline hover:text-sage-dark">easy rice and beans recipe</a> is a one-pot, pantry-only dinner you can meal prep into lunch portions.
+      </p>
+
+      <h2 id="butter-bean-recipes" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        7. Butter Bean Recipes
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Butter beans — large, creamy lima beans — are the velvet of the bean family. They melt into stews, stay whole in salads, and soak up garlic and herbs like nothing else. Ten ways to use them live in our <a href="/blog/butter-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">easy butter bean recipes</a>.
+      </p>
+
+      <h2 id="cannellini-bean-recipes" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        8. Cannellini Bean Recipes
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Cannellini beans are the white kidney beans with a nutty, creamy bite — the backbone of Italian-style meals and the best-behaved bean in a salad bowl. Find soups, skillets, salads, and mash in our <a href="/blog/cannellini-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">cannellini bean recipes</a>.
+      </p>
+
+      <h2 id="kidney-bean-recipes" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        9. Kidney Bean Recipes
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Red kidney beans are firm, meaty, and strikingly colored — they hold their shape in cold salads and bring heartiness to chilis and bowls. The <a href="/blog/kidney-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">easy kidney bean salad</a> is a great introduction, and the class is always in session with the <a href="/blog/3-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">classic 3 bean salad</a>.
+      </p>
+
+      <h2 id="meal-prep-bean-recipes" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        10. Meal Prep Bean Recipes
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Beans are made for meal prep. They batch-cook beautifully, freeze without drama, and keep four to five days in the fridge. The <a href="/blog/bean-salad-recipes-for-food-prep" class="text-sage font-bold underline hover:text-sage-dark">bean salad food prep guide</a> shows how to turn one pantry shop into thirty lunches, while the <a href="/blog/high-protein-anti-inflammatory-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">5 bean salad</a> and <a href="/blog/bean-salad-recipe-with-quinoa" class="text-sage font-bold underline hover:text-sage-dark">quinoa bean salad</a> are the workhorses for week-long plans. Portion everything into glass containers with tight lids — our <a href="/blog/best-glass-meal-prep-containers-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">glass container guide</a> explains what to look for.
+      </p>
+
+      <h2 id="canned-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        11. How to Use Canned Beans
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Drain and rinse always:</strong> rinsing removes about 40% of the sodium and most of the cloudy liquid that dulls flavor.</li>
+        <li><strong>No-cook uses:</strong> rinsed canned beans are ready for salads, dips, and mash straight from the can.</li>
+        <li><strong>Cooked-bean swap:</strong> one 15 oz (425 g) can equals about 1 1/2 cups cooked beans, which replaces roughly 3/4 cup of dried beans.</li>
+        <li><strong>Buy plain, season yourself:</strong> skip preseasoned beans — the seasoning is mostly salt.</li>
+        <li><strong>Store leftovers in the can's liquid</strong> only if you plan to cook them that week; otherwise freeze drained beans flat in a bag.</li>
+      </ul>
+
+      <h2 id="store-bean-recipes" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        12. How to Store Cooked Bean Recipes
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Fridge for 4–5 days</strong> in airtight containers — bean salads and rice and beans both hold the full week.</li>
+        <li><strong>Freeze cooked beans up to 3 months</strong> before dressing; dressed salads do not freeze well.</li>
+        <li><strong>Glass beats plastic for bean dishes:</strong> beans stain plastic and garlicky dressings linger in it. Glass keeps flavors clean.</li>
+        <li><strong>Drain pooling liquid</strong> from salads before serving; re-stir gently.</li>
+      </ul>
+
+      <h2 id="bean-recipes-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        13. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Are canned beans as healthy as dried beans?</h4>
+          <p class="text-slate-700 leading-relaxed">Canned beans keep most of the fiber and protein of dried beans with a fraction of the cooking time. Rinse them well to cut sodium, and you have a genuinely wholesome pantry staple.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What are the easiest beans to cook with?</h4>
+          <p class="text-slate-700 leading-relaxed">Chickpeas, black beans, kidney beans, cannellini, and butter beans are all forgiving and widely available canned. Start with black beans — they take on seasonings quickly and work in salads, burritos, and rice dishes alike.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">How do I make beans easier to digest?</h4>
+          <p class="text-slate-700 leading-relaxed">Rinse canned beans well, cook dried beans fully until creamy (never al dente), and if you are new to eating them regularly, start with small portions and build up gradually.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I meal prep bean recipes for the whole week?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — most bean dishes keep 4–5 days refrigerated, and undressed cooked beans freeze for up to 3 months. The <a href="/blog/bean-salad-recipes-for-food-prep" class="text-sage font-bold underline hover:text-sage-dark">bean salad food prep guide</a> lays out a full weekly system.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Where to Start</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          If you are new to cooking with beans, start with the <a href="/blog/easy-bean-burrito-recipe" class="text-sage font-bold underline hover:text-sage-dark">bean burrito</a> for dinner this week and the <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad</a> for lunches. Once those feel easy, add the <a href="/blog/rice-and-beans-recipe" class="text-sage font-bold underline hover:text-sage-dark">rice and beans recipe</a> to your rotation — three bean meals cover most of the week.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-easy-bean-burrito',
+    slug: 'easy-bean-burrito-recipe',
+    title: 'Easy Bean Burrito Recipe with Black Beans & Cheese',
+    excerpt: 'A simple bean burrito recipe with black beans, melted cheese, and a handful of pantry spices — ready in 25 minutes, endlessly customizable, and freezable for busy weeks.',
+    category: 'Healthy Bean Recipes',
+    categorySlug: 'healthy-bean-recipes',
+    tags: [
+      'Bean Burrito Recipe',
+      'Black Bean Burrito',
+      'Bean and Cheese Burrito',
+      'Healthy Bean Burrito',
+      'Vegetarian Burrito Recipe',
+      'Homemade Bean Burrito',
+      'Easy Bean Meals'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177736/High_Protein_Anti-Inflammatory_Bean_Salad_Recipe_5_Bean_Version.jpg',
+    date: 'September 2, 2026',
+    readTime: '10 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'why-bean-burrito', title: '1. Why You Will Love This Bean Burrito' },
+      { id: 'burrito-ingredients', title: '2. Ingredients' },
+      { id: 'make-bean-burrito', title: '3. How to Make the Bean Burrito' },
+      { id: 'black-bean-burrito', title: '4. How to Make a Black Bean Burrito' },
+      { id: 'burrito-fillings', title: '5. Best Fillings for Bean Burritos' },
+      { id: 'healthier-burrito', title: '6. How to Make It Healthier' },
+      { id: 'serve-with-burritos', title: '7. What to Serve With Bean Burritos' },
+      { id: 'store-reheat-burritos', title: '8. How to Store and Reheat' },
+      { id: 'bean-burrito-faq', title: '9. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'bean burrito recipe',
+      metaTitle: 'Easy Bean Burrito Recipe with Black Beans & Cheese',
+      metaDescription: 'An easy bean burrito recipe with black beans and melted cheese, ready in 25 minutes — plus the best fillings, healthier swaps, and freezer instructions.',
+      readabilityScore: '93/100 (Very Easy)',
+      schemaType: 'Recipe & Article',
+      pinterestTitle: 'Easy Bean Burrito Recipe with Black Beans & Cheese',
+      pinterestDescription: 'Black beans, melted cheese, and warm tortillas — an easy bean burrito in 25 minutes with fillings, healthier swaps, and freezer instructions.',
+      pinterestKeywords: [
+        'bean burrito recipe',
+        'black bean burrito',
+        'bean and cheese burrito',
+        'easy bean burrito',
+        'vegetarian burrito',
+        'homemade burrito'
+      ],
+      pinterestPinHeadlines: [
+        'Bean Burrito Recipe with Black Beans & Cheese',
+        '25-Minute Vegetarian Bean Burritos',
+        'Freezable Black Bean Burritos for Busy Weeks'
+      ]
+    },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
+    recipeDetails: {
+      title: 'Black Bean & Cheese Burrito',
+      prepTime: '10 mins',
+      cookTime: '15 mins',
+      totalTime: '25 mins',
+      servings: 6,
+      calories: 385,
+      protein: '15g',
+      carbs: '52g',
+      fat: '12g',
+      fiber: '13g',
+      glycemicIndex: 'Medium (GI 35-55)',
+      gutBenefitScore: 8.4,
+      ingredients: [
+        { name: 'Flour or whole wheat tortillas (large)', amount: 6, unit: 'whole' },
+        { name: 'Canned black beans, drained and rinsed', amount: 2, unit: 'cans (15 oz / 425 g)' },
+        { name: 'Shredded cheddar or Monterey Jack cheese', amount: 1.5, unit: 'cups' },
+        { name: 'Yellow onion, diced', amount: 1, unit: 'medium' },
+        { name: 'Garlic cloves, minced', amount: 2, unit: 'whole' },
+        { name: 'Ground cumin', amount: 1, unit: 'tsp' },
+        { name: 'Smoked paprika', amount: 1, unit: 'tsp' },
+        { name: 'Olive oil', amount: 1, unit: 'tbsp' },
+        { name: 'Lime, juiced', amount: 0.5, unit: 'whole' },
+        { name: 'Salsa or pico de gallo', amount: 0.5, unit: 'cup' },
+        { name: 'Sea salt and black pepper', amount: 1, unit: 'to taste' },
+        { name: 'Avocado, sliced (optional, for serving)', amount: 1, unit: 'whole' }
+      ],
+      steps: [
+        {
+          stepNumber: 1,
+          instruction: 'Heat the olive oil in a skillet over medium heat. Add the onion and cook until soft, about 4 minutes, then add the garlic, cumin, and smoked paprika and cook 30 seconds until fragrant.',
+          timerMinutes: 4,
+          tip: 'Smelling the spices bloom means they are ready for the beans.'
+        },
+        {
+          stepNumber: 2,
+          instruction: 'Add the rinsed black beans, season with salt and pepper, and cook 5–7 minutes, mashing lightly with a fork until about half the beans are creamy and the rest stay whole.',
+          timerMinutes: 7,
+          tip: 'The mashed half acts as a binder so the burrito holds together.'
+        },
+        {
+          stepNumber: 3,
+          instruction: 'Stir in the lime juice, taste, and adjust salt. Keep the filling warm while you warm the tortillas.',
+          tip: 'Warm tortillas in a dry skillet 30 seconds per side or wrap them in a damp towel and microwave 60 seconds.'
+        },
+        {
+          stepNumber: 4,
+          instruction: 'Lay each tortilla on a board, add about 1/2 cup filling down the center, top with a handful of cheese, and fold: sides in first, then roll firmly away from you.',
+          tip: 'Folding the sides in before rolling keeps the filling from leaking out the ends.'
+        },
+        {
+          stepNumber: 5,
+          instruction: 'Toast the burritos seam-side down in a dry skillet for 1–2 minutes per side until golden and the cheese melts, or leave them soft.',
+          timerMinutes: 2
+        }
+      ]
+    },
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        Some dinners need to be easy and still taste like the best thing that happened all week. This bean burrito recipe is that dinner: black beans simmered with onion, garlic, cumin, and smoked paprika, wrapped with melted cheese in a warm tortilla. It takes 25 minutes from pantry to plate, and the burritos freeze beautifully for busy weeks.
+      </p>
+
+      <h2 id="why-bean-burrito" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. Why You Will Love This Bean Burrito
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>It is made from pantry staples:</strong> beans, tortillas, spices, cheese — no special shopping trip.</li>
+        <li><strong>It is a complete meal:</strong> fiber from the beans, protein from the cheese, and carbs for energy.</li>
+        <li><strong>It feeds a crowd or a week:</strong> six burritos at once; freeze the extras sealed individually.</li>
+        <li><strong>It is endlessly customizable:</strong> every filling idea in section 5 keeps the same base.</li>
+      </ul>
+
+      <h2 id="burrito-ingredients" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. Ingredients
+      </h2>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Beans:</strong> 2 cans black beans, drained and rinsed (about 3 cups).</li>
+        <li><strong>Tortillas:</strong> 6 large flour or whole wheat tortillas.</li>
+        <li><strong>Cheese:</strong> 1 1/2 cups shredded cheddar or Monterey Jack.</li>
+        <li><strong>Aromatics:</strong> 1 yellow onion, 2 garlic cloves.</li>
+        <li><strong>Spices:</strong> 1 tsp ground cumin, 1 tsp smoked paprika, salt, pepper.</li>
+        <li><strong>Extras:</strong> 1 tbsp olive oil, 1/2 lime, 1/2 cup salsa, avocado for serving.</li>
+      </ul>
+
+      <h2 id="make-bean-burrito" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. How to Make the Bean Burrito
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The full step-by-step with tips lives in the recipe card above. The short version: soften the onion and spices, simmer the beans while mashing half of them creamy, brighten with lime, fill the tortillas, and toast seam-side down. The mashing step is the secret — it makes the filling self-adhesive so nothing falls out.
+      </p>
+
+      <h2 id="black-bean-burrito" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. How to Make a Black Bean Burrito
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        This recipe already is a black bean burrito — but if you want the pure, classic version, make three small adjustments: skip the paprika and use extra cumin (about 1 1/2 tsp), switch the lime for a splash of orange juice for sweetness, and add a handful of pickled jalapeños to the filling. Black beans are the best-behaved bean for burritos because their creamy texture holds the roll together without becoming pasty.
+      </p>
+
+      <h2 id="burrito-fillings" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. Best Fillings for Bean Burritos
+      </h2>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Rice and beans:</strong> add 1/2 cup cooked rice per burrito — the <a href="/blog/rice-and-beans-recipe" class="text-sage font-bold underline hover:text-sage-dark">rice and beans recipe</a> here makes a perfect filling base.</li>
+        <li><strong>Grilled vegetables:</strong> zucchini, bell pepper, and corn charred in the same skillet after the beans.</li>
+        <li><strong>Crispy tofu or tempeh:</strong> for an even higher-protein vegetarian burrito.</li>
+        <li><strong>Fresh crunch:</strong> lettuce, shredded cabbage, or pickled onions added at serving time only.</li>
+        <li><strong>Herbs and citrus:</strong> cilantro and a squeeze of lime over the filling before rolling.</li>
+      </ul>
+
+      <h2 id="healthier-burrito" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. How to Make It Healthier
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Whole wheat tortillas</strong> add fiber for the same filling.</li>
+        <li><strong>Cut the cheese in half</strong> and add mashed avocado instead — same creaminess, more plant-based foods.</li>
+        <li><strong>Go heavy on vegetables:</strong> a third of the burrito can be chopped greens or grilled peppers without losing the vibe.</li>
+        <li><strong>Skip the sour cream:</strong> a spoonful of Greek yogurt or lime crema does the job with more protein.</li>
+        <li><strong>Watch portion size:</strong> one large burrito with rice and cheese is a full meal; skip the side chips on burrito night.</li>
+      </ul>
+
+      <h2 id="serve-with-burritos" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        7. What to Serve With Bean Burritos
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Pico de gallo or fresh salsa</strong> — always.</li>
+        <li><strong>A simple bean or cilantro-lime slaw</strong> instead of chips.</li>
+        <li><strong>Roasted corn or plantain</strong> for a sweeter side.</li>
+        <li><strong>Leftover filling over greens</strong> as a burrito bowl the next day — no waste.</li>
+      </ul>
+
+      <h2 id="store-reheat-burritos" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        8. How to Store and Reheat
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Fridge:</strong> tightly wrapped burritos keep 3–4 days.</li>
+        <li><strong>Freezer:</strong> wrap each burrito in foil, seal in a bag or airtight container, and freeze up to 3 months.</li>
+        <li><strong>Reheat from frozen:</strong> oven at 190°C / 375°F for 20–25 minutes, or microwave 2–3 minutes then crisp in a skillet.</li>
+        <li><strong>Best practice:</strong> store fillings and tortillas separately for the best texture, and assemble fresh.</li>
+        <li><strong>Skip the microwave foil:</strong> remove foil before microwaving.</li>
+      </ul>
+
+      <h2 id="bean-burrito-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        9. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I use other beans for this burrito recipe?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — pinto and kidney beans both work. Cook them the same way; pinto beans mash a little more easily, which helps the burrito hold together.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What tortillas are best for burritos?</h4>
+          <p class="text-slate-700 leading-relaxed">Large (10-inch) flour or whole wheat tortillas. Too-small tortillas tear under a full filling — if yours are small, use less filling and more vegetables.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I freeze bean burritos?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — this is one of the best freezer meals around. Wrap each burrito in foil, freeze flat, and reheat unwrapped in the oven or microwave.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Is a bean burrito a healthy dinner?</h4>
+          <p class="text-slate-700 leading-relaxed">It fits well in a balanced eating pattern — black beans are rich in fiber and plant protein, and whole wheat tortillas add more fiber still. It pairs nicely with the other meals in our <a href="/blog/healthy-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">healthy bean recipes</a> collection.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Burrito Night, Solved</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Double the batch and freeze six burritos for the weeks you cannot cook. Pair this with the <a href="/blog/rice-and-beans-recipe" class="text-sage font-bold underline hover:text-sage-dark">rice and beans recipe</a> for a filling base, and browse the <a href="/blog/healthy-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">full list of healthy bean recipes</a> for more dinner ideas.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-rice-and-beans',
+    slug: 'rice-and-beans-recipe',
+    title: 'Easy Rice and Beans Recipe for a Healthy Weeknight Meal',
+    excerpt: 'A one-pot rice and beans recipe with black beans, cumin, lime, and vegetables — a pantry-only weeknight dinner that meal preps into healthy lunch portions.',
+    category: 'Healthy Bean Recipes',
+    categorySlug: 'healthy-bean-recipes',
+    tags: [
+      'Rice and Beans Recipe',
+      'Beans and Rice',
+      'Healthy Rice and Beans',
+      'Easy Rice and Beans',
+      'Vegetarian Rice and Beans',
+      'Rice and Beans Meal Prep',
+      'Healthy Bean Dinner'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177691/Bean_Salad_Recipes_for_Food_Prep_Make_Ahead_Anti-Inflammatory_Salads.jpg',
+    date: 'September 3, 2026',
+    readTime: '9 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'why-rice-beans', title: '1. Why Rice and Beans Make an Easy Healthy Meal' },
+      { id: 'rice-beans-ingredients', title: '2. Ingredients' },
+      { id: 'make-rice-and-beans', title: '3. How to Make Rice and Beans' },
+      { id: 'best-beans-for-rice', title: '4. Best Beans to Use' },
+      { id: 'more-vegetables', title: '5. How to Add More Vegetables' },
+      { id: 'rice-beans-meal-prep', title: '6. Meal Prep Instructions' },
+      { id: 'rice-beans-storage', title: '7. Storage and Reheating' },
+      { id: 'rice-beans-serving', title: '8. Serving Ideas' },
+      { id: 'rice-beans-faq', title: '9. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'rice and beans recipe',
+      metaTitle: 'Easy Rice and Beans Recipe for a Healthy Weeknight Meal',
+      metaDescription: 'A one-pot rice and beans recipe with black beans, cumin, and lime — a pantry-only weeknight dinner that meal preps into healthy lunch portions.',
+      readabilityScore: '92/100 (Very Easy)',
+      schemaType: 'Recipe & Article',
+      pinterestTitle: 'One-Pot Rice and Beans — Easy Weeknight Dinner',
+      pinterestDescription: 'A one-pot rice and beans recipe with black beans, cumin, and lime. Pantry-only ingredients, 40 minutes, and it meal preps into lunch portions for the week.',
+      pinterestKeywords: [
+        'rice and beans recipe',
+        'beans and rice recipe',
+        'healthy rice and beans',
+        'vegetarian rice and beans',
+        'rice and beans meal prep',
+        'easy bean dinner'
+      ],
+      pinterestPinHeadlines: [
+        'One-Pot Rice and Beans for Easy Weeknights',
+        'Healthy Rice and Beans in One Pan',
+        'Rice and Beans that Meal Prep into Lunches'
+      ]
+    },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
+    recipeDetails: {
+      title: 'One-Pot Rice and Beans with Cumin & Lime',
+      prepTime: '10 mins',
+      cookTime: '30 mins',
+      totalTime: '40 mins',
+      servings: 6,
+      calories: 320,
+      protein: '11g',
+      carbs: '55g',
+      fat: '7g',
+      fiber: '9g',
+      glycemicIndex: 'Medium (GI 35-55)',
+      gutBenefitScore: 8.8,
+      ingredients: [
+        { name: 'Long grain brown rice, rinsed', amount: 1.5, unit: 'cups' },
+        { name: 'Canned black beans, drained and rinsed', amount: 2, unit: 'cans (15 oz / 425 g)' },
+        { name: 'Yellow onion, diced', amount: 1, unit: 'medium' },
+        { name: 'Garlic cloves, minced', amount: 3, unit: 'whole' },
+        { name: 'Ground cumin', amount: 1.5, unit: 'tsp' },
+        { name: 'Dried oregano', amount: 1, unit: 'tsp' },
+        { name: 'Crushed tomatoes', amount: 1, unit: 'can (14.5 oz)' },
+        { name: 'Vegetable broth or water', amount: 2, unit: 'cups' },
+        { name: 'Olive oil', amount: 2, unit: 'tbsp' },
+        { name: 'Lime, juiced', amount: 1, unit: 'whole' },
+        { name: 'Fresh cilantro, chopped', amount: 0.5, unit: 'cup' },
+        { name: 'Sea salt and black pepper', amount: 1, unit: 'to taste' }
+      ],
+      steps: [
+        {
+          stepNumber: 1,
+          instruction: 'Heat the olive oil in a large pot or deep skillet over medium heat. Add the onion and cook until translucent, about 4 minutes.',
+          timerMinutes: 4,
+          tip: 'A wide, heavy pot means even heat and less sticking.'
+        },
+        {
+          stepNumber: 2,
+          instruction: 'Add the garlic, cumin, and oregano and cook 30 seconds until fragrant, then stir in the tomatoes and cook 2 minutes.',
+          timerMinutes: 2,
+          tip: 'Cooking the tomatoes briefly deepens their flavor before the liquid goes in.'
+        },
+        {
+          stepNumber: 3,
+          instruction: 'Add the rinsed rice, broth, salt, and pepper. Bring to a boil, then reduce to a gentle simmer, cover, and cook 25 minutes.',
+          timerMinutes: 25,
+          tip: 'Do not lift the lid during the first 20 minutes — steam is doing the cooking.'
+        },
+        {
+          stepNumber: 4,
+          instruction: 'Take the pot off the heat, add the black beans, and fold gently. Cover again and rest 10 minutes so the beans warm through and the rice finishes steaming.',
+          timerMinutes: 10,
+          tip: 'Adding beans after the rice cooks keeps them whole and creamy instead of mushy.'
+        },
+        {
+          stepNumber: 5,
+          instruction: 'Stir in the lime juice, taste for salt, and shower with cilantro before serving.',
+          tip: 'A drizzle of olive oil at the end makes it feel finished.'
+        }
+      ]
+    },
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        Rice and beans is one of the great low-effort dinners of the world: everything comes from the pantry, one pot does the cooking, and the leftovers turn into lunch for the week. This version goes heavy on vegetables, aromatics, lime, and cilantro so it tastes deliberately made rather than thrown together.
+      </p>
+
+      <h2 id="why-rice-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. Why Rice and Beans Make an Easy Healthy Meal
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Complete protein in a bowl:</strong> grains and beans complement each other's protein profiles — a classic pairing across many food cultures.</li>
+        <li><strong>One pot, one pan, one spoon:</strong> the whole dinner cooks together and cleanup is minimal.</li>
+        <li><strong>Pantry-only on a bad week:</strong> rice, beans, and tomatoes are staples in most kitchens.</li>
+        <li><strong>It is budget-friendly:</strong> this recipe costs a fraction of most weeknight dinners, yet feeds six.</li>
+        <li><strong>Scale-proof:</strong> the same recipe makes 2 servings or 20.</li>
+      </ul>
+
+      <h2 id="rice-beans-ingredients" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. Ingredients
+      </h2>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Rice:</strong> 1 1/2 cups long grain brown rice, rinsed.</li>
+        <li><strong>Beans:</strong> 2 cans black beans, drained and rinsed.</li>
+        <li><strong>Tomatoes:</strong> 1 can crushed tomatoes.</li>
+        <li><strong>Aromatics:</strong> 1 onion, 3 garlic cloves.</li>
+        <li><strong>Spices:</strong> 1 1/2 tsp cumin, 1 tsp oregano, salt, pepper.</li>
+        <li><strong>Liquid:</strong> 2 cups vegetable broth or water.</li>
+        <li><strong>Finish:</strong> 1 lime, 1/2 cup cilantro, 2 tbsp olive oil.</li>
+      </ul>
+
+      <h2 id="make-rice-and-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. How to Make Rice and Beans
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The recipe card above walks through every step with tips. The one rule to honor: cook the rice first, add the beans at the end, and let the pot rest covered for ten minutes off the heat. This keeps the beans plump and lets the rice finish absorbing all that spiced broth.
+      </p>
+
+      <h2 id="best-beans-for-rice" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. Best Beans to Use
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Black beans:</strong> earthy, slightly sweet, and they take on cumin and lime beautifully — the default choice.</li>
+        <li><strong>Kidney beans:</strong> firmer texture; excellent with a smoky, chili-style rice.</li>
+        <li><strong>Pinto beans:</strong> creamy and mild; the classic partner for Mexican-style rice.</li>
+        <li><strong>Chickpeas:</strong> for a sturdier, nuttier bowl — pair with turmeric and lemon instead of cumin and lime.</li>
+        <li><strong>Lentils (not technically beans but same pot):</strong> cook right along with the rice in the same timing.</li>
+      </ul>
+
+      <h2 id="more-vegetables" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. How to Add More Vegetables
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Diced bell pepper</strong> with the onion at step 1 — sweet, colorful, no extra work.</li>
+        <li><strong>Corn:</strong> stir in frozen corn with the beans at the end.</li>
+        <li><strong>Spinach or kale:</strong> let it wilt into the pot during the resting step.</li>
+        <li><strong>Roasted sweet potato:</strong> fold in at serving for a heartier bowl.</li>
+        <li><strong>Toppings at the table:</strong> avocado, tomato salsa, pickled onion, hot sauce.</li>
+      </ul>
+
+      <h2 id="rice-beans-meal-prep" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Meal Prep Instructions
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Portion into six airtight containers</strong> right after resting — it keeps 4–5 days in the fridge.</li>
+        <li><strong>Store the lime and cilantro separately</strong> and add per serving for the freshest flavor.</li>
+        <li><strong>Freeze portions</strong> (without cilantro) flat for up to 3 months; thaw overnight.</li>
+        <li><strong>Bean dishes freeze best sealed:</strong> keep moisture in — the <a href="/blog/bean-salad-recipes-for-food-prep" class="text-sage font-bold underline hover:text-sage-dark">bean salad food prep guide</a> has the full container system.</li>
+      </ul>
+
+      <h2 id="rice-beans-storage" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        7. Storage and Reheating
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Fridge:</strong> 4–5 days in a sealed glass container.</li>
+        <li><strong>Reheat on the stove</strong> with a splash of water or broth, covered, until steaming — better texture than a microwave.</li>
+        <li><strong>Microwave option:</strong> cover with a damp paper towel, 90-second bursts, stirring between.</li>
+        <li><strong>Revive leftovers:</strong> a squeeze of lime, fresh cilantro, and a drizzle of oil makes day-4 rice and beans taste newly cooked.</li>
+      </ul>
+
+      <h2 id="rice-beans-serving" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        8. Serving Ideas
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Burrito filling:</strong> fold cold leftovers into tortillas with cheese — the <a href="/blog/easy-bean-burrito-recipe" class="text-sage font-bold underline hover:text-sage-dark">bean burrito recipe</a> shows the assembly.</li>
+        <li><strong>Over greens:</strong> tuck a warm scoop into lettuce with salsa for a burrito bowl in a minute.</li>
+        <li><strong>With fried or poached egg:</strong> the classic breakfast-for-dinner upgrade.</li>
+        <li><strong>Alongside grilled chicken or fish:</strong> for omnivore nights, this is the best side dish on the table.</li>
+      </ul>
+
+      <h2 id="rice-beans-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        9. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I make rice and beans with white rice?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — white rice cooks in about 15 minutes instead of 25, so the broth amount stays the same but the time shrinks. Brown rice brings more fiber; both work.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Do I have to rinse the rice?</h4>
+          <p class="text-slate-700 leading-relaxed">Rinsing removes surface starch, giving fluffier grains and less sticking. Thirty seconds under cold water is enough.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Why do you add the beans after the rice cooks?</h4>
+          <p class="text-slate-700 leading-relaxed">Beans cooked the whole time break down into the pot. Adding them during the ten-minute rest warms them fully while keeping them intact and creamy.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Is rice and beans good for a high-protein eating pattern?</h4>
+          <p class="text-slate-700 leading-relaxed">It is a solid plant-based protein base — grains and beans complement each other's amino acids. For more protein, top with an egg, Greek yogurt, or cheese. See the <a href="/blog/healthy-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">full bean recipes collection</a> for more ideas.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Monday Night One-Pot</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Cook this once and you have dinner tonight plus lunch through Friday. Pair it with the <a href="/blog/easy-bean-burrito-recipe" class="text-sage font-bold underline hover:text-sage-dark">bean burrito recipe</a> for burrito night, and keep the rest of the week covered with our <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salads</a>.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-butter-bean-recipes',
+    slug: 'butter-bean-recipes',
+    title: '10 Easy Butter Bean Recipes for Healthy Meals',
+    excerpt: 'Ten easy butter bean recipes — creamy skillet beans, Mediterranean butter beans, butter bean salad, stew, soup, toast, pasta, and more for healthy weeknight meals.',
+    category: 'Healthy Bean Recipes',
+    categorySlug: 'healthy-bean-recipes',
+    tags: [
+      'Butter Bean Recipes',
+      'Butter Beans',
+      'Easy Butter Bean Recipes',
+      'Healthy Butter Bean Meals',
+      'Creamy Butter Beans',
+      'Butter Bean Salad',
+      'Vegetarian Butter Bean Recipes'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177734/Cold_Bean_Salad_Recipes_for_Anti-Inflammatory_Meal_Prep.jpg',
+    date: 'September 4, 2026',
+    readTime: '9 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'what-are-butter-beans', title: '1. What Are Butter Beans?' },
+      { id: 'creamy-butter-beans', title: '2. Creamy Butter Beans' },
+      { id: 'mediterranean-butter-beans', title: '3. Mediterranean Butter Beans' },
+      { id: 'butter-bean-salad', title: '4. Butter Bean Salad' },
+      { id: 'butter-bean-toast', title: '5. Butter Bean Toast' },
+      { id: 'butter-bean-pasta', title: '6. Butter Bean Pasta' },
+      { id: 'butter-bean-stew', title: '7. Butter Bean Stew' },
+      { id: 'butter-bean-bowl', title: '8. Butter Bean Bowl' },
+      { id: 'roasted-vegetables-butter-beans', title: '9. Butter Beans with Roasted Vegetables' },
+      { id: 'butter-bean-soup', title: '10. Butter Bean Soup' },
+      { id: 'lemon-herb-butter-beans', title: '11. Lemon Herb Butter Beans' },
+      { id: 'butter-beans-meal-prep', title: '12. Butter Bean Storage and Meal Prep' },
+      { id: 'butter-bean-faq', title: '13. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'butter bean recipes',
+      metaTitle: '10 Easy Butter Bean Recipes for Healthy Meals',
+      metaDescription: 'Ten easy butter bean recipes for healthy meals: creamy skillet beans, Mediterranean, salad, toast, pasta, stew, soup, bowls, and roasted vegetable dinners.',
+      readabilityScore: '93/100 (Very Easy)',
+      schemaType: 'Article',
+      pinterestTitle: '10 Easy Butter Bean Recipes for Healthy Meals',
+      pinterestDescription: 'Ten easy butter bean recipes — creamy skillet beans, Mediterranean butter beans, salads, toast, pasta, stew, soup, and bowls for healthy weeknight meals.',
+      pinterestKeywords: [
+        'butter bean recipes',
+        'butter beans',
+        'easy butter bean meals',
+        'creamy butter beans',
+        'butter bean salad',
+        'vegetarian butter beans'
+      ],
+      pinterestPinHeadlines: [
+        '10 Easy Butter Bean Recipes for Healthy Meals',
+        'Creamy Butter Bean Dinners You Will Repeat',
+        'Butter Beans: 10 Ways to Cook Them'
+      ]
+    },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        Butter beans — the large, buttery lima beans sold canned in most grocery stores — might be the most underrated bean in the kitchen. They are creamy enough to become a sauce, sturdy enough to hold their shape in a salad, and mild enough to absorb whatever you season them with. Here are ten easy butter bean recipes organized from five-minute dinners to one-pot weekend cooks.
+      </p>
+
+      <h2 id="what-are-butter-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. What Are Butter Beans?
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Butter beans are mature large lima beans, sold dried or canned. Their name comes from their texture: cooked properly, they are soft, creamy, and almost buttery without any dairy. They are rich in fiber and plant protein, keep for months in the pantry, and do not need soaking when you buy them canned. Rinse canned butter beans well before using — the canning liquid is salty.
+      </p>
+
+      <h2 id="creamy-butter-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. Creamy Butter Beans (20-Minute Skillet)
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The signature butter bean dish: warm beans folded into a garlicky, lemony cream sauce. Simmer 2 cans of beans in 1 cup of broth with 2 minced garlic cloves and 1/4 cup cream or plain yogurt, mashing a few beans into the liquid to thicken it. Finish with lemon zest, black pepper, and a pile of parsley. Serve over toast, polenta, or greens. It is the fastest path from pantry to a dinner that tastes slow.
+      </p>
+
+      <h2 id="mediterranean-butter-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. Mediterranean Butter Beans
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Butter beans braised with tomatoes, olives, and oregano, Mediterranean-style. Sweat an onion, add 1 can crushed tomatoes, 2 cans butter beans, a handful of Kalamata olives, and 1 tsp dried oregano, then simmer 15 minutes until thick. It is a full dinner on its own or over couscous, and it reheats like a dream. Worth a double batch.
+      </p>
+
+      <h2 id="butter-bean-salad" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. Butter Bean Salad
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Butter beans make a surprisingly excellent cold salad — they stay firm when dressed and soak up vinaigrette without turning mushy. Toss with cherry tomatoes, cucumber, red onion, and a lemon-Dijon dressing, or follow the larger salad system in our <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad recipes</a> and swap the chickpeas for butter beans.
+      </p>
+
+      <h2 id="butter-bean-toast" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. Butter Bean Toast
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The five-minute lunch that feels like a cafe order: mash 1 can of butter beans with olive oil, lemon juice, garlic, and salt; spread it thick on toasted sourdough; and top with chili flakes, herbs, and a handful of arugula. The mash is also a great sandwich spread and a sturdier cousin of white bean hummus.
+      </p>
+
+      <h2 id="butter-bean-pasta" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Butter Bean Pasta
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Beans and pasta are a classic pantry dinner. Sauté garlic and anchovy-style umami (or capers for vegetarian), add 1 can crushed tomatoes and 1 can butter beans, and simmer while the pasta cooks. Toss the pasta with the sauce and a splash of pasta water — the beans naturally thicken the sauce. See the <a href="/blog/cannellini-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">cannellini bean recipes</a> for the white bean twist.
+      </p>
+
+      <h2 id="butter-bean-stew" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        7. Butter Bean Stew
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        A one-pot butter bean stew for cold weeks: onions, carrots, and celery softened in olive oil, then 2 cans butter beans, 1 can diced tomatoes, 3 cups broth, and 1 tsp smoked paprika, simmered 25 minutes until the broth is rich. Serve in deep bowls with crusty bread. It freezes perfectly, so a double batch means two dinners ready to go.
+      </p>
+
+      <h2 id="butter-bean-bowl" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        8. Butter Bean Bowl
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The assemble-it-yourself dinner bowl: warm butter beans, quick-pickled onions, roasted peppers, greens, avocado, and a lemony tahini drizzle over farro or quinoa. It is a great way to use leftover roasted vegetables, and it travels well as a work lunch — pack the dressing separately.
+      </p>
+
+      <h2 id="roasted-vegetables-butter-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        9. Butter Beans with Roasted Vegetables
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The sheet-pan dinner: toss broccoli, zucchini, and red onion with olive oil, salt, and smoked paprika; roast at 220°C / 425°F for 20 minutes; then add 2 cans butter beans to the pan for the final 10 minutes so they pick up the caramelized bits. Serve warm with lemon. One pan, one cutting board, very little washing up.
+      </p>
+
+      <h2 id="butter-bean-soup" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        10. Butter Bean Soup
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        A silky, creamy soup without cream: simmer 3 cups broth with 2 cans butter beans, 1 onion, 2 garlic cloves, and a few sprigs of thyme for 15 minutes, then blend until smooth. Finish with olive oil, lemon juice, and cracked pepper. Blend two thirds for creaminess and leave the rest whole for texture — the best of both soups.
+      </p>
+
+      <h2 id="lemon-herb-butter-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        11. Lemon Herb Butter Beans
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The simplest way to make butter beans sing: warm 2 cans of rinsed beans in a skillet with olive oil, 1 minced garlic clove, the zest and juice of 1 lemon, and 1/2 cup of chopped herbs — parsley, dill, and chives all work. Serve alongside fish or chicken, or over greens for a vegetarian plate. This is the recipe to memorize.
+      </p>
+
+      <h2 id="butter-beans-meal-prep" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        12. Butter Bean Storage and Meal Prep
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Cooked bean dishes keep 4–5 days</strong> refrigerated in airtight containers.</li>
+        <li><strong>Freeze undressed cooked butter beans up to 3 months</strong> in their cooking liquid — they stay creamy on thawing.</li>
+        <li><strong>Creamy skillet beans and stews freeze beautifully</strong>; salads and toast toppings should be made fresh.</li>
+        <li><strong>Portion with the <a href="/blog/bean-salad-recipes-for-food-prep" class="text-sage font-bold underline hover:text-sage-dark">food prep system</a>:</strong> these recipes slot straight into a weekly plan, and glass containers keep them fresh longest.</li>
+      </ul>
+
+      <h2 id="butter-bean-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        13. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Are butter beans the same as lima beans?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — butter beans are the large mature lima beans. Small or immature limas are sold as baby lima beans, which are milder and even creamier.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Do I need to soak butter beans?</h4>
+          <p class="text-slate-700 leading-relaxed">Canned butter beans need no soaking — drain, rinse, and they are ready. Dried butter beans should be soaked overnight and cooked until very tender, about 45–60 minutes.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What do butter beans taste like?</h4>
+          <p class="text-slate-700 leading-relaxed">Mild, slightly sweet, and nutty, with a creamy, almost buttery texture. They take on the flavor of whatever they are cooked with, which is why they work in so many cuisines.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Are butter beans healthy?</h4>
+          <p class="text-slate-700 leading-relaxed">They are a wholesome pantry food — rich in fiber and plant protein, low in fat, and a good base for balanced meals. They pair well with the other ideas in our <a href="/blog/healthy-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">healthy bean recipes</a> collection.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Start With the Skillet</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          If you have never cooked butter beans, start with the creamy skillet version — it is the fastest and the most iconic. Once you love those, the salad and the stew are the natural next steps. For the whole family of ideas, browse our <a href="/blog/healthy-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">complete healthy bean recipes hub</a>.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-cannellini-bean-recipes',
+    slug: 'cannellini-bean-recipes',
+    title: '12 Easy Cannellini Bean Recipes for Healthy Meals',
+    excerpt: 'Twelve easy cannellini bean recipes — creamy white bean skillets, soups, salads, mash, pasta, and stews that make the most of this nutty, creamy white bean.',
+    category: 'Healthy Bean Recipes',
+    categorySlug: 'healthy-bean-recipes',
+    tags: [
+      'Cannellini Bean Recipes',
+      'Cannellini Beans',
+      'Healthy Cannellini Bean Recipes',
+      'White Bean Recipes',
+      'Cannellini Bean Salad',
+      'Healthy White Bean Recipes',
+      'Vegetarian Cannellini Recipes'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177683/Bean_Salad_Recipe_with_Quinoa_Anti-Inflammatory_High_Protein.jpg',
+    date: 'September 5, 2026',
+    readTime: '10 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'what-are-cannellini', title: '1. What Are Cannellini Beans?' },
+      { id: 'cannellini-greens-soup', title: '2. Cannellini & Greens Soup' },
+      { id: 'creamy-skillet-beans', title: '3. Creamy Cannellini Skillet' },
+      { id: 'cannellini-salad', title: '4. Cannellini Bean Salad' },
+      { id: 'white-bean-mash', title: '5. White Bean Mash & Toast' },
+      { id: 'cannellini-pasta', title: '6. Cannellini Pasta' },
+      { id: 'smashed-beans', title: '7. Smashed Cannellini Beans' },
+      { id: 'breakfast-beans', title: '8. Cannellini Breakfast Bowl' },
+      { id: 'cannellini-stew', title: '9. Cannellini & Tomato Stew' },
+      { id: 'roasted-garlic-beans', title: '10. Roasted Garlic White Beans' },
+      { id: 'white-bean-dip', title: '11. White Bean Dip' },
+      { id: 'cannellini-tomatoes-basil', title: '12. Cannellini with Tomatoes & Basil' },
+      { id: 'cannellini-storage', title: '13. Storage and Meal Prep' },
+      { id: 'cannellini-faq', title: '14. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'cannellini bean recipes',
+      metaTitle: '12 Easy Cannellini Bean Recipes for Healthy Meals',
+      metaDescription: 'Twelve easy cannellini bean recipes: creamy white bean skillets, soups, salads, mash, pasta, and stews — how to cook with this soft, nutty white bean.',
+      readabilityScore: '93/100 (Very Easy)',
+      schemaType: 'Article',
+      pinterestTitle: '12 Easy Cannellini Bean Recipes for Healthy Meals',
+      pinterestDescription: 'Twelve easy cannellini bean recipes — creamy skillets, soups, salads, mash, pasta, and stews built around this soft, nutty white bean.',
+      pinterestKeywords: [
+        'cannellini bean recipes',
+        'cannellini beans',
+        'healthy white bean recipes',
+        'white bean meals',
+        'cannellini bean salad',
+        'vegetarian cannellini recipes'
+      ],
+      pinterestPinHeadlines: [
+        '12 Easy Cannellini Bean Recipes for Healthy Meals',
+        'White Bean Dinners You Will Cook Again',
+        'Cannellini Beans: 12 Ways to Use Them'
+      ]
+    },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        Cannellini beans are the large white kidney beans you will recognize instantly: plump, creamy, and nutty, with a thin skin that lets them soften into silky dishes or hold their shape in salads. They are the backbone of Italian food storage and one of the easiest beans to love. Here are twelve easy cannellini bean recipes, from five-minute mash to slow-simmered stew.
+      </p>
+
+      <h2 id="what-are-cannellini" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. What Are Cannellini Beans?
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Cannellini beans are white kidney beans — longer and larger than navy beans, with a creamy interior and a mild, nutty flavor. Sold dried or canned, they are rich in fiber and plant protein and absorb the flavors around them exceptionally well. When a recipe says "white beans," cannellini are the safest choice unless it specifies otherwise.
+      </p>
+
+      <h2 id="cannellini-greens-soup" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. Cannellini & Greens Soup
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The classic Italian white bean soup: soften an onion, carrot, and celery in olive oil, add 2 cans cannellini beans, 4 cups broth, and a parmesan rind if you have one, simmer 20 minutes, then stir in a big handful of kale or spinach until it wilts. Serve with a squeeze of lemon. Hearty, cheap, and better the next day.
+      </p>
+
+      <h2 id="creamy-skillet-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. Creamy Cannellini Skillet
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        A 15-minute dinner built on the same idea as creamy butter beans: beans simmered in garlicky broth, thickened by mashing a few beans into the liquid. Add a splash of milk, yogurt, or the canning liquid, finish with lemon and parsley, and serve over toast. It is the recipe most people repeat weekly once they try it.
+      </p>
+
+      <h2 id="cannellini-salad" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. Cannellini Bean Salad
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Cannellini beans are the soft, creamy anchor of Mediterranean bean salads. Toss them with cherry tomatoes, cucumber, red onion, parsley, and a lemony Dijon dressing for a lunch that keeps 4–5 days. The <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad recipes</a> use them throughout, and the <a href="/blog/3-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">classic 3 bean salad</a> works beautifully with a cannellini swap.
+      </p>
+
+      <h2 id="white-bean-mash" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. White Bean Mash & Toast
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The five-minute lunch that looks like effort: mash 1 can of rinsed cannellini beans with olive oil, lemon juice, a garlic clove, and salt; spread on toasted bread; top with chili flakes, herbs, and olive oil. It is also the base for a great sandwich spread and a lighter stand-in for hummus.
+      </p>
+
+      <h2 id="cannellini-pasta" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Cannellini Pasta
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        White beans make pasta sauce creamy without cream. Sauté garlic in olive oil, add 1 can crushed tomatoes, 1 can cannellini beans, and a few basil leaves, and simmer while the pasta cooks. Toss with a splash of pasta water — the beans melt into the sauce. This is the vegetarian pasta that omnivores request outright.
+      </p>
+
+      <h2 id="smashed-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        7. Smashed Cannellini Beans
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        A quick skillet side: warm 1 can of beans in olive oil with garlic and chili flakes, then smash about half of them right in the pan with the back of a spoon. The smashed beans thicken the oil into a sauce while the rest stay whole. Spoon over greens or grilled fish, or tuck into a wrap with the <a href="/blog/easy-bean-burrito-recipe" class="text-sage font-bold underline hover:text-sage-dark">burrito recipe</a>'s fillings for a white bean version.
+      </p>
+
+      <h2 id="breakfast-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        8. Cannellini Breakfast Bowl
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Beans for breakfast are normal in plenty of food cultures, and they make a seriously filling start to the day: warm cannellini beans with olive oil and thyme, topped with a poached egg, a spoonful of Greek yogurt, and hot sauce, over sautéed greens. Protein and fiber to carry you past lunchtime.
+      </p>
+
+      <h2 id="cannellini-stew" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        9. Cannellini & Tomato Stew
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        A one-pot dinner that freezes well: soften onion and garlic, add 2 cans cannellini beans, 1 can diced tomatoes, 1 cup broth, and 1 tsp smoked paprika, and simmer 20 minutes until thick and saucy. Serve over rice or with crusty bread. It follows the same blueprint as our <a href="/blog/butter-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">butter bean stew</a> — swap the beans freely.
+      </p>
+
+      <h2 id="roasted-garlic-beans" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        10. Roasted Garlic White Beans
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Crisp-edged beans for a sheet pan: toss 2 cans of drained cannellini beans with olive oil, salt, and a whole garlic bulb's worth of cloves, and roast at 220°C / 425°F for 20–25 minutes until the beans are golden and wrinkled. Squeeze the roasted garlic over the top with lemon. Addictive as a side or a snack.
+      </p>
+
+      <h2 id="white-bean-dip" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        11. White Bean Dip
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Hummus's creamy cousin: blend 1 can of drained cannellini beans with 2 tbsp olive oil, 2 tbsp lemon juice, 1 garlic clove, 1 tsp cumin, salt, and a splash of cold water until smooth. Serve with vegetables and crackers, or use as a spread on wraps and sandwiches. It keeps a week in the fridge.
+      </p>
+
+      <h2 id="cannellini-tomatoes-basil" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        12. Cannellini with Tomatoes & Basil
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The ten-minute pantry dinner: warm chopped cherry tomatoes in olive oil until they burst, add 1 can cannellini beans and a pinch of sugar and salt, simmer 5 minutes, then fold in fresh basil and a drizzle of olive oil. Tower it on toast or pile it over pasta. Simple, honest, and exactly as good as it sounds.
+      </p>
+
+      <h2 id="cannellini-storage" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        13. Storage and Meal Prep
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Refrigerate cooked cannellini dishes 4–5 days</strong> in airtight containers.</li>
+        <li><strong>Freeze soups and stews up to 3 months</strong>; the beans stay creamy because they are cooked in liquid.</li>
+        <li><strong>Undressed beans freeze flat in a bag</strong> for quick future meals.</li>
+        <li><strong>Portion into the <a href="/blog/bean-salad-recipes-for-food-prep" class="text-sage font-bold underline hover:text-sage-dark">food prep system</a>:</strong> these dishes slot cleanly into a weekly plan, and glass containers keep garlicky bean dishes tasting clean for days.</li>
+      </ul>
+
+      <h2 id="cannellini-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        14. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I substitute cannellini beans in any white bean recipe?</h4>
+          <p class="text-slate-700 leading-relaxed">Almost always yes. Cannellini, great northern, and navy beans all work in white bean recipes — cannellini are the largest and creamiest, navy beans the smallest.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Do cannellini beans need soaking?</h4>
+          <p class="text-slate-700 leading-relaxed">Canned cannellini do not — just drain and rinse. Dried ones benefit from an overnight soak and cook in about 45 minutes until tender.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What do cannellini beans taste like?</h4>
+          <p class="text-slate-700 leading-relaxed">Mild, nutty, and slightly sweet, with a creamy texture. They absorb seasonings well, which makes them one of the most versatile beans in the kitchen.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Are cannellini beans healthy?</h4>
+          <p class="text-slate-700 leading-relaxed">They are rich in fiber and plant protein and fit easily into a balanced eating pattern. For more bean inspiration, browse the <a href="/blog/healthy-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">complete healthy bean recipes hub</a>.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Meet the White Bean</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Start with the creamy skillet or the salad — both are quick, forgiving introductions. From there, the <a href="/blog/3-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">3 bean salad</a> and the <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad branch</a> will keep your lunches busy.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-kidney-bean-salad',
+    slug: 'kidney-bean-salad-recipe',
+    title: 'Easy Kidney Bean Salad Recipe with Fresh Vegetables',
+    excerpt: 'An easy kidney bean salad recipe with crisp bell pepper, corn, red onion, and a cumin-lime dressing — make-ahead friendly, colorful, and great for packed lunches.',
+    category: 'Healthy Bean Recipes',
+    categorySlug: 'healthy-bean-recipes',
+    tags: [
+      'Kidney Bean Salad',
+      'Kidney Bean Salad Recipe',
+      'Healthy Kidney Bean Salad',
+      'Cold Kidney Bean Salad',
+      'Easy Kidney Bean Salad',
+      'Make Ahead Kidney Bean Salad',
+      'Healthy Bean Salad'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177736/High_Protein_Anti-Inflammatory_Bean_Salad_Recipe_5_Bean_Version.jpg',
+    date: 'September 6, 2026',
+    readTime: '9 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'kidney-bean-salad-why', title: '1. Why This Kidney Bean Salad Works' },
+      { id: 'kidney-salad-ingredients', title: '2. Ingredients' },
+      { id: 'make-kidney-bean-salad', title: '3. How to Make Kidney Bean Salad' },
+      { id: 'kidney-salad-dressing', title: '4. Best Dressing for Kidney Bean Salad' },
+      { id: 'make-ahead-kidney-salad', title: '5. How to Make It Ahead' },
+      { id: 'serve-kidney-salad', title: '6. What to Serve With It' },
+      { id: 'kidney-salad-storage', title: '7. Storage Tips' },
+      { id: 'kidney-salad-variations', title: '8. Variations' },
+      { id: 'kidney-salad-faq', title: '9. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'kidney bean salad',
+      metaTitle: 'Easy Kidney Bean Salad Recipe with Fresh Vegetables',
+      metaDescription: 'An easy kidney bean salad with crisp bell pepper, corn, red onion, and a cumin-lime dressing — make-ahead friendly, colorful, and great for packed lunches.',
+      readabilityScore: '93/100 (Very Easy)',
+      schemaType: 'Recipe & Article',
+      pinterestTitle: 'Easy Kidney Bean Salad with a Cumin-Lime Dressing',
+      pinterestDescription: 'A colorful kidney bean salad with bell pepper, corn, and red onion in a cumin-lime dressing — make-ahead friendly and perfect for packed lunches.',
+      pinterestKeywords: [
+        'kidney bean salad',
+        'kidney bean salad recipe',
+        'cold kidney bean salad',
+        'healthy bean salad',
+        'make ahead bean salad',
+        'canned bean recipes'
+      ],
+      pinterestPinHeadlines: [
+        'Easy Kidney Bean Salad with Cumin-Lime Dressing',
+        'A Colorful Make-Ahead Kidney Bean Salad',
+        'Kidney Bean Salad for Easy Lunch Boxes'
+      ]
+    },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
+    recipeDetails: {
+      title: 'Kidney Bean Salad with Cumin-Lime Dressing',
+      prepTime: '15 mins',
+      cookTime: '0 mins',
+      totalTime: '15 mins',
+      servings: 6,
+      calories: 230,
+      protein: '9g',
+      carbs: '24g',
+      fat: '12g',
+      fiber: '9g',
+      glycemicIndex: 'Low (GI < 35)',
+      gutBenefitScore: 8.7,
+      ingredients: [
+        { name: 'Canned red kidney beans, drained and rinsed', amount: 2, unit: 'cans (15 oz / 425 g)' },
+        { name: 'Frozen corn, thawed', amount: 1, unit: 'cup' },
+        { name: 'Red bell pepper, diced', amount: 1, unit: 'large' },
+        { name: 'Red onion, finely diced', amount: 0.5, unit: 'small' },
+        { name: 'English cucumber, diced', amount: 0.5, unit: 'whole' },
+        { name: 'Fresh cilantro, chopped', amount: 0.25, unit: 'cup' },
+        { name: 'Extra virgin olive oil', amount: 0.25, unit: 'cup' },
+        { name: 'Fresh lime juice', amount: 3, unit: 'tbsp' },
+        { name: 'Ground cumin', amount: 1, unit: 'tsp' },
+        { name: 'Garlic clove, minced', amount: 1, unit: 'whole' },
+        { name: 'Sea salt and black pepper', amount: 1, unit: 'to taste' },
+        { name: 'Avocado, diced (optional, per serving)', amount: 1, unit: 'whole' }
+      ],
+      steps: [
+        {
+          stepNumber: 1,
+          instruction: 'Drain and rinse the kidney beans in a colander, shaking off excess water. Add them to a large bowl with the corn, bell pepper, onion, cucumber, and cilantro.',
+          tip: 'Dry beans and vegetables mean a bright dressing instead of a watery one.'
+        },
+        {
+          stepNumber: 2,
+          instruction: 'Whisk or shake the dressing: olive oil, lime juice, cumin, garlic, salt, and pepper in a small jar.',
+          tip: 'Ten seconds in a sealed jar beats whisking — and it travels in the same jar.'
+        },
+        {
+          stepNumber: 3,
+          instruction: 'Pour the dressing over the salad and toss gently until everything is coated.',
+          tip: 'Use a light touch so the firm kidney beans stay whole.'
+        },
+        {
+          stepNumber: 4,
+          instruction: 'Let the salad rest 15 minutes at room temperature so the cumin blooms, then taste and adjust salt.',
+          timerMinutes: 15,
+          tip: 'The resting step is what makes it taste made, not assembled.'
+        },
+        {
+          stepNumber: 5,
+          instruction: 'Transfer to airtight containers and refrigerate up to 4 days. Add avocado only to the portions you are eating now.',
+          tip: 'Avocado browns fast in dressing — add it at serving time.'
+        }
+      ]
+    },
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        Kidney beans get the short end of the salad stick, which is a shame — they are firm, hearty, and the most striking color in the bean family. This kidney bean salad gives them the bowl they deserve: crisp bell pepper, sweet corn, red onion, and a bright cumin-lime dressing that the beans soak up beautifully. Fifteen minutes of work, four days of lunches.
+      </p>
+
+      <h2 id="kidney-bean-salad-why" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. Why This Kidney Bean Salad Works
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Kidney beans hold their shape:</strong> dress them today, they stay firm through day four.</li>
+        <li><strong>The colors do the marketing for you:</strong> deep red beans, yellow corn, red pepper, purple onion — a bowl no one mistakes for sad desk food.</li>
+        <li><strong>Cumin and lime are the perfect pair for kidney beans:</strong> the spices bloom into the beans during a 15-minute rest.</li>
+        <li><strong>No cooking at all:</strong> canned beans, thawed corn, and a knife are the entire ingredient list.</li>
+      </ul>
+
+      <h2 id="kidney-salad-ingredients" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. Ingredients
+      </h2>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Beans:</strong> 2 cans red kidney beans, drained and rinsed.</li>
+        <li><strong>Vegetables:</strong> 1 large red bell pepper, 1/2 small red onion, 1/2 English cucumber, 1 cup corn (thawed if frozen).</li>
+        <li><strong>Herb:</strong> 1/4 cup chopped cilantro.</li>
+        <li><strong>Dressing:</strong> 1/4 cup olive oil, 3 tbsp lime juice, 1 tsp cumin, 1 garlic clove, salt, pepper.</li>
+        <li><strong>Optional:</strong> 1 avocado for serving.</li>
+      </ul>
+
+      <h2 id="make-kidney-bean-salad" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. How to Make Kidney Bean Salad
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The full method with tips is in the recipe card above. The rhythm is simple: dry the beans well, dice everything small enough that each forkful gets a mix, shake the dressing in a jar, toss gently, and let it rest fifteen minutes before serving. Firm beans plus a light hand equals a salad that survives the week looking fresh.
+      </p>
+
+      <h2 id="kidney-salad-dressing" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. Best Dressing for Kidney Bean Salad
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Cumin-lime (the house version):</strong> cumin, lime, garlic — bright and warm at once.</li>
+        <li><strong>Chipotle or smoked paprika:</strong> swap the cumin for 1 tsp chipotle or smoked paprika for a smoky salad.</li>
+        <li><strong>Apple cider vinaigrette:</strong> the classic pairing for the <a href="/blog/3-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">3 bean salad</a>'s tangy flavor — works here too.</li>
+        <li><strong>Creamy lime dressing:</strong> stir 2 tbsp Greek yogurt into the dressing for a creamier take.</li>
+      </ul>
+
+      <h2 id="make-ahead-kidney-salad" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. How to Make It Ahead
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Make it up to 4 days ahead</strong> — it improves overnight as the beans absorb the dressing.</li>
+        <li><strong>Store dressing and salad together:</strong> unlike herby green salads, this one is built for marinating.</li>
+        <li><strong>Add avocado and any leafy greens per portion, at serving time only.</strong></li>
+        <li><strong>Portion into six containers</strong> right after resting — see the <a href="/blog/bean-salad-recipes-for-food-prep" class="text-sage font-bold underline hover:text-sage-dark">bean salad food prep guide</a> for the full system.</li>
+      </ul>
+
+      <h2 id="serve-kidney-salad" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. What to Serve With It
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>As a standalone lunch</strong> with tortilla chips or on greens.</li>
+        <li><strong>In a warm tortilla</strong> with cheese — it borrows beautifully from our <a href="/blog/easy-bean-burrito-recipe" class="text-sage font-bold underline hover:text-sage-dark">bean burrito recipe</a>.</li>
+        <li><strong>Alongside grilled chicken or fish</strong> as a vibrant side.</li>
+        <li><strong>With the <a href="/blog/southwest-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">southwest bean salad</a></strong> for a double-bean potluck spread.</li>
+      </ul>
+
+      <h2 id="kidney-salad-storage" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        7. Storage Tips
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Fridge, 4 days,</strong> in airtight containers — the lime keeps flavors bright.</li>
+        <li><strong>Stir gently before serving</strong> to redistribute the dressing.</li>
+        <li><strong>Do not freeze the dressed salad;</strong> the beans turn mealy and the dressing separates.</li>
+        <li><strong>Glass containers are best</strong> — dressing stains plastic and lingers in it. Our <a href="/blog/best-glass-meal-prep-containers-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">glass container guide</a> explains the difference.</li>
+      </ul>
+
+      <h2 id="kidney-salad-variations" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        8. Variations
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Swap corn for diced mango</strong> for a sweeter, summery salad.</li>
+        <li><strong>Add jalapeño</strong> (seeded) for heat.</li>
+        <li><strong>Use mixed kidney and black beans</strong> for more color contrast — the <a href="/blog/southwest-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">southwest bean salad</a> does exactly this.</li>
+        <li><strong>Fold in quinoa</strong> for a larger batch — the <a href="/blog/bean-salad-recipe-with-quinoa" class="text-sage font-bold underline hover:text-sage-dark">quinoa bean salad</a> shows the technique.</li>
+        <li><strong>Top with feta</strong> at serving time for a creamy, salty finish.</li>
+      </ul>
+
+      <h2 id="kidney-salad-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        9. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I use dried kidney beans in this salad?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — soak 1 1/2 cups dried beans overnight, simmer until fully tender (about 60–75 minutes), cool completely, and use as directed. Canned beans simply save the time.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">How long does kidney bean salad keep?</h4>
+          <p class="text-slate-700 leading-relaxed">Four days refrigerated in an airtight container. It tastes best from day two onward, once the dressing has soaked into the beans.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Do kidney beans need to be cooked before a salad?</h4>
+          <p class="text-slate-700 leading-relaxed">Canned kidney beans are already fully cooked and safe to eat straight from the can after rinsing. Dried kidney beans must always be cooked thoroughly.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What other salads pair well with this one?</h4>
+          <p class="text-slate-700 leading-relaxed">The whole <a href="/blog/healthy-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">healthy bean recipes</a> branch — especially the <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salads</a>, the <a href="/blog/high-protein-anti-inflammatory-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">5 bean salad</a>, and the <a href="/blog/3-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">classic 3 bean salad</a>.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Four Lunches, Fifteen Minutes</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Make this once and lunch is sorted through Thursday. Rotate it with the <a href="/blog/3-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">3 bean salad</a> and the <a href="/blog/southwest-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">southwest bean salad</a> and you never eat the same lunch twice in a week.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-southwest-bean-salad',
+    slug: 'southwest-bean-salad',
+    title: 'Southwest Bean Salad Recipe with Black Beans, Corn & Avocado',
+    excerpt: 'A colorful southwest bean salad with black beans, sweet corn, avocado, tomatoes, and bell pepper in a zesty lime dressing — ready in 20 minutes for lunch or potlucks.',
+    category: 'Healthy Bean Recipes',
+    categorySlug: 'healthy-bean-recipes',
+    tags: [
+      'Southwest Bean Salad',
+      'Southwest Bean Salad Recipe',
+      'Black Bean Salad',
+      'Corn and Bean Salad',
+      'Mexican Bean Salad',
+      'Avocado Bean Salad',
+      'Healthy Black Bean Recipe'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177691/Bean_Salad_Recipes_for_Food_Prep_Make_Ahead_Anti-Inflammatory_Salads.jpg',
+    date: 'September 7, 2026',
+    readTime: '9 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'southwest-salad-why', title: '1. Why This Southwest Bean Salad Works' },
+      { id: 'southwest-salad-ingredients', title: '2. Ingredients' },
+      { id: 'make-southwest-salad', title: '3. How to Make Southwest Bean Salad' },
+      { id: 'southwest-dressing', title: '4. The Lime Dressing' },
+      { id: 'southwest-make-ahead', title: '5. How to Make It Ahead' },
+      { id: 'southwest-variations', title: '6. Variations' },
+      { id: 'southwest-faq', title: '7. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: 'southwest bean salad',
+      metaTitle: 'Southwest Bean Salad Recipe with Black Beans, Corn & Avocado',
+      metaDescription: 'A colorful southwest bean salad with black beans, sweet corn, avocado, tomatoes, and bell pepper in a zesty lime dressing — a 20-minute lunch or potluck favorite.',
+      readabilityScore: '92/100 (Very Easy)',
+      schemaType: 'Recipe & Article',
+      pinterestTitle: 'Southwest Bean Salad with Black Beans, Corn & Avocado',
+      pinterestDescription: 'Black beans, sweet corn, creamy avocado, tomatoes, and bell pepper in a zesty lime dressing — a 20-minute southwest bean salad for lunches and potlucks.',
+      pinterestKeywords: [
+        'southwest bean salad',
+        'black bean salad',
+        'corn and bean salad',
+        'Mexican bean salad',
+        'avocado bean salad',
+        'cold bean salad'
+      ],
+      pinterestPinHeadlines: [
+        'Southwest Bean Salad with Corn & Avocado',
+        'A 20-Minute Black Bean & Corn Salad',
+        'Lime-Dressed Southwest Salad for Potlucks'
+      ]
+    },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
+    recipeDetails: {
+      title: 'Southwest Bean Salad with Lime Dressing',
+      prepTime: '20 mins',
+      cookTime: '0 mins',
+      totalTime: '20 mins',
+      servings: 8,
+      calories: 250,
+      protein: '8g',
+      carbs: '28g',
+      fat: '13g',
+      fiber: '9g',
+      glycemicIndex: 'Low (GI < 35)',
+      gutBenefitScore: 8.6,
+      ingredients: [
+        { name: 'Canned black beans, drained and rinsed', amount: 2, unit: 'cans (15 oz / 425 g)' },
+        { name: 'Frozen corn, thawed', amount: 1.5, unit: 'cups' },
+        { name: 'Cherry tomatoes, halved', amount: 1.5, unit: 'cups' },
+        { name: 'Red bell pepper, diced', amount: 1, unit: 'large' },
+        { name: 'Red onion, finely diced', amount: 0.5, unit: 'small' },
+        { name: 'Fresh cilantro, chopped', amount: 0.5, unit: 'cup' },
+        { name: 'Avocado, diced', amount: 1, unit: 'large' },
+        { name: 'Extra virgin olive oil', amount: 0.25, unit: 'cup' },
+        { name: 'Fresh lime juice', amount: 3, unit: 'tbsp' },
+        { name: 'Ground cumin', amount: 1, unit: 'tsp' },
+        { name: 'Chipotle powder or smoked paprika', amount: 0.5, unit: 'tsp' },
+        { name: 'Garlic clove, minced', amount: 1, unit: 'whole' },
+        { name: 'Sea salt and black pepper', amount: 1, unit: 'to taste' }
+      ],
+      steps: [
+        {
+          stepNumber: 1,
+          instruction: 'Drain and rinse the black beans well, shaking off excess water. Add them to a large bowl with the corn, tomatoes, bell pepper, onion, and cilantro.',
+          tip: 'Well-dried beans keep the dressing bright instead of watered down.'
+        },
+        {
+          stepNumber: 2,
+          instruction: 'Shake the dressing in a jar: olive oil, lime juice, cumin, chipotle or smoked paprika, garlic, salt, and pepper.',
+          tip: 'The chipotle gives gentle warmth; use smoked paprika for a milder salad.'
+        },
+        {
+          stepNumber: 3,
+          instruction: 'Pour the dressing over the salad and toss gently, then rest 15 minutes at room temperature.',
+          timerMinutes: 15,
+          tip: 'Resting lets the cumin and lime soak into the beans.'
+        },
+        {
+          stepNumber: 4,
+          instruction: 'Add the diced avocado right before serving and fold in once, gently.',
+          tip: 'Avocado goes in last, every time — it browns quickly once dressed.'
+        },
+        {
+          stepNumber: 5,
+          instruction: 'Taste for salt, finish with extra lime if needed, and serve or portion into airtight containers.',
+          tip: 'Keeps 3–4 days if you leave the avocado out of the stored portion.'
+        }
+      ]
+    },
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        This is the bean salad you bring to a potluck and leave with an empty bowl: black beans, sweet corn, avocado, tomatoes, and bell pepper, all dressed in a bright lime-cumin vinaigrette. It is colorful enough for a holiday table, quick enough for a Tuesday lunch, and it serves eight without breaking a sweat — no heat involved.
+      </p>
+
+      <h2 id="southwest-salad-why" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. Why This Southwest Bean Salad Works
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>The ingredients were made for each other:</strong> earthy black beans, sweet corn, creamy avocado, and bright lime — the flavor of a good taco in salad form.</li>
+        <li><strong>It is a visual event:</strong> black, gold, red, and green in one bowl. No sad desk lunches here.</li>
+        <li><strong>No cooking at all:</strong> everything is rinsed, chopped, or thawed.</li>
+        <li><strong>It scales to a crowd:</strong> multiply by two for party portions and it still holds its shape.</li>
+      </ul>
+
+      <h2 id="southwest-salad-ingredients" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. Ingredients
+      </h2>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Beans:</strong> 2 cans black beans, drained and rinsed.</li>
+        <li><strong>Corn:</strong> 1 1/2 cups frozen corn, thawed (or grilled fresh corn in season).</li>
+        <li><strong>Produce:</strong> 1 1/2 cups cherry tomatoes, 1 red bell pepper, 1/2 small red onion, 1 large avocado.</li>
+        <li><strong>Herb:</strong> 1/2 cup cilantro.</li>
+        <li><strong>Dressing:</strong> 1/4 cup olive oil, 3 tbsp lime juice, 1 tsp cumin, 1/2 tsp chipotle or smoked paprika, 1 garlic clove, salt, pepper.</li>
+      </ul>
+
+      <h2 id="make-southwest-salad" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. How to Make Southwest Bean Salad
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The recipe card above has every step with tips. The two rules that keep it great: dry the beans and corn well so the dressing stays bright, and add the avocado last, folding it in once. Everything else is rinse, chop, shake, toss, rest.
+      </p>
+
+      <h2 id="southwest-dressing" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. The Lime Dressing
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Three tablespoons of lime juice, a teaspoon of cumin, and a half-teaspoon of chipotle give you the southwest signature — bright, warm, and gently smoky. Make it in a jar, shake for ten seconds, and pour. If the salad sits overnight, the dressing soaks into the beans and the flavors round out; some people prefer it on day two.
+      </p>
+
+      <h2 id="southwest-make-ahead" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. How to Make It Ahead
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Assemble everything except the avocado</strong> the night before — it keeps beautifully for 3–4 days.</li>
+        <li><strong>Add avocado per portion at serving time</strong> so it stays bright green and firm.</li>
+        <li><strong>Portion into airtight containers</strong> following the <a href="/blog/bean-salad-recipes-for-food-prep" class="text-sage font-bold underline hover:text-sage-dark">bean salad food prep guide</a> for a full week of lunches.</li>
+        <li><strong>For potlucks, rest it 15 minutes before serving</strong> and keep a lime wedge or two on the table.</li>
+      </ul>
+
+      <h2 id="southwest-variations" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Variations
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Add quinoa</strong> for a larger, grain-and-bean batch — the technique in our <a href="/blog/bean-salad-recipe-with-quinoa" class="text-sage font-bold underline hover:text-sage-dark">quinoa bean salad</a> applies directly.</li>
+        <li><strong>Swap black beans for kidney beans:</strong> the <a href="/blog/kidney-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">kidney bean salad recipe</a> is the same family.</li>
+        <li><strong>Grilled corn in season</strong> adds a smoky sweetness you cannot fake.</li>
+        <li><strong>Crumbled cotija or feta</strong> on top makes it a fuller meal.</li>
+        <li><strong>Roasted poblano strips</strong> for extra depth — char them under the broiler first.</li>
+      </ul>
+
+      <h2 id="southwest-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        7. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I use fresh corn instead of frozen?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes — fresh corn is wonderful here. Blistered in a dry skillet for 3 minutes adds a smoky touch; raw cut from the cob is crunchy and sweet.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">How do I stop the avocado from browning?</h4>
+          <p class="text-slate-700 leading-relaxed">Add it last, fold once, and serve within the hour. For make-ahead batches, keep avocado out entirely and add it per serving — the salad itself keeps 3–4 days without it.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Is this salad spicy?</h4>
+          <p class="text-slate-700 leading-relaxed">Mildly warm from the chipotle, not hot. Use smoked paprika instead of chipotle for a completely mild version, or add minced jalapeño for heat.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What other bean salads should I try?</h4>
+          <p class="text-slate-700 leading-relaxed">The <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad collection</a> is the best next stop, followed by the <a href="/blog/high-protein-anti-inflammatory-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">5 bean salad</a>, the <a href="/blog/3-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">3 bean salad</a>, and the <a href="/blog/healthy-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">full bean recipes hub</a>.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">The Potluck Hero</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Double this recipe for your next gathering — it feeds sixteen and tastes even better an hour after dressing. Pair it with the <a href="/blog/kidney-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">kidney bean salad</a> for a two-salad spread, or keep it solo with a bowl of chips.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 'post-3-bean-salad',
+    slug: '3-bean-salad-recipe',
+    title: 'Classic 3 Bean Salad Recipe with Apple Cider Vinaigrette',
+    excerpt: 'A classic three bean salad with crisp green beans, kidney beans, and chickpeas in a tangy apple cider vinaigrette — the retro potluck favorite, made fresh and simple.',
+    category: 'Healthy Bean Recipes',
+    categorySlug: 'healthy-bean-recipes',
+    tags: [
+      'Three Bean Salad',
+      '3 Bean Salad Recipe',
+      'Classic Bean Salad',
+      'Green Bean Salad',
+      'Kidney Bean Salad',
+      'Chickpea Salad',
+      'Cold Bean Salad'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177734/Cold_Bean_Salad_Recipes_for_Anti-Inflammatory_Meal_Prep.jpg',
+    date: 'September 14, 2026',
+    readTime: '9 min read',
+    commentsCount: 0,
+    views: 0,
+    tableOfContents: [
+      { id: 'three-bean-why', title: '1. Why the Classic 3 Bean Salad Deserves a Comeback' },
+      { id: 'three-bean-choose', title: '2. How to Choose the Beans' },
+      { id: 'three-bean-ingredients', title: '3. Ingredients' },
+      { id: 'make-three-bean-salad', title: '4. How to Make Classic 3 Bean Salad' },
+      { id: 'three-bean-storage', title: '5. Storage and Make-Ahead Tips' },
+      { id: 'three-bean-variations', title: '6. Variations' },
+      { id: 'three-bean-faq', title: '7. Frequently Asked Questions' }
+    ],
+    seo: {
+      focusKeyword: '3 bean salad recipe',
+      metaTitle: 'Classic 3 Bean Salad Recipe with Apple Cider Vinaigrette',
+      metaDescription: 'A classic three bean salad with crisp green beans, kidney beans, and chickpeas in a tangy apple cider vinaigrette — the retro potluck favorite, made fresh and simple.',
+      readabilityScore: '92/100 (Very Easy)',
+      schemaType: 'Recipe & Article',
+      pinterestTitle: 'Classic 3 Bean Salad with Apple Cider Vinaigrette',
+      pinterestDescription: 'Crisp green beans, kidney beans, and chickpeas in a tangy apple cider vinaigrette — a fresh take on the retro potluck three bean salad.',
+      pinterestKeywords: [
+        '3 bean salad',
+        'three bean salad recipe',
+        'classic bean salad',
+        'green bean salad',
+        'kidney bean salad',
+        'cold bean salad'
+      ],
+      pinterestPinHeadlines: [
+        'The Retro 3 Bean Salad, Fresh Again',
+        'Classic Three Bean Salad in 30 Minutes',
+        'Green Bean & Chickpea Salad with Apple Cider'
+      ]
+    },
+    affiliateProductIds: ['prod-mcirco-glass-containers'],
+    recipeDetails: {
+      title: 'Classic 3 Bean Salad with Apple Cider Vinaigrette',
+      prepTime: '20 mins',
+      cookTime: '10 mins',
+      totalTime: '30 mins',
+      servings: 8,
+      calories: 220,
+      protein: '9g',
+      carbs: '24g',
+      fat: '11g',
+      fiber: '8g',
+      glycemicIndex: 'Low (GI < 35)',
+      gutBenefitScore: 8.4,
+      ingredients: [
+        { name: 'Fresh green beans, trimmed', amount: 1, unit: 'lb' },
+        { name: 'Canned kidney beans, drained and rinsed', amount: 1, unit: 'can (15 oz / 425 g)' },
+        { name: 'Canned chickpeas, drained and rinsed', amount: 1, unit: 'can (15 oz / 425 g)' },
+        { name: 'Celery stalks, thinly sliced', amount: 2, unit: 'whole' },
+        { name: 'Red onion, thinly sliced', amount: 0.5, unit: 'small' },
+        { name: 'Fresh parsley, chopped', amount: 0.25, unit: 'cup' },
+        { name: 'Extra virgin olive oil', amount: 0.25, unit: 'cup' },
+        { name: 'Apple cider vinegar', amount: 3, unit: 'tbsp' },
+        { name: 'Dijon mustard', amount: 1, unit: 'tsp' },
+        { name: 'Maple syrup or honey', amount: 1, unit: 'tsp' },
+        { name: 'Sea salt and black pepper', amount: 1, unit: 'to taste' }
+      ],
+      steps: [
+        {
+          stepNumber: 1,
+          instruction: 'Blanch the green beans: cook them in salted boiling water for 3–4 minutes until bright green and just tender, then plunge into an ice bath. Drain well and pat dry.',
+          timerMinutes: 4,
+          tip: 'The ice bath stops the cooking and locks in the snap.'
+        },
+        {
+          stepNumber: 2,
+          instruction: 'Drain and rinse the kidney beans and chickpeas, shaking off excess water so the dressing stays bright.',
+          tip: 'Rinsing canned beans removes most of the added sodium.'
+        },
+        {
+          stepNumber: 3,
+          instruction: 'Shake the vinaigrette in a jar: olive oil, apple cider vinegar, Dijon mustard, maple syrup or honey, salt, and pepper.',
+          tip: 'The mustard and sweetener pull the tangy apple cider flavor together.'
+        },
+        {
+          stepNumber: 4,
+          instruction: 'Combine the green beans, kidney beans, chickpeas, celery, red onion, and parsley in a large bowl.',
+          tip: 'Slice the celery thin so it marries into the salad instead of dominating.'
+        },
+        {
+          stepNumber: 5,
+          instruction: 'Pour the vinaigrette over the salad, toss gently, and let it rest in the fridge for at least 30 minutes.',
+          timerMinutes: 30,
+          tip: 'This is a salad that genuinely tastes better on day two.'
+        },
+        {
+          stepNumber: 6,
+          instruction: 'Taste for salt, add a splash more vinegar if you like it tangier, and serve chilled or at room temperature.',
+          tip: 'Keeps 4–5 days in an airtight container.'
+        }
+      ]
+    },
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        This is the salad that showed up at every family gathering in the 1970s — and it deserves a second act. Green beans, kidney beans, and chickpeas, tossed with celery and red onion in a tangy apple cider vinaigrette. It is crisp, colorful, economical, and somehow even better the next day, which makes it one of the most practical make-ahead lunches ever invented.
+      </p>
+
+      <h2 id="three-bean-why" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. Why the Classic 3 Bean Salad Deserves a Comeback
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Three textures in every bite:</strong> the snap of green beans, the firm meatiness of kidney beans, and the creamy tenderness of chickpeas.</li>
+        <li><strong>It improves with time:</strong> the vinaigrette soaks into the beans, so it gets better as it sits — the opposite of most salads.</li>
+        <li><strong>Truly budget friendly:</strong> three cans and a pound of green beans feed eight people for very little money.</li>
+        <li><strong>It is the whole bean salad branch in miniature:</strong> master the tangy vinaigrette here and every other salad in the <a href="/blog/healthy-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">healthy bean recipes</a> collection follows the same logic.</li>
+      </ul>
+
+      <h2 id="three-bean-choose" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. How to Choose the Beans
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Fresh green beans:</strong> snap a bean — if it breaks with a clean crack, it is fresh. Wax beans or yellow beans work equally well for color variety.</li>
+        <li><strong>Kidney beans:</strong> canned, drained, and rinsed is the standard move. They hold their shape and give the salad its deep red color. Our <a href="/blog/kidney-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">kidney bean salad recipe</a> shows more ways to use them.</li>
+        <li><strong>Chickpeas:</strong> choose low-sodium cans when you can find them, and rinse well regardless.</li>
+        <li><strong>Frozen green beans are a fair shortcut</strong> — blanch them for just 2 minutes since they are already tender.</li>
+      </ul>
+
+      <h2 id="three-bean-ingredients" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. Ingredients
+      </h2>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700 mb-4">
+        <li><strong>Green beans:</strong> 1 lb fresh, trimmed.</li>
+        <li><strong>Canned beans:</strong> 1 can kidney beans and 1 can chickpeas, drained and rinsed.</li>
+        <li><strong>Crisp vegetables:</strong> 2 celery stalks and 1/2 small red onion.</li>
+        <li><strong>Herb:</strong> 1/4 cup fresh parsley.</li>
+        <li><strong>Vinaigrette:</strong> 1/4 cup olive oil, 3 tbsp apple cider vinegar, 1 tsp Dijon mustard, 1 tsp maple syrup or honey, salt, and pepper.</li>
+      </ul>
+
+      <h2 id="make-three-bean-salad" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. How to Make Classic 3 Bean Salad
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        The full walkthrough is in the recipe card above. The two details that separate a great one from a good one: blanch the green beans and shock them in ice water so they stay snappy rather than floppy, and rinse the canned beans well so the dressing stays bright instead of cloudy. Everything else is a ten-minute toss.
+      </p>
+
+      <h2 id="three-bean-storage" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. Storage and Make-Ahead Tips
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>This salad is built for Sunday prep:</strong> it keeps 4–5 days in the fridge in an airtight container.</li>
+        <li><strong>Portion it like a pro:</strong> the <a href="/blog/bean-salad-recipes-for-food-prep" class="text-sage font-bold underline hover:text-sage-dark">bean salad food prep guide</a> covers container math, weekly rotation, and keeping salads crisp for five days.</li>
+        <li><strong>Serve cold or at room temperature</strong> — both are correct; room temperature shows off the vinaigrette best.</li>
+        <li><strong>If it thickens after a few days,</strong> loosen it with a small splash of apple cider vinegar and a drizzle of oil before serving.</li>
+      </ul>
+
+      <h2 id="three-bean-variations" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Variations
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Five bean upgrade:</strong> add black beans and cannellini to turn this into the hearty <a href="/blog/high-protein-anti-inflammatory-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">anti-inflammatory 5 bean salad</a>.</li>
+        <li><strong>Southwest twist:</strong> swap the green beans for corn and the vinaigrette for lime-cumin — the <a href="/blog/southwest-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">southwest bean salad</a> is the same idea with a different passport.</li>
+        <li><strong>Grain-added:</strong> fold in cooked quinoa or farro for a fuller lunch bowl, following the <a href="/blog/bean-salad-recipe-with-quinoa" class="text-sage font-bold underline hover:text-sage-dark">quinoa bean salad</a>.</li>
+        <li><strong>Herb swap:</strong> dill or basil in place of parsley changes the character completely.</li>
+        <li><strong>Brighter color:</strong> add diced red bell pepper for contrast and sweetness.</li>
+      </ul>
+
+      <h2 id="three-bean-faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        7. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Do I have to cook canned kidney beans and chickpeas?</h4>
+          <p class="text-slate-700 leading-relaxed">No — canned beans are fully cooked. Drain, rinse, and they are ready for the bowl. Only the green beans need the short blanch.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I use frozen green beans?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes. Blanch them for about 2 minutes instead of 3–4 since they are already tender, then shock in the ice bath as usual.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">How long does 3 bean salad last?</h4>
+          <p class="text-slate-700 leading-relaxed">Four to five days in an airtight container in the fridge. The flavors actually deepen after the first day, so it is an ideal make-ahead lunch.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What other bean salads should I try?</h4>
+          <p class="text-slate-700 leading-relaxed">Browse the <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad collection</a> for five more ideas, or start with the <a href="/blog/kidney-bean-salad-recipe" class="text-sage font-bold underline hover:text-sage-dark">kidney bean salad</a> for a single-bean version of this tangy dressing.</p>
+        </div>
+      </div>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">The Mother of All Bean Salads</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Every salad in our bean branch traces back to this one — the tangy vinaigrette, the trio of beans, the make-ahead magic. Start here, then explore the <a href="/blog/cold-bean-salad-recipes-anti-inflammatory" class="text-sage font-bold underline hover:text-sage-dark">cold bean salad recipes</a>, the <a href="/blog/high-protein-anti-inflammatory-bean-salad" class="text-sage font-bold underline hover:text-sage-dark">5 bean salad</a>, and the rest of the <a href="/blog/healthy-bean-recipes" class="text-sage font-bold underline hover:text-sage-dark">healthy bean recipes</a> hub to build a week of no-reheat lunches.
         </p>
       </div>
     `

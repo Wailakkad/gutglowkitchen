@@ -77,18 +77,18 @@ export const CATEGORIES: CategoryInfo[] = [
     ]
   },
   {
-    id: 'bean-salad',
-    name: 'Bean Salad',
-    slug: 'bean-salad',
-    description: 'High-protein bean salad recipes for meal prep and cold lunches — Mediterranean, three bean, five bean, and quinoa versions with simple homemade dressings.',
-    tagline: 'Make-ahead bean salads that keep your lunches easy.',
+    id: 'healthy-bean-recipes',
+    name: 'Healthy Bean Recipes',
+    slug: 'healthy-bean-recipes',
+    description: 'Easy, wholesome bean recipes for healthy lunches, dinners, meal prep, and satisfying everyday meals.',
+    tagline: 'From bean salads to burritos, rice and beans, and creamy cannellini dishes.',
     iconName: 'Salad',
     image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800',
-    postsCount: 4,
+    postsCount: 12,
     keyBenefits: [
-      'Plant-based, fiber-rich protein for balanced lunches',
-      'Cold salad recipes that improve in flavor after a day',
-      'Simple dressings and storage tips for week-long meal prep'
+      'Easy Bean Meals for Busy Weeknights',
+      'High-Protein Plant-Based Recipes',
+      'Healthy Lunch & Dinner Ideas'
     ]
   }
 ];
