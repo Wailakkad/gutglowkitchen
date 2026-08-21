@@ -6846,7 +6846,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Canned Bean Recipes',
       'Meal Prep Bean Recipes'
     ],
-    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177683/Bean_Salad_Recipe_with_Quinoa_Anti-Inflammatory_High_Protein.jpg',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787316353/25_Healthy_Bean_Recipes_for_Easy_Lunches_Dinners.jpg',
     date: 'September 1, 2026',
     readTime: '12 min read',
     commentsCount: 0,
@@ -7047,7 +7047,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Homemade Bean Burrito',
       'Easy Bean Meals'
     ],
-    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177736/High_Protein_Anti-Inflammatory_Bean_Salad_Recipe_5_Bean_Version.jpg',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787316444/Easy_Bean_Burrito_Recipe_with_Black_Beans_Cheese.jpg',
     date: 'September 2, 2026',
     readTime: '10 min read',
     commentsCount: 0,
@@ -7273,7 +7273,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Rice and Beans Meal Prep',
       'Healthy Bean Dinner'
     ],
-    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177691/Bean_Salad_Recipes_for_Food_Prep_Make_Ahead_Anti-Inflammatory_Salads.jpg',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787316451/Easy_Rice_and_Beans_Recipe_for_a_Healthy_Weeknight_Meal.jpg',
     date: 'September 3, 2026',
     readTime: '9 min read',
     commentsCount: 0,
@@ -7505,7 +7505,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Butter Bean Salad',
       'Vegetarian Butter Bean Recipes'
     ],
-    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177734/Cold_Bean_Salad_Recipes_for_Anti-Inflammatory_Meal_Prep.jpg',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787316439/10_Easy_Butter_Bean_Recipes_for_Healthy_Meals.jpg',
     date: 'September 4, 2026',
     readTime: '9 min read',
     commentsCount: 0,
@@ -7686,7 +7686,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Healthy White Bean Recipes',
       'Vegetarian Cannellini Recipes'
     ],
-    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177683/Bean_Salad_Recipe_with_Quinoa_Anti-Inflammatory_High_Protein.jpg',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787316340/12_Easy_Cannellini_Bean_Recipes_for_Healthy_Meals.jpg',
     date: 'September 5, 2026',
     readTime: '10 min read',
     commentsCount: 0,
@@ -7875,7 +7875,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Make Ahead Kidney Bean Salad',
       'Healthy Bean Salad'
     ],
-    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177736/High_Protein_Anti-Inflammatory_Bean_Salad_Recipe_5_Bean_Version.jpg',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787316315/Easy_Kidney_Bean_Salad_Recipe_with_Fresh_Vegetables.jpg',
     date: 'September 6, 2026',
     readTime: '9 min read',
     commentsCount: 0,
@@ -8100,7 +8100,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Avocado Bean Salad',
       'Healthy Black Bean Recipe'
     ],
-    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177691/Bean_Salad_Recipes_for_Food_Prep_Make_Ahead_Anti-Inflammatory_Salads.jpg',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787316320/Southwest_Bean_Salad_Recipe_with_Black_Beans_Corn_Avocado.jpg',
     date: 'September 7, 2026',
     readTime: '9 min read',
     commentsCount: 0,
@@ -8301,7 +8301,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Chickpea Salad',
       'Cold Bean Salad'
     ],
-    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787177734/Cold_Bean_Salad_Recipes_for_Anti-Inflammatory_Meal_Prep.jpg',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787316359/Classic_3_Bean_Salad_Recipe_with_Apple_Cider_Vinaigrette.jpg',
     date: 'September 14, 2026',
     readTime: '9 min read',
     commentsCount: 0,
