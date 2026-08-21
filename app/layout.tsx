@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.svg'
   },
-  metadataBase: new URL(process.env.SITE_URL ?? 'https://gutglowkitchen.com'),
+  metadataBase: new URL(process.env.SITE_URL ?? 'https://gutglowkitchen.vercel.app'),
   openGraph: {
     siteName: 'Gut Glow Kitchen',
     type: 'website',

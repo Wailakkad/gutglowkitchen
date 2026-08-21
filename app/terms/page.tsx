@@ -3,7 +3,10 @@ import { FileText } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Terms & Conditions',
-  description: 'Terms of service and medical disclaimer for Gut Glow Kitchen.'
+  description: 'Terms of service and medical disclaimer for Gut Glow Kitchen.',
+  alternates: {
+    canonical: '/terms'
+  }
 };
 
 export default function TermsPage() {

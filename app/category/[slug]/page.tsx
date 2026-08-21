@@ -26,6 +26,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: category.description,
     alternates: {
       canonical: `/category/${category.slug}`
+    },
+    openGraph: {
+      title: `${category.name} – Gut Glow Kitchen`,
+      description: category.description,
+      type: 'website',
+      url: `/category/${category.slug}`
     }
   };
 }

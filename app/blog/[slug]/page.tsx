@@ -52,13 +52,19 @@ export default async function SinglePostPage({ params }: Props) {
   const hasProducts = affiliateProducts.length > 0;
   const relatedPosts = BLOG_POSTS.filter((p) => p.id !== post.id).slice(0, 2);
 
+  const datePublished = new Date(post.date).toISOString().split('T')[0];
+
   const schemaJson = {
     '@context': 'https://schema.org',
     '@type': post.recipeDetails ? 'Recipe' : 'BlogPosting',
     headline: post.title,
     description: post.excerpt,
     image: [post.coverImage],
-    datePublished: '2026-08-04',
+    datePublished,
+    author: {
+      '@type': 'Organization',
+      name: 'Gut Glow Kitchen'
+    },
     publisher: {
       '@type': 'Organization',
       name: 'Gut Glow Kitchen'

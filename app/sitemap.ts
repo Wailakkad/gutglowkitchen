@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { BLOG_POSTS } from '@/data/blogData';
 import { CATEGORIES } from '@/data/categoryData';
 
-const SITE_URL = process.env.SITE_URL ?? 'https://gutglowkitchen.com';
+const SITE_URL = process.env.SITE_URL ?? 'https://gutglowkitchen.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [

@@ -4,7 +4,10 @@ import { ShieldCheck } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Affiliate Disclosure (FTC)',
   description:
-    'FTC and Amazon Associates compliance disclosure for Gut Glow Kitchen affiliate links.'
+    'FTC and Amazon Associates compliance disclosure for Gut Glow Kitchen affiliate links.',
+  alternates: {
+    canonical: '/affiliate-disclosure'
+  }
 };
 
 export default function AffiliateDisclosurePage() {

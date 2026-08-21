@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const SITE_URL = process.env.SITE_URL ?? 'https://gutglowkitchen.com';
+const SITE_URL = process.env.SITE_URL ?? 'https://gutglowkitchen.vercel.app';
 
 export default function robots(): MetadataRoute.Robots {
   return {

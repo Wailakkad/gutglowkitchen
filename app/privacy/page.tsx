@@ -3,7 +3,10 @@ import { Lock } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'GDPR & CCPA compliant privacy policy for Gut Glow Kitchen.'
+  description: 'GDPR & CCPA compliant privacy policy for Gut Glow Kitchen.',
+  alternates: {
+    canonical: '/privacy'
+  }
 };
 
 export default function PrivacyPage() {
