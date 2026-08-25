@@ -8492,5 +8492,338 @@ export const BLOG_POSTS: BlogPost[] = [
         </p>
       </div>
     `
+  },
+  {
+    id: 'post-healthy-pumpkin-protein-muffins',
+    slug: 'healthy-pumpkin-protein-muffins',
+    title: 'Healthy Pumpkin Protein Muffins (Made With Canned Pumpkin + 1 Bowl)',
+    excerpt: 'Moist, high-protein pumpkin muffins made with canned pumpkin and just one bowl. Easy, freezer-friendly, and perfect for fall breakfasts or snacks.',
+    category: 'Healthy Baking & Fall Recipes',
+    categorySlug: 'healthy-baking-fall-recipes',
+    tags: [
+      'Healthy Pumpkin Protein Muffins',
+      'High Protein Pumpkin Recipes',
+      'Canned Pumpkin Recipes',
+      'Pumpkin Breakfast Recipes',
+      'Healthy Pumpkin Recipes',
+      'Pumpkin Spice Recipes',
+      'Pumpkin Muffin Recipes',
+      'One Bowl Muffins',
+      'Meal Prep Breakfast',
+      'Fall Baking',
+      'Gluten Free Muffins',
+      'Anti-Inflammatory Breakfast'
+    ],
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1787660100/Pumpkin_protein_muffins_on_surface_202608251410.jpg',
+    date: 'August 25, 2026',
+    readTime: '10 min read',
+    commentsCount: 0,
+    views: 0,
+    isFeatured: false,
+    tableOfContents: [
+      { id: 'why-youll-love-them', title: '1. Why You Will Love These Pumpkin Protein Muffins' },
+      { id: 'anti-inflammatory-spotlight', title: '2. Anti-Inflammatory Ingredients Spotlight' },
+      { id: 'ingredients', title: '3. Full Ingredient List + Substitutions' },
+      { id: 'how-to-make', title: '4. How to Make Healthy Pumpkin Protein Muffins' },
+      { id: 'pro-tips', title: '5. Pro Tips for Moist, Fluffy Muffins' },
+      { id: 'storage-meal-prep', title: '6. Storage & Meal Prep' },
+      { id: 'faq', title: '7. Frequently Asked Questions' },
+      { id: 'what-to-serve', title: '8. What to Serve With Pumpkin Protein Muffins' },
+      { id: 'final-thoughts', title: '9. Final Thoughts' }
+    ],
+    seo: {
+      focusKeyword: 'healthy pumpkin protein muffins',
+      metaTitle: 'Healthy Pumpkin Protein Muffins | One-Bowl Canned Pumpkin Recipe',
+      metaDescription: 'Moist, high-protein pumpkin muffins made with canned pumpkin and just one bowl. Easy, freezer-friendly, and perfect for fall breakfasts.',
+      readabilityScore: '93/100 (Very Easy)',
+      schemaType: 'Recipe & Article',
+      pinterestTitle: 'Healthy Pumpkin Protein Muffins (One Bowl!)',
+      pinterestDescription: 'Moist high-protein pumpkin muffins made with canned pumpkin. One bowl, freezer-friendly, and perfect for fall meal prep.',
+      pinterestKeywords: ['healthy pumpkin protein muffins', 'canned pumpkin muffins', 'high protein pumpkin recipes', 'one bowl muffins', 'fall breakfast ideas'],
+      pinterestPinHeadlines: ['One Bowl Pumpkin Protein Muffins', 'High Protein Fall Breakfast', 'Canned Pumpkin Muffins So Easy', 'Freezer Friendly Pumpkin Muffins', 'Healthy Pumpkin Spice Muffins']
+    },
+    recipeDetails: {
+      title: 'Healthy Pumpkin Protein Muffins',
+      prepTime: '10 mins',
+      cookTime: '20 mins',
+      totalTime: '30 mins',
+      servings: 12,
+      calories: 170,
+      protein: '8g',
+      carbs: '17g',
+      fat: '8g',
+      fiber: '3g',
+      glycemicIndex: 'Low (GI < 35)',
+      gutBenefitScore: 8.5,
+      ingredients: [
+        { name: 'All-purpose flour or oat flour', amount: 1.5, unit: 'cups', note: 'Use certified gluten-free oat flour for GF option' },
+        { name: 'Vanilla or unflavored protein powder', amount: 1, unit: 'scoop (30g)' },
+        { name: 'Ground cinnamon', amount: 1, unit: 'tbsp' },
+        { name: 'Ground ginger', amount: 1, unit: 'tsp' },
+        { name: 'Ground nutmeg', amount: 0.5, unit: 'tsp' },
+        { name: 'Ground cloves', amount: 0.25, unit: 'tsp' },
+        { name: 'Baking powder', amount: 1, unit: 'tsp' },
+        { name: 'Baking soda', amount: 0.5, unit: 'tsp' },
+        { name: 'Fine sea salt', amount: 0.25, unit: 'tsp' },
+        { name: 'Canned pumpkin puree (NOT pumpkin pie filling)', amount: 1, unit: 'cup (240g)', note: 'Must be 100% pure pumpkin' },
+        { name: 'Large eggs', amount: 2, unit: 'large' },
+        { name: 'Pure maple syrup or honey', amount: 0.33, unit: 'cup (80ml)' },
+        { name: 'Melted coconut oil or avocado oil', amount: 0.25, unit: 'cup (60ml)' },
+        { name: 'Pure vanilla extract', amount: 1, unit: 'tsp' },
+        { name: 'Milk of choice (dairy, oat, almond, or cashew)', amount: 0.25, unit: 'cup (60ml)' }
+      ],
+      steps: [
+        { stepNumber: 1, instruction: 'Preheat oven to 350\u00b0F (175\u00b0C). Line a 12-cup muffin tin with paper liners or grease with coconut oil.' },
+        { stepNumber: 2, instruction: 'In a large bowl, whisk together the flour, protein powder, cinnamon, ginger, nutmeg, cloves, baking powder, baking soda, and salt until well combined.' },
+        { stepNumber: 3, instruction: 'Add the pumpkin puree, eggs, maple syrup, melted coconut oil, vanilla, and milk. Stir with a spatula until just combined. Do not overmix \u2014 a few small lumps are fine.', tip: 'Overmixing leads to dense, tough muffins. Stop as soon as the flour disappears.' },
+        { stepNumber: 4, instruction: 'Gently fold in optional add-ins (walnuts, flaxseed, chia seeds, or chocolate chips) if using.' },
+        { stepNumber: 5, instruction: 'Divide the batter evenly among the 12 muffin cups, filling each about 3/4 full.' },
+        { stepNumber: 6, instruction: 'Bake for 18\u201322 minutes, until a toothpick inserted into the center comes out clean or with a few moist crumbs.', timerMinutes: 20, tip: 'Check at 18 minutes. Every oven runs a little different.' },
+        { stepNumber: 7, instruction: 'Cool in the pan for 5 minutes, then transfer to a wire rack to cool completely before storing.' }
+      ]
+    },
+    content: `
+      <p class="lead text-lg text-slate-700 leading-relaxed mb-6 font-medium">
+        There is something about pumpkin season that makes you want to bake everything in sight. These <strong>healthy pumpkin protein muffins</strong> check every box: they are made with canned pumpkin puree, come together in one bowl, and deliver a solid boost of protein to keep you fueled through busy mornings. No mixer required, no fancy ingredients \u2014 just a whisk, a bowl, and a little pumpkin spice magic.
+      </p>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        If you are looking for <strong>high protein pumpkin recipes</strong> that actually taste like fall, this is it. Each muffin is warm, spiced, and naturally sweetened with maple syrup, making them a nourishing choice for breakfast, a post-workout snack, or an afternoon pick-me-up. They are also freezer-friendly, so you can batch-make them on a Sunday and grab one all week long.
+      </p>
+
+      <h2 id="why-youll-love-them" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        1. Why You Will Love These Pumpkin Protein Muffins
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>One-bowl simplicity:</strong> no mixer, no cleanup nightmare. Just stir and bake.</li>
+        <li><strong>High protein:</strong> each muffin packs a solid protein boost from protein powder and eggs.</li>
+        <li><strong>Naturally sweetened:</strong> uses maple syrup instead of refined sugar.</li>
+        <li><strong>Moist and fluffy:</strong> canned pumpkin keeps them soft for days without extra oil.</li>
+        <li><strong>Freezer-friendly:</strong> make a double batch and freeze for busy mornings.</li>
+        <li><strong>Gluten-free friendly:</strong> easy swap to oat flour or almond flour.</li>
+        <li><strong>Cozy pumpkin spice flavor:</strong> cinnamon, ginger, and nutmeg in every bite.</li>
+      </ul>
+
+      <h2 id="anti-inflammatory-spotlight" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        2. Anti-Inflammatory Ingredients Spotlight
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        One of the things that makes this recipe stand out is that the ingredients are not just tasty \u2014 many of them are staples in anti-inflammatory cooking. Here is a closer look at the key players:
+      </p>
+      <ul class="list-disc pl-6 space-y-3 text-slate-700 mb-6">
+        <li><strong>Canned pumpkin puree:</strong> pumpkin is rich in beta-carotene and antioxidants, which are often associated with supporting overall wellness. It is also a great source of fiber, helping to keep you full and satisfied.</li>
+        <li><strong>Cinnamon:</strong> this warm spice has been used for centuries in traditional cooking and is commonly included in anti-inflammatory recipes. A little goes a long way in adding depth and warmth.</li>
+        <li><strong>Ginger (ground or fresh):</strong> ginger is a well-known anti-inflammatory ingredient often used in teas, soups, and baked goods. It adds a subtle zing that pairs beautifully with pumpkin.</li>
+        <li><strong>Walnuts:</strong> one of the best nut sources of omega-3 fatty acids, which are widely recognized for their anti-inflammatory properties. They also add a satisfying crunch.</li>
+        <li><strong>Flaxseed or chia seeds:</strong> both are excellent sources of plant-based omega-3s and fiber. Ground flaxseed blends right into the batter without changing the flavor.</li>
+        <li><strong>Maple syrup:</strong> unlike refined sugar, pure maple syrup contains trace antioxidants and minerals. It is a more minimally processed sweetener option.</li>
+      </ul>
+      <div class="my-6 p-4 bg-stone-50 border border-stone-200 rounded-xl text-slate-700 text-sm leading-relaxed">
+        <strong>Disclaimer:</strong> This recipe is shared for informational and culinary purposes only. It is not intended as medical or nutritional advice. The ingredient information above reflects commonly discussed benefits in culinary and wellness contexts. Please consult a qualified professional for dietary guidance specific to your needs.
+      </div>
+
+      <h2 id="ingredients" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        3. Full Ingredient List + Substitutions
+      </h2>
+      <h3 class="text-lg font-bold text-slate-900 mt-4 mb-2">Dry Ingredients</h3>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-4">
+        <li>1 1/2 cups (180g) all-purpose flour <em>or</em> oat flour</li>
+        <li>1 scoop (about 30g) vanilla or unflavored protein powder</li>
+        <li>1 tablespoon ground cinnamon</li>
+        <li>1 teaspoon ground ginger</li>
+        <li>1/2 teaspoon ground nutmeg</li>
+        <li>1/4 teaspoon ground cloves</li>
+        <li>1 teaspoon baking powder</li>
+        <li>1/2 teaspoon baking soda</li>
+        <li>1/4 teaspoon fine sea salt</li>
+      </ul>
+      <h3 class="text-lg font-bold text-slate-900 mt-4 mb-2">Wet Ingredients</h3>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-4">
+        <li>1 cup (240g) canned pumpkin puree (NOT pumpkin pie filling)</li>
+        <li>2 large eggs</li>
+        <li>1/3 cup (80ml) pure maple syrup or honey</li>
+        <li>1/4 cup (60ml) melted coconut oil or avocado oil</li>
+        <li>1 teaspoon pure vanilla extract</li>
+        <li>1/4 cup (60ml) milk of choice (dairy, oat, almond, or cashew)</li>
+      </ul>
+      <h3 class="text-lg font-bold text-slate-900 mt-4 mb-2">Optional Add-Ins</h3>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-4">
+        <li>1/2 cup chopped walnuts or pecans</li>
+        <li>1/4 cup ground flaxseed or chia seeds</li>
+        <li>1/2 cup dark chocolate chips (use dairy-free if needed)</li>
+      </ul>
+      <div class="my-6 p-4 bg-stone-50 border border-stone-200 rounded-xl">
+        <h4 class="font-bold text-slate-900 text-sm mb-2">Canned Pumpkin: What to Look For</h4>
+        <p class="text-slate-700 text-sm leading-relaxed">
+          Always check the label: it should say <strong>100% pure pumpkin</strong> or <strong>pure pumpkin puree</strong>. Pumpkin pie filling contains added sugar, salt, and spices that will throw off this recipe. The texture and color are similar, but the ingredients list is the giveaway \u2014 if it has more than pumpkin on the list, put it back.
+        </p>
+      </div>
+      <h3 class="text-lg font-bold text-slate-900 mt-4 mb-2">Easy Substitutions</h3>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Gluten-free:</strong> use certified gluten-free oat flour (1:1 ratio) or a gluten-free all-purpose blend.</li>
+        <li><strong>Dairy-free:</strong> use dairy-free protein powder, plant-based milk, and dairy-free chocolate chips.</li>
+        <li><strong>Lower sugar:</strong> reduce maple syrup to 2 tablespoons and add 1 mashed ripe banana for natural sweetness.</li>
+        <li><strong>Higher protein:</strong> add an extra 1/2 scoop of protein powder and reduce flour by 1/4 cup, or fold in 2 tablespoons hemp hearts.</li>
+        <li><strong>Nut-free:</strong> omit walnuts; use sunflower seeds or pumpkin seeds instead.</li>
+        <li><strong>Egg-free:</strong> use 2 flax eggs (2 tablespoons ground flax + 5 tablespoons water, rested 10 minutes).</li>
+      </ul>
+
+      <h2 id="how-to-make" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        4. How to Make Healthy Pumpkin Protein Muffins
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        Ten minutes of prep, one bowl, zero fuss. Here is the full walkthrough:
+      </p>
+      <ol class="list-decimal pl-6 space-y-3 text-slate-700 mb-6">
+        <li><strong>Preheat the oven to 350\u00b0F (175\u00b0C).</strong> Line a 12-cup muffin tin with paper liners or grease with coconut oil.</li>
+        <li><strong>Mix the dry ingredients:</strong> in a large bowl, whisk together the flour, protein powder, cinnamon, ginger, nutmeg, cloves, baking powder, baking soda, and salt.</li>
+        <li><strong>Add the wet ingredients:</strong> create a well in the center. Add the pumpkin puree, eggs, maple syrup, melted coconut oil, vanilla, and milk. Stir until just combined.</li>
+        <li><strong>Fold in optional add-ins</strong> (walnuts, flaxseed, chia seeds, or chocolate chips) if using. Do not overwork the batter.</li>
+        <li><strong>Fill the muffin cups</strong> about 3/4 full using a cookie scoop or spoon for even portions.</li>
+        <li><strong>Bake for 18\u201322 minutes,</strong> until a toothpick inserted in the center comes out clean or with a few moist crumbs. The tops should spring back gently when touched.</li>
+        <li><strong>Cool in the pan for 5 minutes,</strong> then transfer to a wire rack to cool completely. This prevents soggy bottoms.</li>
+      </ol>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        That is the complete recipe. Moist, fluffy, and full of cozy pumpkin spice \u2014 ready for breakfast in under 30 minutes.
+      </p>
+
+      <div class="my-8 p-6 bg-sage-light border-l-4 border-sage rounded-r-xl">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">\ud83d\udca1 Gut Glow Kitchen Golden Rule</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Do not overmix the batter. This is the number one rule for soft, tender muffins. Stir until the flour is just incorporated and stop there. A few small lumps are perfectly fine \u2014 they bake out and leave you with a light, fluffy crumb.
+        </p>
+      </div>
+
+      <h2 id="pro-tips" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        5. Pro Tips for Moist, Fluffy Muffins
+      </h2>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Do not overmix the batter.</strong> Stir until the flour is just incorporated. Overmixing develops gluten and leads to dense, tough muffins.</li>
+        <li><strong>Use room temperature eggs.</strong> Cold eggs can cause the melted coconut oil to re-solidify, creating lumps. Run them under warm water for a minute if you forget.</li>
+        <li><strong>Check your pumpkin label.</strong> Make sure you are using canned pumpkin puree, not pumpkin pie filling. Pie filling has added sugar and spices that will throw off the recipe.</li>
+        <li><strong>Do not overbake.</strong> Pull them out as soon as a toothpick comes out clean. Even a minute or two too long can dry them out.</li>
+        <li><strong>Use an ice cream scoop.</strong> It gives you even portions and keeps the mess to a minimum.</li>
+        <li><strong>Let them cool before storing.</strong> Putting warm muffins in a container creates condensation, which makes them soggy. Cool completely first.</li>
+        <li><strong>Toast them for breakfast.</strong> Split a muffin in half, toast it, and spread with a little nut butter. Game changer.</li>
+        <li><strong>Double the batch.</strong> These freeze so well that making 24 at once saves you time two weeks in a row.</li>
+      </ul>
+
+      <h2 id="storage-meal-prep" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        6. Storage & Meal Prep
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        One of the best things about these muffins is how well they store. Here is the breakdown:
+      </p>
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="bg-sage text-white">
+              <th class="border border-sage-dark px-3 py-2 text-left">Method</th>
+              <th class="border border-sage-dark px-3 py-2 text-left">Duration</th>
+              <th class="border border-sage-dark px-3 py-2 text-left">How To</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-700 text-sm">
+            <tr class="bg-white">
+              <td class="border border-stone-200 px-3 py-2 font-bold">Room Temperature</td>
+              <td class="border border-stone-200 px-3 py-2">2\u20133 days</td>
+              <td class="border border-stone-200 px-3 py-2">Store in an airtight container on the counter</td>
+            </tr>
+            <tr class="bg-stone-50">
+              <td class="border border-sage-light px-3 py-2 font-bold">Refrigerator</td>
+              <td class="border border-sage-light px-3 py-2">Up to 5 days</td>
+              <td class="border border-sage-light px-3 py-2">Airtight container or zip-top bag. Warm in microwave 15\u201320 seconds before eating</td>
+            </tr>
+            <tr class="bg-white">
+              <td class="border border-stone-200 px-3 py-2 font-bold">Freezer</td>
+              <td class="border border-stone-200 px-3 py-2">Up to 3 months</td>
+              <td class="border border-stone-200 px-3 py-2">Wrap each muffin individually in plastic wrap, then place in a freezer-safe bag. Label with the date</td>
+            </tr>
+            <tr class="bg-stone-50">
+              <td class="border border-sage-light px-3 py-2 font-bold">Reheating from Frozen</td>
+              <td class="border border-sage-light px-3 py-2">30\u201345 seconds</td>
+              <td class="border border-sage-light px-3 py-2">Microwave from frozen, or thaw overnight in the fridge and warm as needed</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        <strong>Meal Prep Tip:</strong> make a double batch on Sunday. Keep a few in the fridge for the workweek and freeze the rest. You will have breakfasts sorted for weeks. For best results, use airtight borosilicate glass containers \u2014 they keep muffins fresh without the condensation buildup that plastic causes.
+      </p>
+
+      <h2 id="faq" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        7. Frequently Asked Questions
+      </h2>
+      <div class="space-y-6 mb-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I use canned pumpkin puree?</h4>
+          <p class="text-slate-700 leading-relaxed">Absolutely \u2014 that is exactly what this recipe is designed for. Canned pumpkin puree is one of the best convenience ingredients for fall baking. It is consistent, affordable, and available year-round. Just make sure you grab 100% pure pumpkin puree, not pumpkin pie filling.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What is the difference between pumpkin puree and pumpkin pie filling?</h4>
+          <p class="text-slate-700 leading-relaxed">This is a common mix-up, and it matters. Pumpkin puree is just plain pumpkin \u2014 no added sugar, salt, or spices. Pumpkin pie filling includes sugar, spices (like cinnamon, nutmeg, and cloves), and sometimes stabilizers. Using pie filling in this recipe will make the muffins overly sweet and throw off the spice balance. Always check the label: it should say 100% pure pumpkin.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I make these muffins gluten-free?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes. Simply swap the all-purpose flour for certified gluten-free oat flour or a gluten-free all-purpose flour blend. The texture may be slightly different but still delicious. If you are using oat flour, you can buy it pre-made or pulse rolled oats in a blender until fine.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I make them without protein powder?</h4>
+          <p class="text-slate-700 leading-relaxed">You can, but the protein content will be lower. If you want to skip the protein powder, increase the flour to 1 3/4 cups and add an extra tablespoon of ground flaxseed for binding. The muffins will still be delicious \u2014 they just will not pack the same protein punch.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I use oat flour or almond flour?</h4>
+          <p class="text-slate-700 leading-relaxed">Yes to both. Oat flour works beautifully as a 1:1 swap. For almond flour, use about 1 1/4 cups in place of the all-purpose flour, and note that the muffins will be slightly denser and more tender due to the higher fat content in almond flour.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">How do I make them more sweet or less sweet?</h4>
+          <p class="text-slate-700 leading-relaxed">To make them sweeter, add 2\u20133 tablespoons of maple syrup, stir in 1/2 cup of raisins, or fold in chocolate chips. To reduce sweetness, cut the maple syrup to 2 tablespoons or omit the chocolate chips. The muffins will still taste great \u2014 just less sweet.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">What protein powder works best?</h4>
+          <p class="text-slate-700 leading-relaxed">Vanilla-flavored protein powder (whey, casein, or plant-based) complements the pumpkin spice flavor perfectly. Unflavored works too \u2014 you just will not get that extra vanilla note. Avoid chocolate protein powder unless you want a pumpkin-chocolate hybrid.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900 text-lg">Can I double this recipe?</h4>
+          <p class="text-slate-700 leading-relaxed">Absolutely. This recipe doubles beautifully. Use two muffin tins or bake in two batches. They are perfect for meal prep or freezing a larger batch.</p>
+        </div>
+      </div>
+
+      <h2 id="what-to-serve" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        8. What to Serve With Pumpkin Protein Muffins
+      </h2>
+      <p class="mb-4 text-slate-700 leading-relaxed">
+        These muffins are perfectly satisfying on their own, but here are some ideas to turn them into a full anti-inflammatory breakfast or snack:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 mb-6">
+        <li><strong>Almond butter or cashew butter:</strong> spread on a warm, toasted muffin half for extra protein and healthy fats.</li>
+        <li><strong>Greek yogurt:</strong> a scoop of plain Greek yogurt on the side adds creaminess and protein.</li>
+        <li><strong>Golden milk latte:</strong> turmeric, ginger, and cinnamon in a warm drink alongside your muffin is peak fall wellness.</li>
+        <li><strong>Berry smoothie:</strong> blend frozen berries, spinach, and almond milk for a balanced breakfast spread.</li>
+        <li><strong>Apple slices with nut butter:</strong> a crunchy, fresh side that pairs beautifully with the warm spices.</li>
+        <li><strong>Cottage cheese:</strong> high protein, mild flavor, and a great pairing with the sweet spices.</li>
+        <li><strong>Chia pudding:</strong> layer muffin crumbles with vanilla chia pudding for a quick parfait.</li>
+        <li><strong>Trail mix:</strong> walnuts, dark chocolate chips, and pumpkin seeds make a great on-the-go combo.</li>
+      </ul>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        For more breakfast ideas, browse our <a href="/blog/low-inflammation-snack-ideas" class="text-sage font-bold underline hover:text-sage-dark">low-inflammation snack ideas</a> or the full <a href="/blog/7-day-anti-inflammatory-meal-prep-guide" class="text-sage font-bold underline hover:text-sage-dark">7-day anti-inflammatory meal prep guide</a>.
+      </p>
+
+      <h2 id="final-thoughts" class="text-2xl font-bold text-slate-900 mt-8 mb-4 border-b border-sage-light pb-2">
+        9. Final Thoughts
+      </h2>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        These <strong>healthy pumpkin protein muffins</strong> are proof that fall baking can be both cozy and nourishing. With canned pumpkin, warm spices, and a boost of protein, they are the kind of breakfast or snack you will actually look forward to. The one-bowl method means minimal cleanup, and the freezer-friendly nature means you will always have one ready when hunger strikes.
+      </p>
+      <p class="mb-6 text-slate-700 leading-relaxed">
+        If you try this recipe, I would love to hear from you. Drop a comment below, leave a rating, and save it to your Pinterest board so you can find it again next time you are craving something warm and spiced. And if you are on the hunt for more <strong>high protein pumpkin recipes</strong>, browse through our <a href="/blog/healthy-baking-fall-recipes" class="text-sage font-bold underline hover:text-sage-dark">healthy baking and fall recipes</a> \u2014 there is plenty more where this came from.
+      </p>
+
+      <div class="my-10 p-6 bg-sage-light border-l-4 border-sage rounded-r-lg">
+        <h4 class="font-bold text-sage-dark text-lg mb-2">Make It Part of Your Week</h4>
+        <p class="text-slate-800 text-sm leading-relaxed">
+          Batch-baking muffins like these pairs perfectly with the <a href="/gut-glow-7-day-anti-inflammatory-meal-prep.pdf" download class="text-sage font-bold underline hover:text-sage-dark">Anti-Inflammatory Meal Prep &amp; Storage System PDF</a> \u2014 the exact Sunday system our nutrition team uses to keep a full week of clean eating effortless. Bake once, eat well all week.
+        </p>
+      </div>
+    `
   }
 ];
